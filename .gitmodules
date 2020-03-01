@@ -1,0 +1,6 @@
+[submodule "modules/PixFu_Extensions"]
+	path = modules/PixFu_Extensions
+	url = https://github.com/nebular/PixFu_Extensions
+[submodule "modules/PixFu"]
+	path = modules/PixFu
+	url = https://github.com/nebular/PixFu
