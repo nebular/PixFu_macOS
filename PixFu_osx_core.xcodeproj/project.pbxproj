@@ -1983,6 +1983,7 @@
 					"$(PROJECT_DIR)/modules/PixFu/src/arch/apple/bin",
 					/usr/local/Cellar/libpng/1.6.37/lib,
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
@@ -2031,6 +2032,7 @@
 					"$(PROJECT_DIR)/modules/PixFu/src/arch/apple/bin",
 					/usr/local/Cellar/libpng/1.6.37/lib,
 				);
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,

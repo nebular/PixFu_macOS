@@ -13,6 +13,6 @@ cp -r modules/PixFu/src/thirdparty/glm/* $DEST/glm/
 
 cp -v modules/PixFu_Extensions/world/core/headers/* $DEST/ext/world/
 cp -v modules/PixFu_Extensions/world/geom/* $DEST/ext/world/
-cp -v modules/PixFu_Extensions/world/core/worlds/* $DEST/ext/world/
+cp -v modules/PixFu_Extensions/world/worlds/ballworld/headers/* $DEST/ext/world/
 
 cp -v modules/PixFu_Extensions/sprites/headers/* $DEST/ext/sprites/
