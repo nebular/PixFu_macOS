@@ -1,0 +1,6 @@
+framework module PixFu {
+  umbrella header "PixFu.h"
+
+  export *
+  module * { export * }
+}

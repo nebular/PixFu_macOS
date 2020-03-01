@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>tv.nebular.pixfu</string>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>Create a PixFu application</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Default</key>
+			<string>C++</string>
+			<key>Values</key>
+			<array>
+				<string>C++</string>
+			</array>
+			<key>Variables</key>
+			<dict/>
+			<key>Units</key>
+			<dict/>
+		</dict>
+	</array>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.base</string>
+		<string>com.apple.dt.unit.osxBase</string>
+	</array>
+	<key>Nodes</key>
+	<array>
+		<string>../PixFu.framework</string>
+		<string>../Scripts/assets.sh</string>
+		<string>examples/run.cpp</string>
+		<string>examples/demo_hello.h</string>
+		<string>examples/demo_sprites.h</string>
+		<string>Assets/readme.txt</string>
+		<string>Assets/mario-50.png</string>
+		<string>Assets/items-spr.png</string>
+	</array>
+	<key>Definitions</key>
+	<dict>
+		<key>../PixFu.framework</key>
+		<dict>
+			<key>Path</key>
+			<string>../PixFu.framework</string>
+		</dict>
+		<key>Assets/readme.txt</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/readme.txt</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+			</array>
+		</dict>
+
+		<key>Assets/items-spr.png</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/items-spr.png</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+			</array>
+		</dict>
+
+		<key>Assets/mario-50.png</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/mario-50.png</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+			</array>
+		</dict>		
+
+		<key>../Scripts/assets.sh</key>
+		<dict>
+			<key>Path</key>
+			<string>../Scripts/assets.sh</string>
+			<key>Group</key>
+			<array>
+				<string>Scripts</string>
+			</array>
+		</dict>
+
+		<key>examples/run.cpp</key>
+		<dict>
+			<key>Path</key>
+			<string>examples/run.cpp</string>
+			<key>Group</key>
+			<array>
+				<string>examples</string>
+			</array>
+		</dict>
+		<key>examples/demo_hello.h</key>
+		<dict>
+			<key>Path</key>
+			<string>examples/demo_hello.h</string>
+			<key>Group</key>
+			<array>
+				<string>examples</string>
+			</array>
+		</dict>
+		<key>examples/demo_sprites.h</key>
+		<dict>
+			<key>Path</key>
+			<string>examples/demo_sprites.h</string>
+			<key>Group</key>
+			<array>
+				<string>examples</string>
+			</array>
+		</dict>
+	</dict> 
+	<key>Project</key>
+	<dict>
+		<key>SharedSettings</key>
+		<dict>
+			<key>OTHER_CPLUSPLUSFLAGS</key>
+			<string>-I$(SRCROOT)/$(PRODUCT_NAME) -I/usr/local/include</string>
+			<key>OTHER_LDFLAGS</key>
+			<string>-framework Cocoa -framework Quartz -framework OpenGL -lpng -L./ -L/usr/local/lib</string>
+			<key>LIBRARY_SEARCH_PATHS</key>
+			<string>$(SRCROOT)/$(PRODUCT_NAME) /usr/local/lib</string>
+			<key>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</key>
+			<string>NO</string>
+			<key>FRAMEWORK_SEARCH_PATHS</key>
+			<string>$(inherited) $(PROJECT_DIR)</string>
+			<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+			<string>GLM_FORCE_LEFT_HANDED</string>
+			<key>ALWAYS_SEARCH_USER_PATHS</key>
+			<string>YES</string>
+			<key>USER_HEADER_SEARCH_PATHS</key>
+			<string>$(SRCROOT)/PixFu.Framework/Headers $(SRCROOT)/PixFu.framework/Headers/**</string>
+		</dict>
+	</dict>
+
+	<key>Targets</key>
+	<array>
+
+		<dict>
+
+	        <key>ProductType</key>
+	        <string>com.apple.product-type.tool</string>
+	        <key>TargetIdentifier</key>
+	        <string>com.apple.dt.commandLineToolTarget</string>
+
+			<key>BuildPhases</key>
+			<array>
+			   <dict>
+				   <key>Class</key>
+				   <string>Sources</string>
+			   </dict>
+			   <dict>
+				   <key>Class</key>
+				   <string>Frameworks</string>
+			   </dict>
+<!--			  
+			   <dict>
+				   <key>Class</key>
+				   <string>CopyFiles</string>
+				   <key>DstPath</key>
+				   <string></string>
+				   <key>DstSubfolderSpec</key>
+				   <string>10</string>
+				   <key>RunOnlyForDeploymentPostprocessing</key>
+				   <string>YES</string>
+			   </dict>
+-->
+				<dict>
+					<key>Class</key>
+					<string>ShellScript</string>
+					<key>Name</key>
+					<string>Framework Assets Preparation Script</string>
+					<key>ShellPath</key>
+					<string>/bin/bash</string>
+					<key>ShellScript</key>
+					<string>&quot;${SRCROOT}/Scripts/assets.sh&quot;</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
