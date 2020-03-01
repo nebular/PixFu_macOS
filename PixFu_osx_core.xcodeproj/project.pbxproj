@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		DB250F7E240B422100967FCA /* PixFu_osx_core.h in Headers */ = {isa = PBXBuildFile; fileRef = DB250F7C240B422100967FCA /* PixFu_osx_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB250F93240B44C700967FCA /* core in Headers */ = {isa = PBXBuildFile; fileRef = DB250F89240B448800967FCA /* core */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB250F94240B44C700967FCA /* ext in Headers */ = {isa = PBXBuildFile; fileRef = DB250F87240B448800967FCA /* ext */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB250F95240B44C700967FCA /* glm in Headers */ = {isa = PBXBuildFile; fileRef = DB250F8B240B448C00967FCA /* glm */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB250F96240B44C700967FCA /* input in Headers */ = {isa = PBXBuildFile; fileRef = DB250F8A240B448900967FCA /* input */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB250F97240B44C700967FCA /* items in Headers */ = {isa = PBXBuildFile; fileRef = DB250F8C240B448C00967FCA /* items */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB250F98240B44C700967FCA /* support in Headers */ = {isa = PBXBuildFile; fileRef = DB250F88240B448800967FCA /* support */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB250F79240B422100967FCA /* PixFu_osx_core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PixFu_osx_core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB250F7C240B422100967FCA /* PixFu_osx_core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PixFu_osx_core.h; sourceTree = "<group>"; };
 		DB250F7D240B422100967FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB250F84240B432A00967FCA /* modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = modules; sourceTree = "<group>"; };
+		DB250F87240B448800967FCA /* ext */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ext; sourceTree = "<group>"; };
+		DB250F88240B448800967FCA /* support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = support; sourceTree = "<group>"; };
+		DB250F89240B448800967FCA /* core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = core; sourceTree = "<group>"; };
+		DB250F8A240B448900967FCA /* input */ = {isa = PBXFileReference; lastKnownFileType = folder; path = input; sourceTree = "<group>"; };
+		DB250F8B240B448C00967FCA /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		DB250F8C240B448C00967FCA /* items */ = {isa = PBXFileReference; lastKnownFileType = folder; path = items; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,8 +43,10 @@
 		DB250F6F240B422100967FCA = {
 			isa = PBXGroup;
 			children = (
+				DB250F86240B443400967FCA /* include */,
 				DB250F7B240B422100967FCA /* PixFu_osx_core */,
 				DB250F7A240B422100967FCA /* Products */,
+				DB250F84240B432A00967FCA /* modules */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +67,19 @@
 			path = PixFu_osx_core;
 			sourceTree = "<group>";
 		};
+		DB250F86240B443400967FCA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DB250F89240B448800967FCA /* core */,
+				DB250F87240B448800967FCA /* ext */,
+				DB250F8B240B448C00967FCA /* glm */,
+				DB250F8A240B448900967FCA /* input */,
+				DB250F8C240B448C00967FCA /* items */,
+				DB250F88240B448800967FCA /* support */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -60,6 +88,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB250F7E240B422100967FCA /* PixFu_osx_core.h in Headers */,
+				DB250F93240B44C700967FCA /* core in Headers */,
+				DB250F94240B44C700967FCA /* ext in Headers */,
+				DB250F95240B44C700967FCA /* glm in Headers */,
+				DB250F96240B44C700967FCA /* input in Headers */,
+				DB250F97240B44C700967FCA /* items in Headers */,
+				DB250F98240B44C700967FCA /* support in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

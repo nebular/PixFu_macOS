@@ -16,4 +16,3 @@ FOUNDATION_EXPORT const unsigned char PixFu_osx_coreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PixFu_osx_core/PublicHeader.h>
 
-
