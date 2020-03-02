@@ -23,7 +23,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -41,6 +41,6 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.14</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2020 rodo. All rights reserved.</string>
+	<string>Copyright © 2020 Nebular Streams, All rights reserved.</string>
 </dict>
 </plist>

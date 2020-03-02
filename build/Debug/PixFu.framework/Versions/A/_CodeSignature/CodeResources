@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		9L4R3zzsXtel9qvHBF0wv13xIhM=
+		nsaVOJPJwOSEEnU/4gGHFWvL8q0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -20,6 +20,39 @@
 			<key>hash2</key>
 			<data>
 			zsK4Il6UF0c2dr9FOk0hd3XYxdJ16rvVyQxJ9WWSB+M=
+			</data>
+		</dict>
+		<key>Headers/PixFu.hpp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gEd7VtA4GiqZTcVLypJxEnNifLo=
+			</data>
+			<key>hash2</key>
+			<data>
+			aGaI6bo4yrUMdqT6UibqzZafDJIIKVmC7zTDJqL4CeQ=
+			</data>
+		</dict>
+		<key>Headers/PixFuSprites.hpp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TirSklFNOzhxD1Lem2P/4AGxv/M=
+			</data>
+			<key>hash2</key>
+			<data>
+			uUQ99KfCWdocimuhZbtMmfEcRU+Ff02/nm3rLop+0ZE=
+			</data>
+		</dict>
+		<key>Headers/PixFuWorld.hpp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h3gbX410XbURzMsXw3T9OrU29uQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			XInzJ4u3/K03HdB9rKCPvn/K3hRSxYenKumFWvXcqZg=
 			</data>
 		</dict>
 		<key>Headers/arch/apple/cocoawindowing.h</key>
@@ -4624,11 +4657,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9L4R3zzsXtel9qvHBF0wv13xIhM=
+			nsaVOJPJwOSEEnU/4gGHFWvL8q0=
 			</data>
 			<key>hash2</key>
 			<data>
-			fwz5P9d2WOeTTezBXApQZqd6XQyBmpnDhkfoSzF/+TI=
+			ZjOhDtlrpBWRDVCpDoOL8bZLRcmW5KWCN4OaDoURohc=
 			</data>
 		</dict>
 	</dict>

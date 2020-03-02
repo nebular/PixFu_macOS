@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/Surface.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Surface.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/Surface.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Surface.hpp \
   modules/PixFu/src/core/headers/Shader.hpp \
   modules/PixFu/src/core/headers/OpenGL.h \
   modules/PixFu/src/core/headers/OpenGlUtils.h \
@@ -39,8 +39,8 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/./ext/vector_int3_precision.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/vector_uint3.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/vector_uint3_precision.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Utils.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/items/headers/Font.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Drawable.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/items/headers/Canvas2D.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Utils.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/items/headers/Font.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Drawable.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/items/headers/Canvas2D.hpp \
   modules/PixFu/src/items/headers/Font.hpp

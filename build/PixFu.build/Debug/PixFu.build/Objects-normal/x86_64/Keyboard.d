@@ -1,7 +1,7 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/input/Keyboard.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/input/headers/Keyboard.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Fu.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/input/Keyboard.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/input/headers/Keyboard.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Fu.hpp \
   modules/PixFu/src/core/headers/Utils.hpp \
   modules/PixFu/src/core/headers/FuExtension.hpp \
   modules/PixFu/src/core/headers/Surface.hpp \
@@ -42,4 +42,4 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/./ext/vector_int3_precision.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/vector_uint3.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/vector_uint3_precision.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Utils.hpp
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Utils.hpp

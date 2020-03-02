@@ -1,8 +1,8 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/ObjLoader.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/headers/ObjLoader.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/headers/Obj_Loader.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Fu.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/ObjLoader.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/ObjLoader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/Obj_Loader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Fu.hpp \
   modules/PixFu/src/core/headers/Utils.hpp \
   modules/PixFu/src/core/headers/FuExtension.hpp \
   modules/PixFu/src/core/headers/Surface.hpp \

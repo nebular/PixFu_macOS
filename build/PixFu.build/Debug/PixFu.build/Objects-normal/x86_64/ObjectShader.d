@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/ObjectShader.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/headers/ObjectShader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/ObjectShader.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/ObjectShader.hpp \
   modules/PixFu_Extensions/World/core/headers/Camera.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/matrix_transform.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../mat4x4.hpp \
@@ -151,8 +151,8 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/gtc/../trigonometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../matrix.hpp \
   modules/PixFu/src/thirdparty/glm/vec3.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/input/headers/Keyboard.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Fu.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/input/headers/Keyboard.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Fu.hpp \
   modules/PixFu/src/core/headers/Utils.hpp \
   modules/PixFu/src/core/headers/FuExtension.hpp \
   modules/PixFu/src/core/headers/Surface.hpp \
@@ -165,8 +165,8 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/vec2.hpp \
   modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
   modules/PixFu/src/thirdparty/glm/mat4x4.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Shader.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/headers/Frustum.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Shader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/Frustum.hpp \
   modules/PixFu/src/thirdparty/glm/vec4.hpp \
   modules/PixFu/src/thirdparty/glm/geometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/matrix_inverse.hpp \

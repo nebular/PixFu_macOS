@@ -1,7 +1,7 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/TerrainShader.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/headers/TerrainShader.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Shader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/TerrainShader.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/TerrainShader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Shader.hpp \
   modules/PixFu/src/core/headers/OpenGL.h \
   modules/PixFu/src/core/headers/OpenGlUtils.h \
   modules/PixFu/src/core/headers/Texture2D.hpp \
@@ -134,7 +134,7 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_double4x4_precision.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_float4x4.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_float4x4_precision.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu_Extensions/World/core/headers/Camera.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/Camera.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/matrix_transform.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../mat4x4.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../vec2.hpp \
@@ -159,8 +159,8 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/gtc/../geometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../trigonometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../matrix.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/input/headers/Keyboard.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu/modules/PixFu/src/core/headers/Fu.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/input/headers/Keyboard.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Fu.hpp \
   modules/PixFu/src/core/headers/Utils.hpp \
   modules/PixFu/src/core/headers/FuExtension.hpp \
   modules/PixFu/src/core/headers/Surface.hpp \
