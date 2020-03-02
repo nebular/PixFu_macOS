@@ -92,30 +92,10 @@
       <change beforePath="$PROJECT_DIR$/include/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/World.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/items/Font.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/items/Font.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/ObjLoader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/ObjLoader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/ObjectCluster.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/ObjectCluster.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/Camera.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/releases/PixFu-macOS-0.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/releases/PixFu-macOS-0.1.tgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/BallWorld.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/BallWorld.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjLoader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjLoader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Obj_Loader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Obj_Loader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjectCluster.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjectCluster.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjectShader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjectShader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Player.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Player.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Splines.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Splines.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Terrain.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Terrain.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/TerrainShader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/TerrainShader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WalkableLine.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WalkableLine.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/World.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/items/Font.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/items/Font.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/TemplateInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/TemplateInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -148,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/TemplateInfo.plist">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="147">
+              <caret line="136" selection-start-line="134" selection-end-line="136" />
             </state>
           </provider>
         </entry>
@@ -208,32 +188,6 @@
               <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="PixFuTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="PixFuTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="PixFu.xctemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="PixFuTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="PixFu.xctemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -280,14 +234,21 @@
       <option name="presentableId" value="Default" />
       <updated>1583093328205</updated>
     </task>
+    <task id="LOCAL-00001" summary="weird commit">
+      <created>1583179491641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583179491641</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="99" width="1280" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3513732" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3513732" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -297,10 +258,10 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.46930534" side_tool="true" visible="true" weight="0.32939634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49757674" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.53069466" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.52907914" weight="0.32939634" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Flutter Inspector" order="2" />
@@ -348,6 +309,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="weird commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="weird commit" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/modules/PixFu/src/core/Surface.cpp">
       <provider selected="true" editor-type-id="text-editor" />
@@ -368,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/TemplateInfo.plist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="147">
+          <caret line="136" selection-start-line="134" selection-end-line="136" />
         </state>
       </provider>
     </entry>
