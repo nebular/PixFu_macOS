@@ -213,33 +213,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fGkPqRyGLeQdbzFPauZg9li8fqs=
+			JRukNaPtekjMcvFY1E9so2IMTQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			VFlJ0cwI/jrSA6pDDOY3AR4OJMuKxUKF/BrviKuS6yA=
+			CZuPWIblbQMW50HdP3oYiBRBNEMzX7Ifgt0qd6XIB+I=
 			</data>
 		</dict>
 		<key>Headers/ext/world/BallWorld.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PuuQ8WEOf+qwHuiQKizp/nFIeG0=
+			A6SyxwTSOwMmJjeF64ePFn5FWYU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3/Uy4FwG3V47SgK6NbsjX6p8eTfVJYkAKXMFPs+BkJA=
+			1jvfJ87K1i7K23S5SCVcafpknB4X9oSKevGvhq8uRCo=
 			</data>
 		</dict>
 		<key>Headers/ext/world/Camera.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8HZMgkAnx5gdvnn9VqwB/1R5ZdM=
+			+jmxyrdjaE2+Pq1mbDM48y2bPME=
 			</data>
 			<key>hash2</key>
 			<data>
-			tApUXEUY4G0CYue9XLGQGyrPH0Wq+A25O4JWxUb3Jvk=
+			JEGGtqsGUz+EmNFQHzqEqBx3BUaywY2cojZ4lzHoPnM=
 			</data>
 		</dict>
 		<key>Headers/ext/world/Frustum.hpp</key>
@@ -279,55 +279,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CXf89OtgyLJlxQ4KZ1GGWjFr4Ws=
+			BqrpdSeVsDuGfJQd+QaCqflXRzI=
 			</data>
 			<key>hash2</key>
 			<data>
-			DJSFfjUXWtbdKfJXkH5dNwBEMrAcG0BFmxAUvpnaPQU=
+			tnLCyJHUa9YjVV6V+uLQoKnkLjGhWvSJJXEucwP5U7k=
 			</data>
 		</dict>
 		<key>Headers/ext/world/Obj_Loader.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xq/yRSd1ATq9OfCiHL413vf1BkI=
+			zQWXZV70EWswHvP13TVNcxFqCHw=
 			</data>
 			<key>hash2</key>
 			<data>
-			CyJsEuRwPMP5B8PfXKswO9pXpP1HEjZbWHm3vKts6C8=
+			1ddJuJogfep19/EhayCQ4NWFrk/OfWkfy8Pyy+qqp2w=
 			</data>
 		</dict>
 		<key>Headers/ext/world/ObjectCluster.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zenvhwQmYQgk3gX78tdUYODUQds=
+			YM7UjZqZY42GoMBS0KbrYbg5I/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			YiwqIcCpdmemKuTy5cOSexyH9n6fq533yQImVOk8ZlI=
+			1YpPL+jcNzN/l8d4twffv9xoPIPYgGOyGl2M/FcfiOE=
 			</data>
 		</dict>
 		<key>Headers/ext/world/ObjectShader.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UktegGiQ3B0mGa3fRDg48O8YwNo=
+			GEmjurQ3TX9vxxUebIVpWmAC6Bs=
 			</data>
 			<key>hash2</key>
 			<data>
-			d2NkoLtdxlti/uSza1p8mNfgU+WGzQBCBKqvr71y5sc=
+			r9eGmE33ZHffQ+BQJ7Do5IgLkXR1w+hZel8uFPrYw3o=
 			</data>
 		</dict>
 		<key>Headers/ext/world/Player.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g+Mp7Kg8Fyq77qsD+KA9r2RPSs0=
+			eZT2u57VOBvQqCuoUyu1oS0+IdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			W//ttOPWlEnELX7QcJEbHKTXd/o7zD6+22IqaKsaruE=
+			IbMdufPTtGlZ3AZXlS551Hz2tNyJZbTtC25A3jkCAc0=
 			</data>
 		</dict>
 		<key>Headers/ext/world/PlayerFeatures.hpp</key>
@@ -345,66 +345,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8I5yNWlE/wh8ti5Q81/irm0LqjI=
+			E8e+fJM26ksDkMUSepYrLIlFDAg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Va42CQhRZSNGVjW+17VtVtgij/ArOwvz3EFDOeanpCk=
+			wCAHFOykuLjukmjLAfHLg37/qt4XeIHwmEYobozwaoA=
+			</data>
+		</dict>
+		<key>Headers/ext/world/StaticObject.hpp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EsnNpwWPaDiYHhbgFqsCFxXyQTo=
+			</data>
+			<key>hash2</key>
+			<data>
+			+RPEDpP/hETOKu3a0/qruqBSCpA/rItF4b8Yrg/3l+c=
 			</data>
 		</dict>
 		<key>Headers/ext/world/Terrain.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a0XaNpkYzEfCXM56ba94+eeoX28=
+			QTB4sQkbCnfQBt+ANlzyD7I4Re8=
 			</data>
 			<key>hash2</key>
 			<data>
-			SudQTss68qxxX1CHitkgxw9SCqwFOCwf205EkFYjt4I=
+			8euDHQ8zA4fI5aS7elBwu1U6cBVLPrS0WxuMlmwdS/0=
 			</data>
 		</dict>
 		<key>Headers/ext/world/TerrainShader.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4x2mhEIFDDyoTzpn4uzBjUcBsCM=
+			DZaIqO9semWTrsnVZHe2vJIG0nc=
 			</data>
 			<key>hash2</key>
 			<data>
-			sYohg6djoSipJs8d8EToCZLOnTqMJSwfqeVXy5y3xmY=
+			RuhT+Rmfczu/PInkNzC1hncmLiOLNHmDnMsOJw157Kg=
 			</data>
 		</dict>
 		<key>Headers/ext/world/WalkableLine.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iU2W8nMGPhr24gEX0/s8X2vq52g=
+			aQPyJ5hckCfWTJyFh582ofp9I64=
 			</data>
 			<key>hash2</key>
 			<data>
-			5O3agQjnaWvhTLWOHGHjDhddesM0YSwjPzMR6JXaPPo=
+			GoykBHC0KaRypD5FHySbM+E0ijEpzKxOpq4Y2OGjSJk=
 			</data>
 		</dict>
 		<key>Headers/ext/world/World.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OUtHbNy2M/6sRSGiw3935YCeFAs=
+			Sbvx3Q3WCq/f8oqLEnzF1fYEV4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			uXfCJgZa8m2D1XUxohcSE2WHV005XwICxMwmjlraiks=
+			lu3vQ8Aej3hFks/WkuTKiCATIuX/BSa9E9ruL7THV+w=
 			</data>
 		</dict>
 		<key>Headers/ext/world/WorldMeta.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			61r4Ef5flrMtvbjnfMvhfEe/4gY=
+			3KP5gfh/X0COVStPfm5gxsTe3o8=
 			</data>
 			<key>hash2</key>
 			<data>
-			DrqPzqfY7n138S0gNsgDXeraEZdv/ck6sAymoN1yUcE=
+			VuqOlbz6Nu3S1Qhhd/TDgLp93cqjaDoZh4GnANRvRIc=
 			</data>
 		</dict>
 		<key>Headers/glm/CMakeLists.txt</key>
@@ -4635,11 +4646,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PNJ/SjFSI4Sl+HKf4lNQ/tk2nDU=
+			6P1PxSPcwHpRORVcvWttutEB7N0=
 			</data>
 			<key>hash2</key>
 			<data>
-			arqusCJC1W0NWzJFo40la9h0I7slkXd1S/gBf7H9iEQ=
+			90/6zFv6ACFMaEHiMqp+N52vRqI+lnJklANqfWGf1M0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

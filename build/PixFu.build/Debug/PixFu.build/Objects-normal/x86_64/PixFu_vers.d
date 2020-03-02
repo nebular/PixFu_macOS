@@ -1,2 +1,2 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/build/PixFu.build/Debug/PixFu.build/DerivedSources/PixFu_vers.c
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/DerivedSources/PixFu_vers.c

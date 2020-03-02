@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d329e8f4-fb6f-4ffd-8c24-471ed49602a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/BallWorld.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/BallWorld.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
@@ -92,7 +94,11 @@
       <change beforePath="$PROJECT_DIR$/include/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/World.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/items/Font.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/items/Font.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/Terrain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/Terrain.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/releases/PixFu-macOS-0.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/releases/PixFu-macOS-0.1.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
@@ -125,11 +131,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/TemplateInfo.plist">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="136" selection-start-line="134" selection-end-line="136" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="241">
+                <caret line="89" selection-start-line="89" selection-end-line="89" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -158,6 +178,7 @@
       <list>
         <option value="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/examples/run.cpp" />
         <option value="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/TemplateInfo.plist" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -166,7 +187,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="135" />
-    <option name="y" value="99" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="877" />
   </component>
@@ -176,6 +197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,14 +209,17 @@
             <path>
               <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
               <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,14 +267,22 @@
       <option name="project" value="LOCAL" />
       <updated>1583179491641</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update framework">
+      <created>1583180542236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583180542237</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="99" width="1280" height="877" extended-state="0" />
+    <frame x="135" y="23" width="1280" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3513732" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.36268175" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -258,8 +292,8 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.49757674" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49596122" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50403875" side_tool="true" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.52907914" weight="0.32939634" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
@@ -311,7 +345,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="weird commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="weird commit" />
+    <MESSAGE value="Update framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update framework" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/modules/PixFu/src/core/Surface.cpp">
@@ -335,6 +370,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="136" selection-start-line="134" selection-end-line="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="241">
+            <caret line="89" selection-start-line="89" selection-end-line="89" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

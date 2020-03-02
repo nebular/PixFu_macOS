@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/Camera.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/Camera.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/core/Camera.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/core/headers/Camera.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/matrix_transform.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../mat4x4.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/.././ext/matrix_double4x4.hpp \
@@ -150,8 +150,8 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/gtc/../trigonometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../matrix.hpp \
   modules/PixFu/src/thirdparty/glm/vec3.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/input/headers/Keyboard.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Fu.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/input/headers/Keyboard.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Fu.hpp \
   modules/PixFu/src/core/headers/Utils.hpp \
   modules/PixFu/src/core/headers/FuExtension.hpp \
   modules/PixFu/src/core/headers/Surface.hpp \
@@ -163,29 +163,30 @@ dependencies: \
   modules/PixFu/src/core/headers/LayerVao.hpp \
   modules/PixFu/src/thirdparty/glm/vec2.hpp \
   modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
+  modules/PixFu_Extensions/World/core/headers/StaticObject.hpp \
   modules/PixFu/src/thirdparty/glm/mat4x4.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/core/headers/World.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/core/headers/World.hpp \
   modules/PixFu_Extensions/World/core/headers/Terrain.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/items/headers/Canvas2D.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Drawable.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/items/headers/Canvas2D.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
   modules/PixFu/src/items/headers/Font.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Texture2D.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/LayerVao.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Texture2D.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/LayerVao.hpp \
   modules/PixFu_Extensions/World/core/headers/ObjLoader.hpp \
   modules/PixFu_Extensions/World/core/headers/TerrainShader.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Shader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Shader.hpp \
   modules/PixFu_Extensions/World/core/headers/ObjectCluster.hpp \
   modules/PixFu_Extensions/World/core/headers/ObjectShader.hpp \
   modules/PixFu_Extensions/World/core/headers/Camera.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/worlds/ballworld/headers/Player.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/worlds/ballworld/headers/Ball.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallWorld.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/geom/LineSegment.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/Player.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/Ball.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallWorld.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/geom/LineSegment.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/fast_square_root.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/../common.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/../exponential.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/../geometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/fast_square_root.inl \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/worlds/ballworld/headers/Meta.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/World/worlds/ballworld/headers/PlayerFeatures.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Utils.hpp
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/Meta.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/PlayerFeatures.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Utils.hpp

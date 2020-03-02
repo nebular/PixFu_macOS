@@ -1,10 +1,10 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/Drawable.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/arch/android/libpng/jni/png.h \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/arch/android/libpng/jni/pnglibconf.h \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/arch/android/libpng/jni/pngconf.h \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Drawable.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Fu.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/Drawable.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/arch/android/libpng/jni/png.h \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/arch/android/libpng/jni/pnglibconf.h \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/arch/android/libpng/jni/pngconf.h \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Fu.hpp \
   modules/PixFu/src/core/headers/Utils.hpp \
   modules/PixFu/src/core/headers/FuExtension.hpp \
   modules/PixFu/src/core/headers/Surface.hpp \

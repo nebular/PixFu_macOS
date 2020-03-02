@@ -27,8 +27,10 @@
 
 namespace Pix {
 
-// Defines several possible options for camera movement. Used as abstraction to stay away from
-// window-system specific input methods
+	/**
+	 * Defines several possible options for camera movement. Used as abstraction to stay away from
+	 * window-system specific input methods
+	 */
 
 	typedef enum CameraMovement {
 		CM_FORWARD,
@@ -39,12 +41,14 @@ namespace Pix {
 		CM_DOWN
 	} CameraMovement_t;
 
+	/**
+	 * Camera Control Modes (for the interaction routine)
+	 */
+
 	typedef enum sCameraKeyControlMode {
 		MOVE, ADJUST_POSITION, ADJUST_ANGLES, ADJUST_PLAYER_POSITION, ADJUST_PLAYER_ANGLES
 	} CameraKeyControlMode_t;
 
-// An abstract camera class that processes input and calculates the corresponding Euler Angles,
-// Vectors and Matrices for use in OpenGL
 
 	class World;
 
@@ -52,58 +56,91 @@ namespace Pix {
 
 	class Camera {
 
+		/** Default camera vectors */
 		static constexpr glm::vec3 DEF_UPVECTOR = glm::vec3(0.0f, 1.0f, 0.0f);
-//		static constexpr glm::vec3 DEF_UPVECTOR = glm::vec3(0.0f, 1.0f, 0.0f);
 		static constexpr glm::vec3 DEF_FRONTVECTOR = glm::vec3(0.0f, 0.0f, 1.0f);
 
 		static constexpr float STEP = 0.0001f * 15.0f, VSTEP = 0.05;
 
-		// Default camera values
+		/** Default camera values */
 		static constexpr float DEF_YAW = 0;
 		static constexpr float DEF_PITCH = 0; // M_PI;
 		static constexpr float DEF_HEIGHT = 0.2f;
 		static constexpr float DEF_MOUSE_SENS = 0.1f;
 		static constexpr float DEF_ZOOM = 45.0f;
 
+		/** The world up vector in use */
 		const glm::vec3 UPVECTOR;
 
 		// Camera Attributes
+
+		/** Current camera position */
 		glm::vec3 mPosition;
+		/** Current camera Front Vector */
 		glm::vec3 mFrontVector;
+		/** Current camera Up Vector */
 		glm::vec3 mUpVector;
+		/** Current camera Right Vector */
 		glm::vec3 mRightVector;
 
 		// Euler Angles
+
+		/** Current Yaw */
 		float fYaw;
+		/** Current Pitch */
 		float fPitch;
+		/** Current Roll */
 		float fRoll;
 
-		// target mode
-		const float SMOOTHLERP;
+		// target mode / Smooth mode
+
+		/** Smooth targeting mode */
 		bool bSmooth = true;
+		/** Smooth Mode constant */
+		const float SMOOTHLERP;
+
+		/** Enable target mode */
 		bool bTargetMode = false;
+		/** follow distance */
 		long lDistantMode = 0;
+		/** Target camera angle (easing) */
 		float fTargetAngle;
+		/** Target position and interpolated position */
 		glm::vec3 mTargetPosition, mInterpolatedPosition;
 
 		// Camera options
 		float mMouseSensitivity;
 		float mMouseZoom;
 
+		/** Current camera mode (for interaction) */
 		CameraKeyControlMode_t mCameraMode;
 
-		// camera player focus
+		// camera player focus. Adjust the camera position when following a player / object
+
+		/** Vertical distance to target */
 		float fPlayerDistanceUp = 0.1f;
+		/** Horizontal distance to target */
 		float fPlayerDistanceFar = 0.3f; // 0.05;
+		/** Camera pitch for target mode */
 		float fPlayerPitch = -0.05f;
-		
+
 		const float DEFAULT_DISTANCE_FAR = 0.3f;
 		float fTargetDistance = fPlayerDistanceFar;
 		const float DISTANCELERP;
-		
+
 	public:
 
-		// Constructor with vectors
+		/**
+		 * Constructs the camera
+		 * @param initialPosition Initial position
+		 * @param initialYaw Initial Yaw
+		 * @param initialPitch Initial pitch
+		 * @param upVector Up Vector
+		 * @param smooth Smooth mode
+		 * @param smoothLerp Smooth mode constantt
+		 * @param distanceLerp Distance mode constant (not finished)
+		 */
+
 		Camera(
 				glm::vec3 initialPosition = glm::vec3(0.0f, DEF_HEIGHT, 0.0f),
 				float initialYaw = DEF_YAW,
@@ -114,23 +151,50 @@ namespace Pix {
 				float distanceLerp = 5
 		);
 
+		/**
+		 * Update the camera
+		 */
+
 		void update(float fElapsedTime);
 
-		// Returns the view matrix calculated using Euler Angles and the LookAt Matrix
+		/**
+		 * Returns the view matrix calculated using Euler Angles and the LookAt Matrix
+		 * @return The View Matrix (4x4)
+		 */
+
 		glm::mat4 getViewMatrix();
 
-		// Processes input received from a mouse input system. Expects the offset value in both the x and y direction.
+		/**
+		 * Processes input received from a mouse input system. Expects the offset value in both the x and y direction.
+		 * @param xoffset The X coordinate
+		 * @param yoffset The Y coordinate
+		 * @param constrainPitch Whether to constrain pitch range
+		 */
+
 		void inputMouse(float xoffset, float yoffset, bool constrainPitch = true);
 
-		// Processes input received from a mouse scroll-wheel event. Only requires input on the vertical wheel-axis
+		/**
+		 * Processes input received from a mouse scroll-wheel event. Only requires input on the vertical wheel-axis
+		 */
 		void inputMouseWheel(float yoffset);
 
-		// Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
+		/**
+		 *	Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera
+		 *	defined ENUM (to abstract it from windowing systems)
+		 */
+
 		void inputMovement(CameraMovement_t direction, float speed = STEP, float fElapsedTime = 1);
 
-		// Processes input received from a keyboard-like input system. Expects the pressed status of
-		// each direction, plus a mode to set the arrwos meaning: move camera, adjust position,
-		// adjust pitch/yaw
+		/**
+		 * Processes input received from a keyboard-like input system. Expects the pressed status of
+		 * each direction, plus a mode to set the arrwos meaning: move camera, adjust position,
+		 * adjust pitch/yaw
+		 * @param mode a CameraControlMode constant to select the operating mode
+		 * @param up Whether UP is pressed
+		 * @param down Whether DOWN is pressed
+		 * @param left Whether LEFT is pressed
+		 * @param right Whether RIGHT is pressed
+		 */
 
 		void inputKey(CameraKeyControlMode_t mode, bool up, bool down, bool left, bool right, float fElapsedTime);
 
@@ -138,18 +202,21 @@ namespace Pix {
 		 * Steps a yaw
 		 * @param deltaRads radians
 		 */
+
 		void stepYaw(float deltaRads);
 
 		/**
 		 * Steps a pitch
 		 * @param deltaRads radians
 		 */
+
 		void stepPitch(float deltaRads);
 
 		/**
 		 * Steps a roll
 		 * @param deltaRads radians
 		 */
+
 		void stepRoll(float deltaRads);
 
 		// getters & getters
@@ -178,22 +245,26 @@ namespace Pix {
 		/**
 		 * @return camera pitch in radians
 		 */
+
 		float getPitch();
 
 		/**
 		 * @return camera yaw in radians
 		 */
+
 		float getYaw();
 
 		/**
 		 * @return camera roll in radians
 		 */
+
 		float getRoll();
 
 		/**
 		 * Set camera pitch
 		 * @param rads Pitch in radians
 		 */
+
 		void setPitch(float rads);
 
 		/**

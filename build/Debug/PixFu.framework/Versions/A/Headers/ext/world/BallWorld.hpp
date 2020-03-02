@@ -1,6 +1,6 @@
 //
 //  BallCollisions.hpp
-//  PixEngine
+//  All this learnt from onelonecoder.com masterclass on Ball physics
 //
 //  Created by rodo on 25/02/2020.
 //  Copyright © 2020 rodo. All rights reserved.

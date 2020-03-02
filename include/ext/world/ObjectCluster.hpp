@@ -52,7 +52,7 @@ namespace Pix {
 
 		virtual ~ObjectCluster();
 
-		void add(WorldObject *object, bool setHeight = true);
+		void add(WorldObject *object);
 
 		void init();
 

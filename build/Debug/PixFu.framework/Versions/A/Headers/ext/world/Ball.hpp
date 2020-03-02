@@ -1,6 +1,7 @@
 //
 //  Ball.hpp
-//  javid
+//
+//  All this learnt from onelonecoder.com masterclass on Ball physics
 //
 //  Created by rodo on 11/01/2020.
 //  Copyright © 2020 rodo. All rights reserved.
@@ -49,7 +50,7 @@ namespace Pix {
 
 		static int instanceCounter;
 
-		
+
 		// Multiple simulation updates with small time steps permit more accurate physics
 		// and realistic results at the expense of CPU time of course
 		// TODO: research which values to use as jdavidx example uses hundreds of balls but
@@ -63,7 +64,7 @@ namespace Pix {
 		// can clamp it here
 
 		static constexpr int MAXSIMULATIONSTEPS = 3; // 15
-		
+
 		float fMetronome = 0;
 
 	public:
@@ -104,10 +105,10 @@ namespace Pix {
 		float fRadiusMultiplier = 1.0;            // multiply ball radius (game powerups)
 
 		float fHeightTarget = 0.0;                // target height (gravity effect)
-		float fAccelerationZ =  0.0;            // upwards acceleration TODO move to acceleration
+		float fAccelerationZ = 0.0;            // upwards acceleration TODO move to acceleration
 
-		glm::vec2 fAngleTerrain = {0,0};         // terrain angle at corners
-		
+		glm::vec2 fAngleTerrain = {0, 0};         // terrain angle at corners
+
 		float fPenalty = 1.0;                    // penalty in speed percent imposed by terrain irregularities
 
 		bool bFlying = false;                    // whether the ball is currently "flying"
@@ -211,7 +212,7 @@ namespace Pix {
 		 * Mass multiplier (generic game powerups)
 		 * @param massMultiplier Mass multiplier
 		 */
-		
+
 		void setMassMultiplier(float massMultiplier);
 
 		/**
@@ -226,7 +227,7 @@ namespace Pix {
 		 * @param target TArget ball
 		 * @return distance in world units
 		 */
-		
+
 		float distance(Ball *target);
 
 		/**
@@ -276,7 +277,7 @@ namespace Pix {
 		 * @param fElapsedTime time
 		 * @param newSpeedVector The new speed vector
 		 */
-		
+
 		virtual void onCollision(Ball *otherBall, glm::vec3 newSpeedVector, float fElapsedTime);
 
 		/**
@@ -284,7 +285,7 @@ namespace Pix {
 		 * maybe implement logic to avoid the collision
 		 * @param other The ball that collided on the outer radius
 		 */
-		
+
 		virtual void onFutureCollision(Ball *other);
 
 		/**
@@ -319,13 +320,17 @@ namespace Pix {
 	inline float Ball::outerRadius() { return fOuterRadius * fRadiusMultiplier; }
 
 	inline float Ball::angle() { return mRotation.y; }                              // ball angle (heading)
-	inline float Ball::speed() { return glm::fastSqrt(mSpeed.x * mSpeed.x + mSpeed.z * mSpeed.z); }   // TODO fabs             		// ball speed
+	inline float Ball::speed() {
+		return glm::fastSqrt(mSpeed.x * mSpeed.x + mSpeed.z * mSpeed.z);
+	}   // TODO fabs             		// ball speed
 	inline glm::vec3 Ball::velocity() { return mSpeed; }
+
 	inline glm::vec3 Ball::acceleration() { return mAcceleration; }
 
 	inline bool Ball::isFlying() { return bFlying; }                                // whether ball is flying
 
 	inline void Ball::setMassMultiplier(float massMultiplier) { fMassMultiplier = massMultiplier; }
+
 	inline void Ball::setRadiusMultiplier(float radiusMultiplier) { fRadiusMultiplier = radiusMultiplier * stfBaseScale; }
 
 	// distance to another ball
@@ -336,6 +341,7 @@ namespace Pix {
 	}
 
 	inline void Ball::setBaseScale(float scale) { stfBaseScale = scale; }
+
 	inline void Ball::setHeightScale(float scale) { stfHeightScale = scale; }
 
 	class LinearDelayer {

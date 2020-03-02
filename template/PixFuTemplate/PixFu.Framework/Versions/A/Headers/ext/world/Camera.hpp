@@ -168,7 +168,7 @@ namespace Pix {
 		 * Processes input received from a mouse input system. Expects the offset value in both the x and y direction.
 		 * @param xoffset The X coordinate
 		 * @param yoffset The Y coordinate
-		 * @param constaintPitch Whether to constrain pitch range
+		 * @param constrainPitch Whether to constrain pitch range
 		 */
 
 		void inputMouse(float xoffset, float yoffset, bool constrainPitch = true);

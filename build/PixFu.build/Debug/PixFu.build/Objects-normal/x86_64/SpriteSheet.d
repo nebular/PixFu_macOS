@@ -1,14 +1,14 @@
 dependencies: \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/Sprites/SpriteSheet.cpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/Sprites/headers/SpriteSheet.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Shader.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/Sprites/SpriteSheet.cpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/Sprites/headers/SpriteSheet.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Shader.hpp \
   modules/PixFu/src/core/headers/OpenGL.h \
   modules/PixFu/src/core/headers/OpenGlUtils.h \
   modules/PixFu/src/core/headers/Texture2D.hpp \
   modules/PixFu/src/core/headers/Drawable.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Drawable.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Texture2D.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Fu.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Texture2D.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Fu.hpp \
   modules/PixFu/src/core/headers/Utils.hpp \
   modules/PixFu/src/core/headers/FuExtension.hpp \
   modules/PixFu/src/core/headers/Surface.hpp \
@@ -142,9 +142,9 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_double4x4_precision.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_float4x4.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_float4x4_precision.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/OpenGL.h \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu/src/core/headers/Utils.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/MacOS/PixFu_macOS_src/modules/PixFu_Extensions/Sprites/headers/SpriteSheets.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/OpenGL.h \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Utils.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/Sprites/headers/SpriteSheets.hpp \
   modules/PixFu_Extensions/Sprites/headers/SpriteSheet.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/matrix_transform.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../mat4x4.hpp \

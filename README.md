@@ -1,4 +1,4 @@
-![screenshot](doc/img1.jpeg)
+![screenshot](doc/np3.png)
 
 What is PixFu
 =============
@@ -57,54 +57,36 @@ Pre-requisites
 
 Getting Started
 ---------------
-1. Clone this project
-
+1. Get the binary release of this project
+ 
 `git clone https://github.com/nebular/PixFu_Android_demos.git
 `
-1. Open it in Android Studio
+1. Open Xcode and press New Project, scroll to the bottom and you should see PixFu.
 
-1. Press Play
+![screenshot](doc/np1.png)
 
+1. You will get a new PixFu blank project with 3 demos. The PixFu engine is included as a Framework that contains all binary and headers.
 
-![screenshot](doc/page4.png)
+![screenshot](doc/np2.png)
+
+1. Just press PLAY and the first demo should run. You can launch the other two demos by editing the file run.cpp
+
 
 Examples
 --------------------------------------
 
-- DemoControls: Mouse and Key events, with Virtual Mouse and Virtual Keybpard support
+- demo_hello.h: Just 4 lines of a hello world.
 
-![screenshot](doc/img2.jpeg)
-
-You can easily add virtual keys anywhere on the screen and build control clusters (look at the boxes near the top corners):
-
-`		
-
-        LoneScreenKey::currentInstance->add({olc::Key::W,    540,   0, 100, 50});
-
-		LoneScreenKey::currentInstance->add({olc::Key::A,    540,  50,  50, 50});
-		
-		LoneScreenKey::currentInstance->add({olc::Key::D,    590,  50,  50, 50});
-		
-		LoneScreenKey::currentInstance->add({olc::Key::S,    540, 100, 100, 50});
-`
-
+![screenshot](doc/np3.png)
  
-- DemoGyro: gyroscope sensor can feed the AxisController Input Device and used like a joystick.
+- demo_sprites.h: A demo using the Sprites extension.
 
-  ![screenshot](doc/img3.png)
+  ![screenshot](doc/np4.png)
 
-    - At the moment the gyroscope is "always on", that consumes a lot of battery, will add methods to start and stop.
     
-- Balls: Example using OLC Pixel Game Engine Compatibility Layer, that provides a base class with the same interface as the original OLC/PGE and run examples from the popular YouTube channel. Note that extensions are not supported!
+- demo_3d.h: A demo using the 3D world extension.
 
-  ![screenshot](doc/olcemu.png)
-
-Start Developing
----------------
-1. Place your application code in *app/src/main/cpp*
-1. Place your application assets in *app/src/main/assets*
-1. Instantiate your main class in the file *run.cpp*
-1. Click *Run/Run 'app'*.
+  ![screenshot](doc/np5.png)
 
 
 Support

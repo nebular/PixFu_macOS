@@ -20,6 +20,7 @@ namespace Pix {
 	class TerrainShader : public Shader {
 
 	public:
+		
 		TerrainShader(std::string name);
 
 		void bindAttributes();
