@@ -15,12 +15,6 @@ namespace Pix {
 		int xMas, yMax;
 	} WorldMeta_t;
 
-	typedef struct sObjectFeatures {
-		std::string className;
-		sObjectConfig config;
-		bool isStatic = true;
-	} ObjectFeatures_t;
-
 	class Player : public Ball {
 
 //		friend class Arena;

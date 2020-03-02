@@ -132,6 +132,8 @@
 	<dict>
 		<key>SharedSettings</key>
 		<dict>
+			<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+			<string>c++17</string>
 			<key>OTHER_CPLUSPLUSFLAGS</key>
 			<string>-I$(SRCROOT)/$(PRODUCT_NAME) -I/usr/local/include</string>
 			<key>OTHER_LDFLAGS</key>
