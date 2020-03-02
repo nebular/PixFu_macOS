@@ -37,6 +37,7 @@
 		<string>../PixFu.framework</string>
 		<string>../Scripts/assets.sh</string>
 		<string>examples/run.cpp</string>
+		<string>examples/demo_3d.h</string>
 		<string>examples/demo_hello.h</string>
 		<string>examples/demo_sprites.h</string>
 		<string>Assets/readme.txt</string>
@@ -103,6 +104,15 @@
 		<dict>
 			<key>Path</key>
 			<string>examples/demo_hello.h</string>
+			<key>Group</key>
+			<array>
+				<string>examples</string>
+			</array>
+		</dict>
+		<key>examples/demo_3d.h</key>
+		<dict>
+			<key>Path</key>
+			<string>examples/demo_3d.h</string>
 			<key>Group</key>
 			<array>
 				<string>examples</string>
