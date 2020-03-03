@@ -11,6 +11,7 @@
 
 #include <string>
 #include "StaticObject.hpp"
+#include "Font.hpp"
 #include "glm/mat4x4.hpp"
 #include "glm/vec3.hpp"
 
@@ -83,7 +84,7 @@ namespace Pix {
 		const bool withCanvas = true;
 
 		/** determines which font to use (requires withCanvas) */
-		const std::string withFont = "default";
+		const FontInfo_t withFont = {};
 
 		/** determines which shader to use (assets) */
 		const std::string shaderName = "world";

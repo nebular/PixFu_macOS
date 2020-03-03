@@ -166,6 +166,8 @@ dependencies: \
   modules/PixFu/src/core/headers/Surface.hpp \
   modules/PixFu/src/core/headers/Shader.hpp \
   modules/PixFu/src/core/headers/LayerVao.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/items/headers/Font.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
   modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
   modules/PixFu_Extensions/World/core/headers/StaticObject.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/matrix_inverse.hpp \

@@ -644,6 +644,8 @@
 		DB251203240B465E00967FCA /* SpriteSheet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SpriteSheet.hpp; sourceTree = "<group>"; };
 		DB251204240B465E00967FCA /* SpriteSheets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteSheets.cpp; sourceTree = "<group>"; };
 		DB251450240B49FA00967FCA /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../../../../../../usr/local/Cellar/libpng/1.6.37/lib/libpng16.a; sourceTree = "<group>"; };
+		DBCF54AD240DE50C008A6FFB /* Bisasam_16x16_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16_stroke.png; sourceTree = "<group>"; };
+		DBCF54AE240DE50C008A6FFB /* Bisasam_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16.png; sourceTree = "<group>"; };
 		DBED9826240C61AF003A7A39 /* updateheaders.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = updateheaders.sh; sourceTree = "<group>"; };
 		DBED9828240C62FE003A7A39 /* installtemplate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = installtemplate.sh; sourceTree = "<group>"; };
 		DBED9885240C7639003A7A39 /* PixFu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PixFu.hpp; sourceTree = "<group>"; };
@@ -801,6 +803,8 @@
 		DB250FB5240B465900967FCA /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				DBCF54AD240DE50C008A6FFB /* Bisasam_16x16_stroke.png */,
+				DBCF54AE240DE50C008A6FFB /* Bisasam_16x16.png */,
 				DB250FB6240B465900967FCA /* default.png */,
 			);
 			path = fonts;

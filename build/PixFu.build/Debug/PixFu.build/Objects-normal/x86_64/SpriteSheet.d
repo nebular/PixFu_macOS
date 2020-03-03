@@ -45,6 +45,7 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/./ext/vector_int3_precision.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/vector_uint3.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/vector_uint3_precision.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/items/headers/Font.hpp \
   modules/PixFu/src/thirdparty/glm/vec4.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/vector_bool4.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/../detail/type_vec4.hpp \

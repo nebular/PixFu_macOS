@@ -163,6 +163,8 @@ dependencies: \
   modules/PixFu/src/core/headers/Drawable.hpp \
   modules/PixFu/src/core/headers/LayerVao.hpp \
   modules/PixFu/src/thirdparty/glm/vec2.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/items/headers/Font.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
   modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
   modules/PixFu_Extensions/World/core/headers/StaticObject.hpp \
   modules/PixFu/src/thirdparty/glm/mat4x4.hpp \

@@ -3,6 +3,8 @@ dependencies: \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/core/headers/World.hpp \
   modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
   modules/PixFu_Extensions/World/core/headers/StaticObject.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/items/headers/Font.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
   modules/PixFu/src/thirdparty/glm/mat4x4.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_double4x4.hpp \
   modules/PixFu/src/thirdparty/glm/./ext/../detail/type_mat4x4.hpp \
@@ -133,7 +135,6 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/./ext/matrix_float4x4_precision.hpp \
   modules/PixFu_Extensions/World/core/headers/Terrain.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/items/headers/Canvas2D.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
   modules/PixFu/src/items/headers/Font.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Texture2D.hpp \
   modules/PixFu/src/core/headers/OpenGL.h \
