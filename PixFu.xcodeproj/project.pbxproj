@@ -1663,10 +1663,10 @@
 		DB2511EF240B465E00967FCA /* ballworld */ = {
 			isa = PBXGroup;
 			children = (
-				DB2511F0240B465E00967FCA /* Player.cpp */,
-				DB2511F1240B465E00967FCA /* BallWorld.cpp */,
-				DB2511F2240B465E00967FCA /* headers */,
 				DB2511F8240B465E00967FCA /* Ball.cpp */,
+				DB2511F1240B465E00967FCA /* BallWorld.cpp */,
+				DB2511F0240B465E00967FCA /* Player.cpp */,
+				DB2511F2240B465E00967FCA /* headers */,
 			);
 			path = ballworld;
 			sourceTree = "<group>";
