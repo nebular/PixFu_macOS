@@ -7,11 +7,11 @@
 #  Copyright © 2020 rodo. All rights reserved.
 
 
-echo "COJONES $SRCROOT/template/PixFuTemplate"
+echo "Template in $SRCROOT/template/PixFuTemplate"
 
 if [[ -d $SRCROOT/template/PixFuTemplate/PixFu.framework ]]; then
 	rm -rf $SRCROOT/template/PixFuTemplate/PixFu.framework
-	cp -aRv $BUILD_DIR/Debug/PixFu.Framework $SRCROOT/template/PixFuTemplate/
+	cp -aRv $BUILD_DIR/$CONFIGURATION/PixFu.Framework $SRCROOT/template/PixFuTemplate/
 else
 	exit 1
 fi

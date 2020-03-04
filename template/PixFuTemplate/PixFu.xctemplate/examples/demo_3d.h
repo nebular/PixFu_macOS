@@ -1,10 +1,18 @@
-//
-//  demo_3d.h
-//  3Demo
-//
-//  Created by rodo on 02/03/2020.
-//  Copyright © 2020 rodo. All rights reserved.
-//
+/**
+ *  demo_3d.h
+ *  PixFu engine
+ *
+ *  @author Rodolfo Lopez Pintor
+ *  @copyright  © 2020 Nebular Streams. All rights reserved.
+ *
+ *  A simple world that descends from World class. 
+ *
+ * This is a barebones world with a camera and methods to add objects. Objects do not have any physics.
+ * Use this world as your base class when you want to implement custom physics.
+ *
+ *
+ * ALso Check out demo_3d_balls for a world that descends from BallWorld, a world with ball physics.
+ */
 
 #pragma once
 
@@ -40,7 +48,7 @@ class Demo3dWorld:public Pix::World {
 		// the terrain texture (PNG), the terraim mesh (Wavefront OBJ) and heightmap (PNG)
 		// inside that folder
 
-		"delfino-square",
+		"cheeseland",
 		
 		// terrain placement in world coordinated (mainly for multi-terrain).
 		// REMEMBER YOUR TERRAIN MODEL MUST HAVE THE ORIGIN AT THE TOP LEFT (0,0) - no negative vertexes !
@@ -51,7 +59,7 @@ class Demo3dWorld:public Pix::World {
 		// on the loaded model, so we can translate the heighmap normalized value into world coordinates.
 		// MIND THAT NO SCALING IS PERFORMED ON THE MODEL, this is the opposite, we learn about the loaded model
 		// height to connect it with our separate heightmap, that we use for example to stick objects to the ground.
-		0.2,
+		0.1,
 
 		// render a wireframe grid over the texture. You can also access that canvas and draw additional stuff.
 		true

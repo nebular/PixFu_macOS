@@ -1,10 +1,13 @@
-//
-//  main.cpp
-//  PixEngine
-//
-//  Created by rodo on 11/02/2020.
-//  Copyright © 2020 rodo. All rights reserved.
-//
+/**
+ *  demo_sprites.h
+ *  PixFu engine
+ *
+ *  @author Rodolfo Lopez Pintor
+ *  @copyright  © 2020 Nebular Streams. All rights reserved.
+ *
+ *  A demo of the SpriteSheet extension.
+ * 
+ */
 
 #include <iostream>
 #include "PixFu.hpp"
@@ -21,6 +24,7 @@ class DemoSprites : public Pix::Fu {
 	int sprites[10]={0};
 	
 public:
+	
 	DemoSprites() : Pix::Fu("Hello Sprites!") {}
 
 	bool onUserCreate(bool restarted) override {

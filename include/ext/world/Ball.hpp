@@ -126,7 +126,7 @@ namespace Pix {
 
 		static void setHeightScale(float scale);
 
-		Ball(const WorldConfig_t &planetConfig, ObjectMeta_t meta, ObjectLocation_t location, bool isStatic = false, int overrideId = -1);
+		Ball(const WorldConfig_t &planetConfig, ObjectMeta_t meta, ObjectLocation_t location, int overrideId = -1);
 
 		/**
 		 * ball normalized position is used by the camera
@@ -145,6 +145,8 @@ namespace Pix {
 		 * @return Ball radius in world units
 		 */
 		float radius() override;        // ball radius
+
+		float drawRadius() override;    // ball radius
 
 		/**
 		 * Ball outer radius (collision detection
@@ -304,6 +306,7 @@ namespace Pix {
 	inline glm::vec3 &Ball::rot() { return mRotation; }                              // ball world position
 
 	inline float Ball::mass() { return CONFIG.mass * fMassMultiplier; }                    		// ball final mass
+	inline float Ball::drawRadius() { return radius() * CONFIG.drawRadiusMultiplier / 1000; } 	// ball draw radius normalized
 	inline float Ball::radius() { return CONFIG.radius * fRadiusMultiplier + fRadiusAnimator * CONFIG.radius; } // ball final radius
 	inline float Ball::outerRadius() { return fOuterRadius * fRadiusMultiplier + fRadiusAnimator * CONFIG.radius; }
 

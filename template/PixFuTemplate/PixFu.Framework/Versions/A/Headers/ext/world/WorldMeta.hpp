@@ -140,6 +140,7 @@ namespace Pix {
 		const glm::vec3 initialSpeed = {0, 0, 0};
 		const glm::vec3 initialAcceleration = {0, 0, 0};
 		const ObjectAnimation_t animation = {};
+		const float drawRadiusMultiplier = 1.0;
 	} ObjectProperties_t;
 
 	/**
@@ -155,7 +156,7 @@ namespace Pix {
 		const ObjectProperties_t PROPERTIES;
 
 		/** Whether object is static */
-		const bool ISSTATIC = true;
+		const bool ISSTATIC = false;
 
 	} ObjectMeta_t;
 
@@ -270,6 +271,12 @@ namespace Pix {
 		 */
 		virtual float radius() = 0;
 
+		/**
+		 * Return object radius
+		 * @return Radius in World Coordinates
+		 */
+		virtual float drawRadius() = 0;
+
 	};
 
 	/**
@@ -306,7 +313,9 @@ namespace Pix {
 
 		inline virtual glm::vec3 &rot() override { return LOCATION.rotation; }
 
-		inline float radius() override { return CONFIG.radius; }
+		inline virtual float radius() override { return CONFIG.radius; }
+
+		inline virtual float drawRadius() override { return CONFIG.radius * CONFIG.drawRadiusMultiplier / 1000.0F; }
 
 		/** process animations */
 		virtual void process(World *world, float fElapsedTime);
