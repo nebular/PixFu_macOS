@@ -91,9 +91,14 @@ Examples
   ![screenshot](doc/np4.png)
 
     
-- demo_3d.h: A demo using the 3D world extension.
+- demo_3d.h: A demo using the 3D world extension. A barebones world with a camera that you can move.
 
   ![screenshot](doc/np5.png)
+
+    
+- demo_3d_balls.h: A demo using advanced features of the 3D world extension. Add viruses to the world with the space key ! 
+
+  ![screenshot](doc/np6.png)
 
 
 Support
