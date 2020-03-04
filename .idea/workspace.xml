@@ -3,19 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d329e8f4-fb6f-4ffd-8c24-471ed49602a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Meta.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Player.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/PlayerFeatures.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/WorldMeta.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Ball.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Ball.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.dia" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.dia" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Camera.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Camera.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/PixFu.d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/PixFu.dia" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Player.d" beforeDir="false" />
@@ -38,36 +30,19 @@
       <change beforePath="$PROJECT_DIR$/build/XCBuildData/9607a567713711fe91478e177516d12f-manifest.xcbuild" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/XCBuildData/BuildDescriptionCacheIndex-d47fbf7998a5a0774cb7cd0ff50b4b97" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/XCBuildData/BuildDescriptionCacheIndex-e64146cad5286be6f7a10ef847c6b786" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/XCBuildData/build.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/XCBuildData/c30a2d6bec2db7b2d7059be083837cb1-desc.xcbuild" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/XCBuildData/c30a2d6bec2db7b2d7059be083837cb1-manifest.xcbuild" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/XCBuildData/ec6efe5d142d06765133f172a1511efb-desc.xcbuild" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/XCBuildData/ec6efe5d142d06765133f172a1511efb-manifest.xcbuild" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/Ball.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/ext/world/Meta.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/include/ext/world/Player.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/include/ext/world/PlayerFeatures.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/stall/stall.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/stall/stallTexture.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/Ball.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/BallWorld.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/BallWorld.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/headers/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/headers/Ball.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallPlayer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallPlayer.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/PixFu-macOS-0.1.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/releases/PixFu-macOS-0.1.tgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/updatetemplate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/updatetemplate.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Meta.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Player.hpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/PlayerFeatures.hpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/examples/demo_3d.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1995">
-              <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+              <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -194,6 +169,27 @@
               <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
               <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="PixFu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="PixFu" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="PixFu" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="PixFu_Extensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,7 +280,7 @@
     <frame x="135" y="23" width="1280" height="877" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3739903" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3739903" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -294,7 +290,7 @@
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.4951535" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4951535" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.47253636" side_tool="true" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.52907914" weight="0.32939634" />
@@ -358,7 +354,7 @@
     <entry file="file://$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/examples/demo_3d.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
-          <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+          <caret line="113" column="12" selection-start-line="113" selection-start-column="12" selection-end-line="113" selection-end-column="12" />
         </state>
       </provider>
     </entry>
