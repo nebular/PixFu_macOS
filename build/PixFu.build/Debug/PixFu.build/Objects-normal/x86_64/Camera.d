@@ -179,15 +179,17 @@ dependencies: \
   modules/PixFu_Extensions/World/core/headers/ObjectCluster.hpp \
   modules/PixFu_Extensions/World/core/headers/ObjectShader.hpp \
   modules/PixFu_Extensions/World/core/headers/Camera.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/Player.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallPlayer.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/Ball.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallWorld.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallWorldMap.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/geom/Splines.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Utils.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/geom/LineSegment.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/Config.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/fast_square_root.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/../common.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/../exponential.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/../geometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/fast_square_root.inl \
-  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/Meta.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/PlayerFeatures.hpp \
-  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Utils.hpp
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallPlayerFeatures.hpp

@@ -10,6 +10,6 @@
 
 #include "ext/world/Ball.hpp"
 #include "ext/world/BallWorld.hpp"
-#include "ext/world/BallWorldMeta.hpp"
+#include "ext/world/BallWorldMap.hpp"
 #include "ext/world/BallPlayer.hpp"
 #include "ext/world/BallPlayerFeatures.hpp"

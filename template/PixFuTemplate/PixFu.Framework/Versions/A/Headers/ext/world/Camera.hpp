@@ -221,22 +221,22 @@ namespace Pix {
 
 		// getters & getters
 
-		glm::vec3 &getPosition();
+		glm::vec3 getPosition();
 
 		/**
-		 * Set camera X
+		 * Set camera X NORMALIZED position
 		 * @param xpos normalized X
 		 */
 		void setX(float xpos);
 
 		/**
-		 * Set camera Z (normalized)
+		 * Set camera Z NORMALIZED position
 		 * @param ypos normalized Y
 		 */
 		void setZ(float ypos);
 
 		/**
-		 * Set camera height
+		 * Set camera height (NORMALIZED)
 		 * @param height height
 		 */
 
@@ -303,7 +303,7 @@ namespace Pix {
 
 // main getters / setters
 
-	inline glm::vec3 &Camera::getPosition() { return mPosition; }
+	inline glm::vec3 Camera::getPosition() { return mPosition * 1000.0f; }
 
 	inline float Camera::getPitch() { return fPitch; }
 
@@ -317,11 +317,11 @@ namespace Pix {
 
 	inline void Camera::setYaw(float rads) { fYaw = rads; }
 
-	inline void Camera::setHeight(float h) { mPosition.y = h; }
+	inline void Camera::setHeight(float hnormalized) { mPosition.y = hnormalized; }
 
-	inline void Camera::setX(float xpos) { mPosition.x = xpos; }
+	inline void Camera::setX(float xnormalized) { mPosition.x = xnormalized; }
 
-	inline void Camera::setZ(float zpos) { mPosition.z = zpos; }
+	inline void Camera::setZ(float znormalized) { mPosition.z = znormalized; }
 
 	inline void Camera::stepPitch(float deltaRads) {
 		fPitch += deltaRads;
@@ -344,12 +344,15 @@ namespace Pix {
 		return glm::lookAt(mPosition, mPosition + mFrontVector, mUpVector);
 	}
 
-
 	inline void Camera::follow(WorldObject *target) {
-		mTargetPosition = target->pos();
-//		fTargetAngle = M_PI / 2 -target->rot().y; //M_PI/2.0f - target->rot().y;
+		glm::vec3 tpos = target->pos();
+		mTargetPosition.x = tpos.x / 1000;
+		mTargetPosition.y = tpos.y / 1000;
+		mTargetPosition.z = tpos.z / 1000;
+		fTargetAngle = M_PI / 2 -target->rot().y; //M_PI/2.0f - target->rot().y;
 		fTargetAngle = -target->rot().y;
-//		fTargetAngle = (float) -M_PI / 2.0f - target->rot().y;
+
+		//		fTargetAngle = (float) -M_PI / 2.0f - target->rot().y;
 	}
 
 	/**

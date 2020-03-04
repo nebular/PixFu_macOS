@@ -8,11 +8,7 @@
 
 #pragma once
 
-#include "Fu.hpp"
-#include "WorldMeta.hpp"
-#include "World.hpp"
-#include "StaticObject.hpp"
-#include "Camera.hpp"
+#include "PixFuWorld.hpp"
 
 /**
  First of all, you must extend the World extension and configure your world.
@@ -24,9 +20,10 @@ class Demo3dWorld:public Pix::World {
 	// in the struct that you can check out, but let´s keep it simple.
 
 	inline static const Pix::WorldConfig_t WORLDCONFIG = {
-		{0.9,0.9,0.4},		// background color
+		{0.4,0.3,0.9},		// background color
 		{20000,20000,2000},	// light position
 		{0.4,0.4,0.3},		// light color
+		Pix::PERSP_FOV70,	// perspective
 		TRANSFORM_NONE,		// no objects global transformation
 		TRANSFORM_NONE,		// no terrain global transformation
 		true,				// enable 3D canvas
@@ -63,7 +60,7 @@ class Demo3dWorld:public Pix::World {
 	
 	public:
 	
-		Demo3dWorld():World(WORLDCONFIG) {
+		Demo3dWorld() : World(WORLDCONFIG) {
 
 			// Add our terrain. Not neccessary to get a pointer to it, but in this
 			// case we want to access some properties from the terrain (the size)
@@ -82,14 +79,21 @@ class Demo3dWorld:public Pix::World {
 					// add objects to the world. Objects use absolute world coordinates, so if we have
 					// another terrain at, ie. (1000,0), an object in the second terriain will have x > 1000
 
+					// objectproperties struct is the inmutable struct common to all objects
+					// of this class, and contains a lot of properties like mass, radius, inital speed & acceleration,
+					// intrinsic animation ...  The second struct "objectLocation" supplies the desired initial
+					// object position and rotation.
+					
 					add(
-						{
+						Pix::ObjectMeta_t {
 							"tree",							// object class, maps to /assets/objects/<name>/
 							{
-								{ x, 0, z },				// position in world coordinates
-								{0.0, 0, 0.0},				// rotation in degrees around x,y,z axis
 								(3.0f + random() % 50 )		// object radius
 							}
+						},
+						Pix::ObjectLocation_t  {
+							{ x, 0, z },				// position in world coordinates
+							{0,0,0}							// initial rotation
 						},
 						true								// set object height to terrain height
 					);
@@ -105,7 +109,7 @@ class Demo3d : public Pix::Fu {
 
 	public:
 
-	Demo3d() {
+	Demo3d():Fu("3d demo",{ Pix::FONT_1943 }) {
 		
 		// Add the world extension on the constructor
 		// Extensions added on the contructor are rendered
@@ -164,7 +168,7 @@ class Demo3d : public Pix::Fu {
 										  mWorld->camera()->getPosition().x,
 										  mWorld->camera()->getPosition().y,
 										  mWorld->camera()->getPosition().z),
-							 Pix::Colors::WHITE, 2);
+							 Pix::Colors::COLOR_3, 3);
 		return true;
 
 	}

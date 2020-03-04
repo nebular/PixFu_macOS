@@ -11,6 +11,7 @@
 #pragma once
 
 #include "World.hpp"
+#include "BallWorldMap.hpp"
 #include "LineSegment.hpp"
 #include <vector>
 
@@ -21,10 +22,48 @@ namespace Pix {
 	class BallWorld : public World {
 
 		static std::string TAG;
+		static constexpr float EFFICIENCY = 1.00;
+
+	protected:
+
+		BallWorldMap_t *pMap = nullptr;
 
 		std::vector<Ball *> vFakeBalls;
 		std::vector<std::pair<Ball *, Ball *>> vCollidingPairs;
 		std::vector<std::pair<Ball *, Ball *>> vFutureColliders;
+
+		/**
+		 * Add Balls to the world
+		 */
+
+		WorldObject *add(ObjectMeta_t features, ObjectLocation_t location, bool setHeight) override;
+
+		/**
+		 * Creates an object from irs OID. Object must have been inserted in the ObjectDb
+		 * with that OID. Object is added to the world at the supplied location.
+		 * @param oid Object OID as inserted into the ObjecctDb
+		 * @param location Object location info
+		 * @param setHeight whether to set ground height
+		 * @return The object
+		 */
+
+		WorldObject *add(int oid, ObjectLocation_t location, bool setHeight = true);
+		
+		/**
+		 * Creates an object from irs OID. Object must have been inserted in the ObjectDb
+		 * with that OID. Initial location from the DB is used.
+		 * @param oid Object OID as inserted into the ObjecctDb
+		 * @param setHeight whether to set ground height
+		 * @return The object
+		 */
+
+		WorldObject *add(int oid, bool setHeight = true);
+		
+		/**
+		 * Processes ball updates and collisions.
+		 */
+
+		long processCollisions(const std::vector<LineSegment_t> &edges, float fElapsedTime);
 
 		// process static collisions
 		void processStaticCollision(Ball *ball, Ball *target);
@@ -34,16 +73,21 @@ namespace Pix {
 
 	public:
 
-		BallWorld(WorldConfig_t config, Perspective_t perspective);
+		BallWorld(std::string levelName, WorldConfig_t config);
 
-		/**
-		 * Processes ball updates and collisions.
-		 * This must be called from your overriden process() with the vector of world edges
-		 */
+		virtual void tick(Pix::Fu *engine, float fElapsedTime) override;
 
-		long processCollisions(const std::vector<LineSegment_t> &edges, float fElapsedTime);
-
+		void load(std::string levelName);
 	};
+
+	inline WorldObject *BallWorld::add(int oid, ObjectLocation_t location, bool setHeight) {
+		return World::add(oid, location, setHeight);
+	}
+
+	inline WorldObject *BallWorld::add(int oid, bool setHeight) {
+		return World::add(oid, setHeight);
+	}
+
 }
 
 #pragma clang diagnostic pop

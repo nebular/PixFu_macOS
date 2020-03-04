@@ -17,7 +17,6 @@ namespace Pix {
 		float *vertices;
 	} Static3DObject_t;
 
-
 	// these are wrong, instead of colors we have to provide the normals !!
 	const Static3DObject_t PLANEXY = {
 			6,

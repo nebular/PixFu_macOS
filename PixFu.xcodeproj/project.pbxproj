@@ -35,7 +35,7 @@
 		DB251424240B466B00967FCA /* Terrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2511EA240B465E00967FCA /* Terrain.cpp */; };
 		DB251425240B466B00967FCA /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2511EB240B465E00967FCA /* World.cpp */; };
 		DB251426240B466B00967FCA /* ObjectShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2511EC240B465E00967FCA /* ObjectShader.cpp */; };
-		DB251428240B466B00967FCA /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2511F0240B465E00967FCA /* Player.cpp */; };
+		DB251428240B466B00967FCA /* BallPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2511F0240B465E00967FCA /* BallPlayer.cpp */; };
 		DB251429240B466B00967FCA /* BallWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2511F1240B465E00967FCA /* BallWorld.cpp */; };
 		DB25142F240B466B00967FCA /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB2511F8240B465E00967FCA /* Ball.cpp */; };
 		DB251435240B466B00967FCA /* SpriteSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB251200240B465E00967FCA /* SpriteSheet.cpp */; };
@@ -56,13 +56,15 @@
 		DB251446240B470300967FCA /* Camera.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB2511DC240B465D00967FCA /* Camera.cpp */; };
 		DB251447240B470300967FCA /* ObjLoader.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB2511DD240B465E00967FCA /* ObjLoader.cpp */; };
 		DB251448240B470300967FCA /* ObjectCluster.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB2511DE240B465E00967FCA /* ObjectCluster.cpp */; };
-		DB251449240B470300967FCA /* Player.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB2511F0240B465E00967FCA /* Player.cpp */; };
+		DB251449240B470300967FCA /* BallPlayer.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB2511F0240B465E00967FCA /* BallPlayer.cpp */; };
 		DB25144A240B470300967FCA /* BallWorld.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB2511F1240B465E00967FCA /* BallWorld.cpp */; };
 		DB25144B240B470400967FCA /* Ball.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB2511F8240B465E00967FCA /* Ball.cpp */; };
 		DB25144C240B470400967FCA /* SpriteSheet.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB251200240B465E00967FCA /* SpriteSheet.cpp */; };
 		DB25144D240B470400967FCA /* SpriteSheets.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB251204240B465E00967FCA /* SpriteSheets.cpp */; };
 		DB25144F240B474900967FCA /* libcocoawindowing_s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB250FEC240B465900967FCA /* libcocoawindowing_s.a */; };
 		DB251452240B4B6000967FCA /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB251450240B49FA00967FCA /* libpng16.a */; };
+		DBCF5777240FD6C9008A6FFB /* BallWorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */; };
+		DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */; };
 		DBED9887240C7797003A7A39 /* PixFu.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED9886240C7797003A7A39 /* PixFu.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBED98AA240C7AEE003A7A39 /* PixFuSprites.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED98A8240C7AED003A7A39 /* PixFuSprites.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBED98AB240C7AEE003A7A39 /* PixFuWorld.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED98A9240C7AED003A7A39 /* PixFuWorld.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -81,13 +83,6 @@
 		DB250F8C240B448C00967FCA /* items */ = {isa = PBXFileReference; lastKnownFileType = folder; path = items; sourceTree = "<group>"; };
 		DB250F9D240B465800967FCA /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		DB250F9E240B465800967FCA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		DB250FA2240B465800967FCA /* tree-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tree-0.png"; sourceTree = "<group>"; };
-		DB250FA3240B465900967FCA /* tree.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree.mtl; sourceTree = "<group>"; };
-		DB250FA4240B465900967FCA /* tree.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree.obj; sourceTree = "<group>"; };
-		DB250FA5240B465900967FCA /* tree.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree.mtl; sourceTree = "<group>"; };
-		DB250FA6240B465900967FCA /* kart_peach.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kart_peach.mtl; sourceTree = "<group>"; };
-		DB250FA8240B465900967FCA /* stall.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = stall.obj; sourceTree = "<group>"; };
-		DB250FA9240B465900967FCA /* stallTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stallTexture.png; sourceTree = "<group>"; };
 		DB250FAB240B465900967FCA /* kart_peach.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kart_peach.mtl; sourceTree = "<group>"; };
 		DB250FAC240B465900967FCA /* kart_peach-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kart_peach-4.png"; sourceTree = "<group>"; };
 		DB250FAD240B465900967FCA /* kart_peach-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kart_peach-0.png"; sourceTree = "<group>"; };
@@ -95,8 +90,6 @@
 		DB250FAF240B465900967FCA /* kart_peach-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kart_peach-3.png"; sourceTree = "<group>"; };
 		DB250FB0240B465900967FCA /* kart_peach-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kart_peach-2.png"; sourceTree = "<group>"; };
 		DB250FB1240B465900967FCA /* kart_peach.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kart_peach.obj; sourceTree = "<group>"; };
-		DB250FB3240B465900967FCA /* dragon.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dragon.obj; sourceTree = "<group>"; };
-		DB250FB4240B465900967FCA /* dragon-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragon-0.png"; sourceTree = "<group>"; };
 		DB250FB6240B465900967FCA /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		DB250FB9240B465900967FCA /* world.vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = world.vertex.glsl; sourceTree = "<group>"; };
 		DB250FBA240B465900967FCA /* sprites.fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sprites.fragment.glsl; sourceTree = "<group>"; };
@@ -626,13 +619,12 @@
 		DB2511EB240B465E00967FCA /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
 		DB2511EC240B465E00967FCA /* ObjectShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectShader.cpp; sourceTree = "<group>"; };
 		DB2511ED240B465E00967FCA /* Config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
-		DB2511F0240B465E00967FCA /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		DB2511F0240B465E00967FCA /* BallPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallPlayer.cpp; sourceTree = "<group>"; };
 		DB2511F1240B465E00967FCA /* BallWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallWorld.cpp; sourceTree = "<group>"; };
-		DB2511F3240B465E00967FCA /* PlayerFeatures.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PlayerFeatures.hpp; sourceTree = "<group>"; };
+		DB2511F3240B465E00967FCA /* BallPlayerFeatures.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BallPlayerFeatures.hpp; sourceTree = "<group>"; };
 		DB2511F4240B465E00967FCA /* Ball.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Ball.hpp; sourceTree = "<group>"; };
 		DB2511F5240B465E00967FCA /* BallWorld.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BallWorld.hpp; sourceTree = "<group>"; };
-		DB2511F6240B465E00967FCA /* Meta.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Meta.hpp; sourceTree = "<group>"; };
-		DB2511F7240B465E00967FCA /* Player.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		DB2511F7240B465E00967FCA /* BallPlayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BallPlayer.hpp; sourceTree = "<group>"; };
 		DB2511F8240B465E00967FCA /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
 		DB2511FA240B465E00967FCA /* WalkableLine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WalkableLine.hpp; sourceTree = "<group>"; };
 		DB2511FB240B465E00967FCA /* LineSegment.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LineSegment.hpp; sourceTree = "<group>"; };
@@ -646,8 +638,11 @@
 		DB251450240B49FA00967FCA /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../../../../../../usr/local/Cellar/libpng/1.6.37/lib/libpng16.a; sourceTree = "<group>"; };
 		DBCF54AD240DE50C008A6FFB /* Bisasam_16x16_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16_stroke.png; sourceTree = "<group>"; };
 		DBCF54AE240DE50C008A6FFB /* Bisasam_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16.png; sourceTree = "<group>"; };
+		DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallWorldMap.cpp; sourceTree = "<group>"; };
+		DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BallWorldMap.hpp; sourceTree = "<group>"; };
+		DBCF5B44240FF9ED008A6FFB /* updatetemplate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = updatetemplate.sh; sourceTree = "<group>"; };
+		DBCF5B45240FFA17008A6FFB /* releasetemplate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = releasetemplate.sh; sourceTree = "<group>"; };
 		DBED9826240C61AF003A7A39 /* updateheaders.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = updateheaders.sh; sourceTree = "<group>"; };
-		DBED9828240C62FE003A7A39 /* installtemplate.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = installtemplate.sh; sourceTree = "<group>"; };
 		DBED9885240C7639003A7A39 /* PixFu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PixFu.hpp; sourceTree = "<group>"; };
 		DBED9886240C7797003A7A39 /* PixFu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PixFu.hpp; sourceTree = "<group>"; };
 		DBED98A6240C78E9003A7A39 /* PixFuSprites.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PixFuSprites.hpp; sourceTree = "<group>"; };
@@ -748,33 +743,9 @@
 		DB250FA0240B465800967FCA /* objects */ = {
 			isa = PBXGroup;
 			children = (
-				DB250FA1240B465800967FCA /* tree */,
-				DB250FA5240B465900967FCA /* tree.mtl */,
-				DB250FA6240B465900967FCA /* kart_peach.mtl */,
-				DB250FA7240B465900967FCA /* stall */,
 				DB250FAA240B465900967FCA /* kart_peach */,
-				DB250FB2240B465900967FCA /* drawgon */,
 			);
 			path = objects;
-			sourceTree = "<group>";
-		};
-		DB250FA1240B465800967FCA /* tree */ = {
-			isa = PBXGroup;
-			children = (
-				DB250FA2240B465800967FCA /* tree-0.png */,
-				DB250FA3240B465900967FCA /* tree.mtl */,
-				DB250FA4240B465900967FCA /* tree.obj */,
-			);
-			path = tree;
-			sourceTree = "<group>";
-		};
-		DB250FA7240B465900967FCA /* stall */ = {
-			isa = PBXGroup;
-			children = (
-				DB250FA8240B465900967FCA /* stall.obj */,
-				DB250FA9240B465900967FCA /* stallTexture.png */,
-			);
-			path = stall;
 			sourceTree = "<group>";
 		};
 		DB250FAA240B465900967FCA /* kart_peach */ = {
@@ -789,15 +760,6 @@
 				DB250FB1240B465900967FCA /* kart_peach.obj */,
 			);
 			path = kart_peach;
-			sourceTree = "<group>";
-		};
-		DB250FB2240B465900967FCA /* drawgon */ = {
-			isa = PBXGroup;
-			children = (
-				DB250FB3240B465900967FCA /* dragon.obj */,
-				DB250FB4240B465900967FCA /* dragon-0.png */,
-			);
-			path = drawgon;
 			sourceTree = "<group>";
 		};
 		DB250FB5240B465900967FCA /* fonts */ = {
@@ -1665,7 +1627,8 @@
 			children = (
 				DB2511F8240B465E00967FCA /* Ball.cpp */,
 				DB2511F1240B465E00967FCA /* BallWorld.cpp */,
-				DB2511F0240B465E00967FCA /* Player.cpp */,
+				DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */,
+				DB2511F0240B465E00967FCA /* BallPlayer.cpp */,
 				DB2511F2240B465E00967FCA /* headers */,
 			);
 			path = ballworld;
@@ -1674,11 +1637,11 @@
 		DB2511F2240B465E00967FCA /* headers */ = {
 			isa = PBXGroup;
 			children = (
-				DB2511F3240B465E00967FCA /* PlayerFeatures.hpp */,
+				DB2511F3240B465E00967FCA /* BallPlayerFeatures.hpp */,
+				DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */,
 				DB2511F4240B465E00967FCA /* Ball.hpp */,
 				DB2511F5240B465E00967FCA /* BallWorld.hpp */,
-				DB2511F6240B465E00967FCA /* Meta.hpp */,
-				DB2511F7240B465E00967FCA /* Player.hpp */,
+				DB2511F7240B465E00967FCA /* BallPlayer.hpp */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -1725,7 +1688,8 @@
 			children = (
 				DBED9884240C761F003A7A39 /* data */,
 				DBED9826240C61AF003A7A39 /* updateheaders.sh */,
-				DBED9828240C62FE003A7A39 /* installtemplate.sh */,
+				DBCF5B44240FF9ED008A6FFB /* updatetemplate.sh */,
+				DBCF5B45240FFA17008A6FFB /* releasetemplate.sh */,
 			);
 			path = scripts;
 			sourceTree = "<group>";
@@ -1753,6 +1717,7 @@
 				DBED98AB240C7AEE003A7A39 /* PixFuWorld.hpp in Headers */,
 				DB13F2AE240C50F1008766EC /* arch in Headers */,
 				DB250F93240B44C700967FCA /* core in Headers */,
+				DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */,
 				DB250F94240B44C700967FCA /* ext in Headers */,
 				DB250F95240B44C700967FCA /* glm in Headers */,
 				DB250F96240B44C700967FCA /* input in Headers */,
@@ -1774,7 +1739,7 @@
 				DB251446240B470300967FCA /* Camera.cpp in Headers */,
 				DB251447240B470300967FCA /* ObjLoader.cpp in Headers */,
 				DB251448240B470300967FCA /* ObjectCluster.cpp in Headers */,
-				DB251449240B470300967FCA /* Player.cpp in Headers */,
+				DB251449240B470300967FCA /* BallPlayer.cpp in Headers */,
 				DB25144A240B470300967FCA /* BallWorld.cpp in Headers */,
 				DB25144B240B470400967FCA /* Ball.cpp in Headers */,
 				DB25144C240B470400967FCA /* SpriteSheet.cpp in Headers */,
@@ -1909,7 +1874,7 @@
 				DB25122A240B465F00967FCA /* OpenGlUtils.cpp in Sources */,
 				DB251236240B465F00967FCA /* Texture2D.cpp in Sources */,
 				DB251240240B466000967FCA /* platform_apple.cpp in Sources */,
-				DB251428240B466B00967FCA /* Player.cpp in Sources */,
+				DB251428240B466B00967FCA /* BallPlayer.cpp in Sources */,
 				DB251435240B466B00967FCA /* SpriteSheet.cpp in Sources */,
 				DB251238240B465F00967FCA /* Mouse.cpp in Sources */,
 				DB251426240B466B00967FCA /* ObjectShader.cpp in Sources */,
@@ -1920,6 +1885,7 @@
 				DB251237240B465F00967FCA /* Surface.cpp in Sources */,
 				DB251438240B466B00967FCA /* SpriteSheets.cpp in Sources */,
 				DB251419240B466A00967FCA /* ObjectCluster.cpp in Sources */,
+				DBCF5777240FD6C9008A6FFB /* BallWorldMap.cpp in Sources */,
 				DB251298240B466100967FCA /* Canvas2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

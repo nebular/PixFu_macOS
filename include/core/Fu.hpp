@@ -111,6 +111,7 @@ namespace Pix {
  */
 
 	class InputDevice {
+
 	public:
 		virtual ~InputDevice();
 
@@ -126,8 +127,8 @@ namespace Pix {
 /*-------------------------------------------------------------------*/
 
 	typedef struct sFuConfig {
-		const FontInfo_t fontInfo;
-		const std::string shaderName;
+		const FontInfo_t fontInfo = {};
+		const std::string shaderName = "default";
 	} FuConfig_t;
 
 	class Fu {

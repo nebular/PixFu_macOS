@@ -38,11 +38,22 @@
 		<string>../Scripts/assets.sh</string>
 		<string>examples/run.cpp</string>
 		<string>examples/demo_3d.h</string>
+		<string>examples/demo_3d_balls.h</string>
 		<string>examples/demo_hello.h</string>
 		<string>examples/demo_sprites.h</string>
 		<string>Assets/readme.txt</string>
 		<string>Assets/mario-50.png</string>
 		<string>Assets/items-spr.png</string>
+		<string>Assets/objects/virus/virus.obj</string>
+		<string>Assets/objects/virus/virus-0.png</string>
+		<string>Assets/objects/virus/virus.mtl</string>
+		<string>Assets/objects/tree/tree.obj</string>
+		<string>Assets/objects/tree/tree-0.png</string>
+		<string>Assets/objects/tree/tree.mtl</string>
+		<string>Assets/levels/cheeseland/cheeseland.png</string>
+		<string>Assets/levels/cheeseland/cheeseland.obj</string>
+		<string>Assets/levels/cheeseland/cheeseland.dat</string>
+		<string>Assets/levels/cheeseland/cheeseland.heights.png</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -71,6 +82,137 @@
 			</array>
 		</dict>
 
+		<key>Assets/levels/cheeseland/cheeseland.png</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/levels/cheeseland/cheeseland.png</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>levels</string>
+				<string>cheeseland</string>
+			</array>
+		</dict>
+		
+		<key>Assets/levels/cheeseland/cheeseland.dat</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/levels/cheeseland/cheeseland.dat</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>levels</string>
+				<string>cheeseland</string>
+			</array>
+		</dict>
+
+		<key>Assets/levels/cheeseland/cheeseland.obj</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/levels/cheeseland/cheeseland.obj</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>levels</string>
+				<string>cheeseland</string>
+			</array>
+		</dict>
+		
+		<key>Assets/levels/cheeseland/cheeseland.heights.png</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/levels/cheeseland/cheeseland.heights.png</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>levels</string>
+				<string>cheeseland</string>
+			</array>
+		</dict>
+		<key>Assets/levels/cheeseland/cheeseland.heights.png</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/levels/cheeseland/cheeseland.heights.png</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>levels</string>
+				<string>cheeseland</string>
+			</array>
+		</dict>
+
+		<key>Assets/objects/virus/virus.obj</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/objects/virus/virus.obj</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>objects</string>
+				<string>virus</string>
+			</array>
+		</dict>
+
+		<key>Assets/objects/virus/virus.mtl</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/objects/virus/virus.mtl</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>objects</string>
+				<string>virus</string>
+			</array>
+		</dict>
+		
+		<key>Assets/objects/virus/virus-0.png</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/objects/virus/virus-0.png</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>objects</string>
+				<string>virus</string>
+			</array>
+		</dict>
+		
+		<key>Assets/objects/tree/tree.obj</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/objects/tree/tree.obj</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>objects</string>
+				<string>tree</string>
+			</array>
+		</dict>
+
+		<key>Assets/objects/tree/tree.mtl</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/objects/tree/tree.mtl</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>objects</string>
+				<string>tree</string>
+			</array>
+		</dict>
+		
+		<key>Assets/objects/tree/tree-0.png</key>
+		<dict>
+			<key>Path</key>
+			<string>Assets/objects/tree/tree-0.png</string>
+			<key>Group</key>
+			<array>
+				<string>Assets</string>
+				<string>objects</string>
+				<string>tree</string>
+			</array>
+		</dict>
+		
 		<key>Assets/mario-50.png</key>
 		<dict>
 			<key>Path</key>
@@ -113,6 +255,15 @@
 		<dict>
 			<key>Path</key>
 			<string>examples/demo_3d.h</string>
+			<key>Group</key>
+			<array>
+				<string>examples</string>
+			</array>
+		</dict>
+		<key>examples/demo_3d_balls.h</key>
+		<dict>
+			<key>Path</key>
+			<string>examples/demo_3d_balls.h</string>
 			<key>Group</key>
 			<array>
 				<string>examples</string>

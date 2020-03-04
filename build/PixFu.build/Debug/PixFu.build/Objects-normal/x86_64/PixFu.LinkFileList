@@ -11,7 +11,7 @@
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/OpenGlUtils.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Texture2D.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/platform_apple.o
-/Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Player.o
+/Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallPlayer.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/SpriteSheet.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Mouse.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectShader.o
@@ -22,5 +22,6 @@
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Surface.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/SpriteSheets.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectCluster.o
+/Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorldMap.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Canvas2D.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/PixFu_vers.o
