@@ -2044,6 +2044,7 @@
 					/usr/local/Cellar/libpng/1.6.37/lib,
 				);
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
@@ -2094,6 +2095,7 @@
 					/usr/local/Cellar/libpng/1.6.37/lib,
 				);
 				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 0.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
