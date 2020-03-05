@@ -125,6 +125,8 @@ namespace Pix {
 	typedef struct sObjectLocation {
 		glm::vec3 position = {0, 0, 0};
 		glm::vec3 rotation = {0, 0, 0};
+		glm::vec3 initialSpeed = {0, 0, 0};
+		glm::vec3 initialAcceleration = {0, 0, 0};
 	} ObjectLocation_t;
 
 	/**
@@ -137,8 +139,6 @@ namespace Pix {
 		const float radius = 1.0;
 		const float mass = 1.0;
 		const float elasticity = 0.8;
-		const glm::vec3 initialSpeed = {0, 0, 0};
-		const glm::vec3 initialAcceleration = {0, 0, 0};
 		const ObjectAnimation_t animation = {};
 		const float drawRadiusMultiplier = 1.0;
 	} ObjectProperties_t;

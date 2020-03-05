@@ -1585,14 +1585,14 @@
 		DB2511DA240B465D00967FCA /* core */ = {
 			isa = PBXGroup;
 			children = (
-				DB2511DB240B465D00967FCA /* TerrainShader.cpp */,
 				DB2511DC240B465D00967FCA /* Camera.cpp */,
-				DB2511DD240B465E00967FCA /* ObjLoader.cpp */,
 				DB2511DE240B465E00967FCA /* ObjectCluster.cpp */,
-				DB2511DF240B465E00967FCA /* headers */,
-				DB2511EA240B465E00967FCA /* Terrain.cpp */,
-				DB2511EB240B465E00967FCA /* World.cpp */,
 				DB2511EC240B465E00967FCA /* ObjectShader.cpp */,
+				DB2511DD240B465E00967FCA /* ObjLoader.cpp */,
+				DB2511EA240B465E00967FCA /* Terrain.cpp */,
+				DB2511DB240B465D00967FCA /* TerrainShader.cpp */,
+				DB2511EB240B465E00967FCA /* World.cpp */,
+				DB2511DF240B465E00967FCA /* headers */,
 			);
 			path = core;
 			sourceTree = "<group>";
