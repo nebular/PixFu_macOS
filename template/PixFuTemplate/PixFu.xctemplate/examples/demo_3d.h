@@ -94,14 +94,14 @@ class Demo3dWorld:public Pix::World {
 					
 					add(
 						Pix::ObjectProperties_t {
-							"tree",							// object class, maps to /assets/objects/<name>/
+							"tree",						// object class, maps to /assets/objects/<name>/
 							(3.0f + random() % 50 )		// object radius
 						},
 						Pix::ObjectLocation_t  {
 							{ x, 0, z },				// position in world coordinates
-							{0,0,0}							// initial rotation
+							{0,0,0}						// initial rotation
 						},
-						true								// set object height to terrain height
+						true							// set object height to terrain height
 					);
 					
 				}
@@ -156,13 +156,15 @@ class Demo3d : public Pix::Fu {
 				Pix::Keyboard::isHeld(Pix::Keys::ALT) ? Pix::ADJUST_ANGLES :
 				Pix::Keyboard::isHeld(Pix::Keys::COMMAND) ? Pix::ADJUST_POSITION : Pix::MOVE;
 
-	
+		float speed = Pix::Keyboard::isHeld(Pix::Keys::SHIFT) ? 4.0 : 1.0;
+
 		mWorld->camera()->inputKey(
 			  mode,
 			  Pix::Keyboard::isHeld(Pix::Keys::UP),
 			  Pix::Keyboard::isHeld(Pix::Keys::DOWN),
 			  Pix::Keyboard::isHeld(Pix::Keys::LEFT),
 			  Pix::Keyboard::isHeld(Pix::Keys::RIGHT),
+			  speed,
 			  fElapsedTime);
 
 

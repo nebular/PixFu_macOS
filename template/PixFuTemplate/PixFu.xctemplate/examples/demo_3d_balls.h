@@ -44,17 +44,17 @@ void initGameObjects() {
 	Pix::ObjectDb::insert(
 		TREE_SMALL,					// Unique Object ID of your choosing
 		Pix::ObjectProperties_t {	// inmutable object properties
-			"tree",		// object class, maps to /assets/objects/<name>/
-			25.0f,		// object radius
-			10000.0f,	// object mass
-			0.0,		// elasticity
-			0.0f,		// crash efficiency
+			"tree",					// object class, maps to /assets/objects/<name>/
+			25.0f,					// object radius
+			10000.0f,				// object mass
+			0.0,					// elasticity
+			0.0f,					// crash efficiency
 			Pix::ObjectAerodynamics_t {},
 			Pix::ObjectAnimation_t {},			// intrinsic animation
-			true,		// static object
-			2.0			// draw 2 times bigger (tree is taller so for collision we use normal radius)
+			true,					// static object
+			2.0						// draw 2 times bigger (tree is taller so for collision we use normal radius)
 		},
-		Pix::ObjectLocation_t {}				// initial position if desired
+		Pix::ObjectLocation_t {}	// initial position if desired
 	);
 
 	// a bigger tree.
@@ -68,12 +68,12 @@ void initGameObjects() {
 		VIRUS,
 		{
 			"virus",
-			10,									// radius 10 = ??
-			1000,								// mass
+			20,									// radius 10 = ??
+			50,									// mass
 			0.7,								// elasticity
 			1,									// crash eff
-			{ 1.0, 0.95 },						// aerodynamics, low resistance
-			{ true, 0.1, 0.15, 0.2, 0.1 }		// intrinsic animaton
+			{ 0.95, 1.0 },						// aerodynamics, low resistance to terrain and air
+			{ true, 0.1, 0.15, 0.2, 0.1 }		// intrinsic animaton: enable, x, y, z, scale
 		}
 	);
 
