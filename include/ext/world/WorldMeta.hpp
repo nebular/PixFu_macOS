@@ -66,15 +66,17 @@ namespace Pix {
 		}
 	} Transformation_t;
 
-	typedef enum eWorldDebug { DEBUG_NONE, DEBUG_GRID, DEBUG_COLLISIONS, DEBUG_WIREFRAME } WorldDebug_t;
+	typedef enum eWorldDebug {
+		DEBUG_NONE, DEBUG_GRID, DEBUG_COLLISIONS, DEBUG_WIREFRAME
+	} WorldDebug_t;
 
 	/**
 	 * World configuration object. It is used to instantiate the world class and
 	 * contains the root parameters: lighting, background ...
 	 */
 
-	typedef struct sWorldConfig {
-		
+	typedef const struct sWorldConfig {
+
 		/** global background color */
 		const glm::vec3 backgroundColor = {0.8, 0.8, 1};
 
@@ -158,10 +160,10 @@ namespace Pix {
 
 		/** energy loss on crash*/
 		const float crashEfficiency = 0.75;
-		
+
 		/** total resistance to air and terrain (rough approximation) */
 		const ObjectAerodynamics_t aero = {};
-		
+
 		/** Intrinsic Animation */
 		const ObjectAnimation_t animation = {};
 
@@ -313,7 +315,6 @@ namespace Pix {
 	 */
 
 	class WorldObject : public WorldObjectBase {
-
 
 
 	protected:

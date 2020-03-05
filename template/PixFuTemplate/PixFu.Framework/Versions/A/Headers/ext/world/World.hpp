@@ -39,7 +39,7 @@ namespace Pix {
 		Light *pLight;
 		Camera *pCamera;
 
-		std::map<std::string, ObjectCluster *> mCluesters;
+		std::map<std::string, ObjectCluster *> mClusters;
 
 	protected:
 

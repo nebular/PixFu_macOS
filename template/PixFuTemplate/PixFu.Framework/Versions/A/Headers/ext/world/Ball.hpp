@@ -254,6 +254,7 @@ namespace Pix {
 		 */
 
 		bool intersects(Ball *b2, bool outerRadius);
+		float intersectsAmount(Pix::Ball *point, bool outer);
 
 		/**
 		 * Check a ball overlaps this one
@@ -359,7 +360,7 @@ namespace Pix {
 	// I don't know how to do the tangents and normals for the 3rd dimension.
 
 	inline float Ball::distance(Ball *target) {
-		return glm::fastSqrt(
+		return sqrtf(
 				(mPosition.x - target->mPosition.x) * (mPosition.x - target->mPosition.x)
 				+ (mPosition.z - target->mPosition.z) * (mPosition.z - target->mPosition.z));
 	}
