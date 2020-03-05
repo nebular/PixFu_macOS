@@ -31,6 +31,7 @@ class Demo3dWorld:public Pix::World {
 		{0.4,0.3,0.9},		// background color
 		{20000,20000,2000},	// light position
 		{0.4,0.4,0.3},		// light color
+		Pix::DEBUG_NONE,
 		Pix::PERSP_FOV70,	// perspective
 		TRANSFORM_NONE,		// no objects global transformation
 		TRANSFORM_NONE,		// no terrain global transformation
@@ -59,11 +60,7 @@ class Demo3dWorld:public Pix::World {
 		// on the loaded model, so we can translate the heighmap normalized value into world coordinates.
 		// MIND THAT NO SCALING IS PERFORMED ON THE MODEL, this is the opposite, we learn about the loaded model
 		// height to connect it with our separate heightmap, that we use for example to stick objects to the ground.
-		0.1,
-
-		// render a wireframe grid over the texture. You can also access that canvas and draw additional stuff.
-		true
-		
+		0.1
 	};
 	
 	public:

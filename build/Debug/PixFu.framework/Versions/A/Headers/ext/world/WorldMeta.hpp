@@ -66,13 +66,15 @@ namespace Pix {
 		}
 	} Transformation_t;
 
+	typedef enum eWorldDebug { DEBUG_NONE, DEBUG_GRID, DEBUG_COLLISIONS, DEBUG_WIREFRAME } WorldDebug_t;
+
 	/**
 	 * World configuration object. It is used to instantiate the world class and
 	 * contains the root parameters: lighting, background ...
 	 */
 
 	typedef struct sWorldConfig {
-
+		
 		/** global background color */
 		const glm::vec3 backgroundColor = {0.8, 0.8, 1};
 
@@ -81,6 +83,9 @@ namespace Pix {
 
 		/** light color */
 		const glm::vec3 lightColor = {0.8, 0.8, 0.93};
+
+		/** debug mode */
+		const WorldDebug_t debugMode = DEBUG_NONE;
 
 		/** Perspective */
 		const Perspective_t perspective = PERSP_FOV70;
@@ -235,9 +240,6 @@ namespace Pix {
 		 * to sync the heightmap to whatever heght scale the terrain was created with.
 		 */
 		const float scaleHeight = 0.1;
-
-		/** render wireframe grid (if world has a canvas enabled) */
-		const bool wireframe = false;
 
 		/** use a provided mesh instead of loading one */
 		const Static3DObject_t *staticMesh = nullptr;

@@ -89,14 +89,15 @@ class Demo3dBallWorld:public Pix::BallWorld {
 	// in the struct that you can check out, but let´s keep it simple.
 
 	inline static const Pix::WorldConfig_t WORLDCONFIG = {
-		{0.4,0.3,0.9},		// background color
-		{20000,20000,2000},	// light position
-		{0.4,0.4,0.3},		// light color
-		Pix::PERSP_FOV70,	// perspective
-		TRANSFORM_NONE,		// no objects global transformation
-		TRANSFORM_NONE,		// no terrain global transformation
-		true,				// enable 3D canvas
-		"default"			// enable font
+		{0.4,0.3,0.9},			// background color
+		{20000,20000,2000},		// light position
+		{0.4,0.4,0.3},			// light color
+		Pix::DEBUG_GRID,		// debug mode
+		Pix::PERSP_FOV70,		// perspective
+		TRANSFORM_NONE,			// no objects global transformation
+		TRANSFORM_NONE,			// no terrain global transformation
+		true,					// enable 3D canvas
+		"default"				// enable font
 	};
 	
 	public:
@@ -148,9 +149,7 @@ class Demo3dBallWorld:public Pix::BallWorld {
 		}
 	
 	bool init(Pix::Fu *engine) override {
-
 		if (!World::init(engine)) return false;
-		canvas()->blank();
 		pMap->drawSelf(canvas());
 		return true;
 	}
