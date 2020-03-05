@@ -39,6 +39,7 @@ namespace Pix {
 
 	class Ball : public WorldObject {
 
+		// so world iterator knows this is a Ball
 		static constexpr unsigned CLASSID = 2;
 
 		// BallWorld manages all ball instances and will access private properties here
@@ -144,19 +145,24 @@ namespace Pix {
 		 * Ball radius
 		 * @return Ball radius in world units
 		 */
-		float radius() override;        // ball radius
+		float radius() override;
+
+		/**
+		 * Ball radius used to draw the object (adjust for spect ratio)
+		 * @return Ball radius normalized (this is used by the renderer)
+		 */
 
 		float drawRadius() override;    // ball radius
 
 		/**
-		 * Ball outer radius (collision detection
+		 * Ball outer radius (collision prediction)
 		 * @return radius in world units
 		 */
 
-		float outerRadius();            // outer radius (collision prediction)
+		float outerRadius();
 
 		/**
-		 * Ball calculated angle from the speed vector
+		 * calculates angle from the speed vector
 		 * @return angle in radians
 		 */
 
@@ -185,7 +191,7 @@ namespace Pix {
 
 		/**
 		 * Ball Mass
-		 * @return Mass
+		 * @return Mass in Kg
 		 */
 
 		float mass();                // ball mass
@@ -193,11 +199,11 @@ namespace Pix {
 	protected:
 
 		/**
-		 * Whether the ball is flying
+		 * Whether the ball is in the air (height > terrain height)
 		 * @return whether
 		 */
 
-		bool isFlying();                    // whether ball is flying
+		bool isFlying();
 
 		/**
 		 * Mass multiplier (generic game powerups)
@@ -214,8 +220,18 @@ namespace Pix {
 		void setRadiusMultiplier(float radiusMultiplier);
 
 		/**
-		 * Distance to another ball
-		 * @param target TArget ball
+		 * Distance to another ball (2D plane, no height)
+		 *
+		 * Thiss distance s used by the collision engine which is 2.5D.
+		 * So at the moment the gravity and height processing is calculated
+		 * separately.
+		 *
+		 * Height is actually used in the collision engine but only to detect
+		 * overlaps, not for the resulting speed vectors.
+		 * To do that it would require to calculate the tangents & normals for the Y
+		 * coordinate and I don't know how to do it :S
+		 *
+		 * @param target Target ball
 		 * @return distance in world units
 		 */
 
@@ -231,6 +247,7 @@ namespace Pix {
 
 		/**
 		 * Whether a ball intersects another
+		 *
 		 * @param b2 Another ball
 		 * @param outerRadius Check this ball's outer radius
 		 * @return Whether balls intersect
@@ -238,18 +255,20 @@ namespace Pix {
 
 		bool intersects(Ball *b2, bool outerRadius);
 
-		// whether a ball overlaps this one
 		/**
 		 * Check a ball overlaps this one
 		 * @param b2 Another ball
 		 * @return Overlap code: No overlap, overlaps, overlaps in outer radius
 		 */
+	
 		Overlaps_t overlaps(Ball *b2);
 
-		// convenience displacement required to avoid an overlap
-		glm::vec3 calculateOverlapDisplacement(Ball *target, bool outer = false);
+		/**
+		 * Calculates the Total displacement required to cancel overlap.
+		 * Colliding balls will adjust to this displacement accorrding to their masses
+		 */
 
-		// make a collision ball (used to model crashes against walls & terrain)
+		glm::vec3 calculateOverlapDisplacement(Ball *target, bool outer = false);
 
 		/**
 		 * Make a collision ball using this one as reference
@@ -264,9 +283,11 @@ namespace Pix {
 		 * This gets called when this ball collides with another, and receives the
 		 * new speed vector. The default implementation just writes the new speed vector, but derived
 		 * classes can do different things with the calculated new speed and maybe elaborate the collision.
+		 *
 		 * @param otherBall The ball you have collided with
 		 * @param fElapsedTime time
 		 * @param newSpeedVector The new speed vector
+		 *
 		 */
 
 		virtual void onCollision(Ball *otherBall, glm::vec3 newSpeedVector, float fElapsedTime);
@@ -283,24 +304,29 @@ namespace Pix {
 		 * Disables a ball (stops physics)
 		 * @param disabled Whether to disable / enable
 		 */
+
 		void disable(bool disabled);
 
 		/**
 		 * Process ball tick. Applies speed changes according to acceleration, and position changes
 		 * according to speed.  Derived classes may override this to implement a more elaborated
 		 * physics scheme
+		 *
 		 * @param world World
 		 * @param fTime Frame time
 		 */
 
 		virtual void process(World *world, float fTime) override;
 
-		// process Height effects (height calcs separated from 2D calcs)
+		/**
+		 * Process Y coordinate: Gravity, Flying, Terrain height ...
+		 */
+
 		Ball *processHeights(World *world, float fTime);
 
 	};
 
-// INLINE IMPLEMENTATION BELOW THIS POINT
+	// INLINE IMPLEMENTATION BELOW THIS POINT
 
 	inline glm::vec3 &Ball::pos() { return mPosition; }                        // ball world position
 	inline glm::vec3 &Ball::rot() { return mRotation; }                              // ball world position
@@ -313,7 +339,8 @@ namespace Pix {
 	inline float Ball::angle() { return mRotation.y; }                              // ball angle (heading)
 	inline float Ball::speed() {
 		return glm::fastSqrt(mSpeed.x * mSpeed.x + mSpeed.z * mSpeed.z);
-	}   // TODO fabs             		// ball speed
+	}
+
 	inline glm::vec3 Ball::velocity() { return mSpeed; }
 
 	inline glm::vec3 Ball::acceleration() { return mAcceleration; }
@@ -325,6 +352,12 @@ namespace Pix {
 	inline void Ball::setRadiusMultiplier(float radiusMultiplier) { fRadiusMultiplier = radiusMultiplier * stfBaseScale; }
 
 	// distance to another ball
+
+	// mind we are not using height here (TODO) atm the gravity and height
+	// processing is separated from the 2.5D collisions (height is actually used
+	// to detect overlaps) only it's not considered to calculate collision result because
+	// I don't know how to do the tangents and normals for the 3rd dimension.
+
 	inline float Ball::distance(Ball *target) {
 		return glm::fastSqrt(
 				(mPosition.x - target->mPosition.x) * (mPosition.x - target->mPosition.x)
