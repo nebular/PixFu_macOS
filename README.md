@@ -10,30 +10,31 @@ PixFu core is based on famous engine OneLoneCoder Pixel Game Engine (http://onel
 ![screenshot](doc/page2.png)
 
  Key Features:
- 
-    - PixFu core is highly optimized and abstract, it doesn't really do anything besides abstracting all platform details, initialize input devices and run a loop.
+
+- PixFu core is highly optimized and abstract, it doesn't really do anything besides abstracting all platform details, initialize input devices and run a loop. 
     
-    - Everything is based on extensions that you instantiate. Extensions are also easy to write. 
     
-    - PixFu is an excellent starting point for a pure C++ mobile application!
+- Everything is based on extensions that you instantiate. Extensions are also easy to write. 
+    
+- PixFu is an excellent starting point for a pure C++ mobile application!
     
 
  Provided Extensions:
-
-    - UI Surface: provides a 2D canvas with functions to draw circles, lines, rectangles and multi-font strings. This extension is enabled by default. Source code for this extension comes from OLC PGE core. 
+ 
+-  UI Surface: provides a 2D canvas with functions to draw circles, lines, rectangles and multi-font strings. This extension is enabled by default. Source code for this extension comes from OLC PGE core. 
     
-    - Sprites: OpenGL powered spritesheets supporting  scaling, rotation and chroma key effects. Multiple spritesheets can be active.
+- Sprites: OpenGL powered spritesheets supporting  scaling, rotation and chroma key effects. Multiple spritesheets can be active.
 
-    - World: Modular 3D world with terrain texture, height map, lighting, camera and logic to insert and manage 3D objects. Reads WaveFront OBJ models and their textures.
+- World: Modular 3D world with terrain texture, height map, lighting, camera and logic to insert and manage 3D objects. Reads WaveFront OBJ models and their textures.
     
 
 Other Features:
 
-    - OLC Pixel Game Engine compatibility layer, provides a base class that mimics the PGE Engine class. You can easily port your PGE modules to PixFu! (Note- Extensions are not supported, and not all functionality is emulated)
+- OLC Pixel Game Engine compatibility layer, provides a base class that mimics the PGE Engine class. You can easily port your PGE modules to PixFu! (Note- Extensions are not supported, and not all functionality is emulated)
 
-    - Includes GLM library, used internally, but also exported so it is ready to use in your project. The library is compiled with FORCE_LEFT_HANDED flag, so angles are positive clockwise and physics behave as expected.
+- Includes GLM library, used internally, but also exported so it is ready to use in your project. The library is compiled with FORCE_LEFT_HANDED flag, so angles are positive clockwise and physics behave as expected.
     
-    - 100% modular structure allows to enable just the features you need. Even the primary UI surface is an extension that maybe you don't need in your project!
+- 100% modular structure allows to enable just the features you need. Even the primary UI surface is an extension that maybe you don't need in your project!
 
 
 ![screenshot](doc/page1.png)
