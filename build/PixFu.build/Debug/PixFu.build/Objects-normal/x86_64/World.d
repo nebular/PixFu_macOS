@@ -180,4 +180,5 @@ dependencies: \
   modules/PixFu/src/core/headers/Shader.hpp \
   modules/PixFu/src/core/headers/LayerVao.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/Config.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/OpenGL.h

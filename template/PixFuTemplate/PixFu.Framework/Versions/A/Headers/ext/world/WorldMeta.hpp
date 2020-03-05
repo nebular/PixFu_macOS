@@ -120,6 +120,16 @@ namespace Pix {
 	} ObjectAnimation_t;
 
 	/**
+	 * Rough approximation to global resistance as acceleration penalty constant
+	 * when object is in the air, air will be chosen, and vice versa
+	 */
+
+	typedef const struct sObjectAerodynamics {
+		const float terrain = 0.8;
+		const float air = 0.95;
+	} ObjectAerodynamics_t;
+
+	/**
 	 *
 	 * The static Object properties. This is used to insert an object into the world.
 	 * The class ObjectDB can store these structs ("all game objects") then you can also
@@ -141,6 +151,12 @@ namespace Pix {
 		/** Elasticity (bounce on fall) */
 		const float elasticity = 0.8;
 
+		/** energy loss on crash*/
+		const float crashEfficiency = 0.75;
+		
+		/** total resistance to air and terrain (rough approximation) */
+		const ObjectAerodynamics_t aero = {};
+		
 		/** Intrinsic Animation */
 		const ObjectAnimation_t animation = {};
 

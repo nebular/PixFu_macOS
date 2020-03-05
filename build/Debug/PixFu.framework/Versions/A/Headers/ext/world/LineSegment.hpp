@@ -2,6 +2,8 @@
 // Created by rodo on 2020-02-29.
 //
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 #pragma once
 
 #include <iostream>
@@ -52,3 +54,5 @@ namespace Pix {
 
 	} LineSegment_t;
 }
+
+#pragma clang diagnostic pop

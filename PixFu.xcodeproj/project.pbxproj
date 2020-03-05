@@ -784,14 +784,14 @@
 		DB250FB8240B465900967FCA /* v300es */ = {
 			isa = PBXGroup;
 			children = (
-				DB250FB9240B465900967FCA /* world.vertex.glsl */,
-				DB250FBA240B465900967FCA /* sprites.fragment.glsl */,
-				DB250FBB240B465900967FCA /* world_objects.fragment.glsl */,
-				DB250FBC240B465900967FCA /* default.vertex.glsl */,
-				DB250FBD240B465900967FCA /* world.fragment.glsl */,
 				DB250FBE240B465900967FCA /* default.fragment.glsl */,
-				DB250FBF240B465900967FCA /* world_objects.vertex.glsl */,
+				DB250FBC240B465900967FCA /* default.vertex.glsl */,
+				DB250FBA240B465900967FCA /* sprites.fragment.glsl */,
 				DB250FC0240B465900967FCA /* sprites.vertex.glsl */,
+				DB250FBB240B465900967FCA /* world_objects.fragment.glsl */,
+				DB250FBF240B465900967FCA /* world_objects.vertex.glsl */,
+				DB250FBD240B465900967FCA /* world.fragment.glsl */,
+				DB250FB9240B465900967FCA /* world.vertex.glsl */,
 			);
 			path = v300es;
 			sourceTree = "<group>";
@@ -799,14 +799,14 @@
 		DB250FC1240B465900967FCA /* v330core */ = {
 			isa = PBXGroup;
 			children = (
-				DB250FC2240B465900967FCA /* world.vertex.glsl */,
-				DB250FC3240B465900967FCA /* sprites.fragment.glsl */,
-				DB250FC4240B465900967FCA /* world_objects.fragment.glsl */,
-				DB250FC5240B465900967FCA /* default.vertex.glsl */,
-				DB250FC6240B465900967FCA /* world.fragment.glsl */,
 				DB250FC7240B465900967FCA /* default.fragment.glsl */,
-				DB250FC8240B465900967FCA /* world_objects.vertex.glsl */,
+				DB250FC5240B465900967FCA /* default.vertex.glsl */,
+				DB250FC3240B465900967FCA /* sprites.fragment.glsl */,
 				DB250FC9240B465900967FCA /* sprites.vertex.glsl */,
+				DB250FC4240B465900967FCA /* world_objects.fragment.glsl */,
+				DB250FC8240B465900967FCA /* world_objects.vertex.glsl */,
+				DB250FC6240B465900967FCA /* world.fragment.glsl */,
+				DB250FC2240B465900967FCA /* world.vertex.glsl */,
 			);
 			path = v330core;
 			sourceTree = "<group>";
@@ -814,11 +814,11 @@
 		DB250FCA240B465900967FCA /* src */ = {
 			isa = PBXGroup;
 			children = (
+				DB250FE8240B465900967FCA /* arch */,
 				DB250FCB240B465900967FCA /* core */,
 				DB250FDD240B465900967FCA /* input */,
-				DB250FE5240B465900967FCA /* support */,
-				DB250FE8240B465900967FCA /* arch */,
 				DB25104E240B465A00967FCA /* items */,
+				DB250FE5240B465900967FCA /* support */,
 				DB251054240B465A00967FCA /* thirdparty */,
 			);
 			path = src;
@@ -827,13 +827,13 @@
 		DB250FCB240B465900967FCA /* core */ = {
 			isa = PBXGroup;
 			children = (
-				DB250FCC240B465900967FCA /* LayerVao.cpp */,
 				DB250FCD240B465900967FCA /* Drawable.cpp */,
-				DB250FCE240B465900967FCA /* OpenGlUtils.cpp */,
-				DB250FCF240B465900967FCA /* headers */,
 				DB250FDA240B465900967FCA /* Fu.cpp */,
-				DB250FDB240B465900967FCA /* Texture2D.cpp */,
+				DB250FCC240B465900967FCA /* LayerVao.cpp */,
+				DB250FCE240B465900967FCA /* OpenGlUtils.cpp */,
 				DB250FDC240B465900967FCA /* Surface.cpp */,
+				DB250FDB240B465900967FCA /* Texture2D.cpp */,
+				DB250FCF240B465900967FCA /* headers */,
 			);
 			path = core;
 			sourceTree = "<group>";
@@ -841,16 +841,16 @@
 		DB250FCF240B465900967FCA /* headers */ = {
 			isa = PBXGroup;
 			children = (
+				DB250FD6240B465900967FCA /* Drawable.hpp */,
+				DB250FD4240B465900967FCA /* Fu.hpp */,
+				DB250FD9240B465900967FCA /* LayerVao.hpp */,
+				DB250FD3240B465900967FCA /* OpenGL.h */,
+				DB250FD5240B465900967FCA /* OpenGlUtils.h */,
+				DB250FD2240B465900967FCA /* PixFuExtension.hpp */,
+				DB250FD7240B465900967FCA /* Shader.hpp */,
 				DB250FD0240B465900967FCA /* Surface.hpp */,
 				DB250FD1240B465900967FCA /* Texture2D.hpp */,
-				DB250FD2240B465900967FCA /* PixFuExtension.hpp */,
-				DB250FD3240B465900967FCA /* OpenGL.h */,
-				DB250FD4240B465900967FCA /* Fu.hpp */,
-				DB250FD5240B465900967FCA /* OpenGlUtils.h */,
-				DB250FD6240B465900967FCA /* Drawable.hpp */,
-				DB250FD7240B465900967FCA /* Shader.hpp */,
 				DB250FD8240B465900967FCA /* Utils.hpp */,
-				DB250FD9240B465900967FCA /* LayerVao.hpp */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -1600,16 +1600,16 @@
 		DB2511DF240B465E00967FCA /* headers */ = {
 			isa = PBXGroup;
 			children = (
-				DB2511E0240B465E00967FCA /* Terrain.hpp */,
-				DB2511E1240B465E00967FCA /* World.hpp */,
-				DB2511E2240B465E00967FCA /* ObjectShader.hpp */,
-				DB2511E3240B465E00967FCA /* WorldMeta.hpp */,
-				DB2511E4240B465E00967FCA /* Frustum.hpp */,
-				DB2511E5240B465E00967FCA /* ObjectCluster.hpp */,
-				DB2511E6240B465E00967FCA /* Obj_Loader.hpp */,
-				DB2511E7240B465E00967FCA /* TerrainShader.hpp */,
-				DB2511E8240B465E00967FCA /* ObjLoader.hpp */,
 				DB2511E9240B465E00967FCA /* Camera.hpp */,
+				DB2511E4240B465E00967FCA /* Frustum.hpp */,
+				DB2511E6240B465E00967FCA /* Obj_Loader.hpp */,
+				DB2511E5240B465E00967FCA /* ObjectCluster.hpp */,
+				DB2511E2240B465E00967FCA /* ObjectShader.hpp */,
+				DB2511E8240B465E00967FCA /* ObjLoader.hpp */,
+				DB2511E0240B465E00967FCA /* Terrain.hpp */,
+				DB2511E7240B465E00967FCA /* TerrainShader.hpp */,
+				DB2511E1240B465E00967FCA /* World.hpp */,
+				DB2511E3240B465E00967FCA /* WorldMeta.hpp */,
 			);
 			path = headers;
 			sourceTree = "<group>";

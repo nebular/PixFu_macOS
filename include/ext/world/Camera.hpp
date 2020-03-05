@@ -60,7 +60,7 @@ namespace Pix {
 		static constexpr glm::vec3 DEF_UPVECTOR = glm::vec3(0.0f, 1.0f, 0.0f);
 		static constexpr glm::vec3 DEF_FRONTVECTOR = glm::vec3(0.0f, 0.0f, 1.0f);
 
-		static constexpr float STEP = 0.0001f * 15.0f, VSTEP = 0.05;
+		static constexpr float STEP = 0.0015f, VSTEP = 0.05;
 
 		/** Default camera values */
 		static constexpr float DEF_YAW = 0;
@@ -196,7 +196,7 @@ namespace Pix {
 		 * @param right Whether RIGHT is pressed
 		 */
 
-		void inputKey(CameraKeyControlMode_t mode, bool up, bool down, bool left, bool right, float fElapsedTime);
+		void inputKey(CameraKeyControlMode_t mode, bool up, bool down, bool left, bool right, float percent, float fElapsedTime);
 
 		/**
 		 * Steps a yaw
@@ -222,6 +222,7 @@ namespace Pix {
 		// getters & getters
 
 		glm::vec3 getPosition();
+		glm::vec3 getFrontVector(float size);
 
 		/**
 		 * Set camera X NORMALIZED position
@@ -304,6 +305,7 @@ namespace Pix {
 // main getters / setters
 
 	inline glm::vec3 Camera::getPosition() { return mPosition * 1000.0f; }
+	inline glm::vec3 Camera::getFrontVector(float size) { return mFrontVector * size; }
 
 	inline float Camera::getPitch() { return fPitch; }
 

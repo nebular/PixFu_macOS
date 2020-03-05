@@ -34,38 +34,36 @@ enum MODELS {
 	VIRUS
 };
 
-// Use the static Object Database to store some object profiles
-//
-// you can store object profiles here and then easily add them to the world
-// by their OID code. This is optional: you can also directly add objects
-// specifying the properties and location everytime.
-//
-// The database stores both Object Properties and Kinetic (location) properties.
-// When adding the object to the world, you can override the location properties
-// with new ones.
-//
-void initMap() {
+void initGameObjects() {
+	
+	// The static database of objects
+	// you can store object profiles here and then easily add them to the world
+	// by its code
 
+	// a small tree.
 	Pix::ObjectDb::insert(
 		TREE_SMALL,					// Unique Object ID of your choosing
 		Pix::ObjectProperties_t {	// inmutable object properties
-			"tree",					// object class, maps to /assets/objects/<name>/
-			25.0f,					// object radius
-			10000.0f,				// object mass
-			0.0,					// elasticity
-			{},						// no animation
-			true,					// static object
-			2.0						// draw 2 times bigger (tree is taller so for collision we use 						normal radius)
+			"tree",		// object class, maps to /assets/objects/<name>/
+			25.0f,		// object radius
+			10000.0f,	// object mass
+			0.0,		// elasticity
+			0.0f,		// crash efficiency
+			Pix::ObjectAerodynamics_t {},
+			Pix::ObjectAnimation_t {},			// intrinsic animation
+			true,		// static object
+			2.0			// draw 2 times bigger (tree is taller so for collision we use normal radius)
 		},
-		{}		// initial position, speed, accel, rotation if desired
+		Pix::ObjectLocation_t {}				// initial position if desired
 	);
 
+	// a bigger tree.
 	Pix::ObjectDb::insert(
 		TREE_BIG,
-		{ "tree", 75.0f, 1000.0f, 0, {}, true, 2.0 },		// short form
-		{ { 500.0,0,500.0} } 	// initial position if desired
+		{ "tree", 75.0f, 1000.0f, 0.0F, 0.0F, {}, {}, true, 2.0 },	// short form
+		{ { 500.0,0,500.0} }	// initial position if desired
 	);
-
+	
 	Pix::ObjectDb::insert(
 		VIRUS,
 		{
@@ -73,9 +71,12 @@ void initMap() {
 			10,									// radius 10 = ??
 			1000,								// mass
 			0.7,								// elasticity
+			1,									// crash eff
+			{ 1.0, 0.95 },						// aerodynamics, low resistance
 			{ true, 0.1, 0.15, 0.2, 0.1 }		// intrinsic animaton
 		}
 	);
+
 }
 
 /**
@@ -102,8 +103,8 @@ class Demo3dBallWorld:public Pix::BallWorld {
 	
 		Demo3dBallWorld():BallWorld("cheeseland", WORLDCONFIG) {
 
-			initMap();
-
+			initGameObjects();
+			
 			// BallWorld initializes the world reading the terrain model, texture and
 			// Level Map with splines and initial objects from the assets.
 
@@ -137,16 +138,17 @@ class Demo3dBallWorld:public Pix::BallWorld {
 			add(
 				VIRUS,
 				Pix::ObjectLocation_t {
-					camera()->getPosition(),			// position
-					{ 0, 0, 0},							// initial rotation
-					{ random()%200, 0, random()%200},	// speed
-					{ 0, 0, 0},							// accel
+					camera()->getPosition(),					// position
+					{0.0F,0.0F,0.0F},							// initial rotation
+					camera()->getFrontVector(250+random()%250),	// speed
+					{ 0.0F, 0.0F, 0.0F }						// accel
 				},
-				false									// do not force terrain height
+				false
 			);
 		}
 	
 	bool init(Pix::Fu *engine) override {
+
 		if (!World::init(engine)) return false;
 		canvas()->blank();
 		pMap->drawSelf(canvas());
@@ -156,7 +158,6 @@ class Demo3dBallWorld:public Pix::BallWorld {
 	void tick(Pix::Fu *engine, float fElapsedTime) override {
 		BallWorld::tick(engine, fElapsedTime);
 	}
-
 };
 
 class Demo3dBalls : public Pix::Fu {
@@ -165,7 +166,7 @@ class Demo3dBalls : public Pix::Fu {
 
 	public:
 
-	Demo3dBalls():Fu("3d demo Balls",{ Pix::FONT_1943 }) {
+	Demo3dBalls() : Fu("3d demo Balls", { Pix::FONT_1943 }) {
 		
 		// Add the world extension on the constructor
 		// Extensions added on the contructor are rendered
@@ -209,13 +210,15 @@ class Demo3dBalls : public Pix::Fu {
 				Pix::Keyboard::isHeld(Pix::Keys::ALT) ? Pix::ADJUST_ANGLES :
 				Pix::Keyboard::isHeld(Pix::Keys::COMMAND) ? Pix::ADJUST_POSITION : Pix::MOVE;
 
-	
+		float speed = Pix::Keyboard::isHeld(Pix::Keys::SHIFT) ? 5.0:1.0;
+
 		mWorld->camera()->inputKey(
 			  mode,
 			  Pix::Keyboard::isHeld(Pix::Keys::UP),
 			  Pix::Keyboard::isHeld(Pix::Keys::DOWN),
 			  Pix::Keyboard::isHeld(Pix::Keys::LEFT),
 			  Pix::Keyboard::isHeld(Pix::Keys::RIGHT),
+			  speed,
 			  fElapsedTime);
 
 
@@ -223,10 +226,15 @@ class Demo3dBalls : public Pix::Fu {
 		
 		canvas()->blank();	// fast clear (memset)
 
-		canvas()->drawString(0,10,Pix::SF("CAM x %f y %f z %f",
+		canvas()->drawString(0,10,Pix::SF("CAM X %f Y %f Z %f",
 										  mWorld->camera()->getPosition().x,
 										  mWorld->camera()->getPosition().y,
 										  mWorld->camera()->getPosition().z),
+							 Pix::Colors::COLOR_3, 3);
+		canvas()->drawString(0,40,Pix::SF("    p %f y %f r %f",
+										  mWorld->camera()->getPitch(),
+										  mWorld->camera()->getYaw(),
+										  mWorld->camera()->getRoll()),
 							 Pix::Colors::COLOR_3, 3);
 		return true;
 

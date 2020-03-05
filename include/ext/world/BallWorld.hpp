@@ -23,7 +23,6 @@ namespace Pix {
 	class BallWorld : public World {
 
 		static std::string TAG;
-		static constexpr float EFFICIENCY = 1.00;
 
 	protected:
 

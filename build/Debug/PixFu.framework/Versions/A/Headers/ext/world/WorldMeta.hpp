@@ -108,7 +108,7 @@ namespace Pix {
 
 	/**
 	 * A simple intrinsic object animation that will rotate the object around
-	 * all axis over time
+	 * all axis over time, and scale with a sin function
 	 */
 	typedef struct sObjectAnimation {
 		/** animation is enabled */
@@ -120,51 +120,77 @@ namespace Pix {
 	} ObjectAnimation_t;
 
 	/**
-	 * Used to provide initial positions when adding objets to the world
+	 * Rough approximation to global resistance as acceleration penalty constant
+	 * when object is in the air, air will be chosen, and vice versa
 	 */
-	typedef struct sObjectLocation {
-		glm::vec3 position = {0, 0, 0};
-		glm::vec3 rotation = {0, 0, 0};
-	} ObjectLocation_t;
+
+	typedef const struct sObjectAerodynamics {
+		const float terrain = 0.8;
+		const float air = 0.95;
+	} ObjectAerodynamics_t;
 
 	/**
+	 *
 	 * The static Object properties. This is used to insert an object into the world.
 	 * The class ObjectDB can store these structs ("all game objects") then you can also
 	 * insert the objects just using the OID (this struct will be retrieved from the DB)
+	 *
 	 */
 
 	typedef const struct sObjectProperties {
-		const float radius = 1.0;
-		const float mass = 1.0;
-		const float elasticity = 0.8;
-		const glm::vec3 initialSpeed = {0, 0, 0};
-		const glm::vec3 initialAcceleration = {0, 0, 0};
-		const ObjectAnimation_t animation = {};
-		const float drawRadiusMultiplier = 1.0;
-	} ObjectProperties_t;
 
-	/**
-	 * Object Metadata - Main Umbrella object.
-	 */
-
-	typedef const struct sObjectMeta {
-
-		/** Object class name */
+		/** Object class name determines what assets to use */
 		const std::string CLASSNAME;
 
-		/** Initial properties */
-		const ObjectProperties_t PROPERTIES;
+		/** Object Radius in world units */
+		const float radius = 1.0;
+
+		/** Object mass in kg */
+		const float mass = 1.0;
+
+		/** Elasticity (bounce on fall) */
+		const float elasticity = 0.8;
+
+		/** energy loss on crash*/
+		const float crashEfficiency = 0.75;
+		
+		/** total resistance to air and terrain (rough approximation) */
+		const ObjectAerodynamics_t aero = {};
+		
+		/** Intrinsic Animation */
+		const ObjectAnimation_t animation = {};
 
 		/** Whether object is static */
 		const bool ISSTATIC = false;
 
-	} ObjectMeta_t;
+		/**
+		 * Exaggerte draw radius (not collision radius), to approximate non-spherical objects:
+		 * For example, if you have a very tall tree, you may set the real radius to that of the trunk
+		 * and multiply the drawing scale 5 times. This way, collisions will only happen hen hitting the
+		 * trunk.
+		 */
+		const float drawRadiusMultiplier = 1.0;
 
+	} ObjectProperties_t;
 
 	/**
-	 * The ObjectDB maps an OID to a pair <Properties,InitialLocation>
+	 * Used to provide optional initial positions and speeds when adding objets to the world
+	 * and also as defaults to store presets in the DB
 	 */
-	typedef std::pair<ObjectMeta_t, ObjectLocation_t> ObjectDbEntry_t;
+
+	typedef struct sObjectLocation {
+		glm::vec3 position = {0, 0, 0};
+		glm::vec3 rotation = {0, 0, 0};
+		glm::vec3 initialSpeed = {0, 0, 0};
+		glm::vec3 initialAcceleration = {0, 0, 0};
+	} ObjectLocation_t;
+
+	/**
+	 * The ObjectDB maps an OID to a pair <Properties,InitialLocation>. When inserting an
+	 * object to the world, you can suply another ObjectLocation to override this one
+	 */
+
+	typedef std::pair<ObjectProperties_t, ObjectLocation_t> ObjectDbEntry_t;
 
 	/**
 	 * A database of objects, maps an OID to a to a pair <Properties,InitialLocation>
@@ -181,11 +207,11 @@ namespace Pix {
 		//		static ObjectFeatures_t  const *getCircuitGroundSprite(int circuitObjectOid);
 		*/
 
-		inline static void insert(int code, ObjectMeta_t objectMeta, ObjectLocation_t initialPosition = {}) {
-			Database.insert({code, { objectMeta, initialPosition }});
+		inline static void insert(int code, ObjectProperties_t objectMeta, ObjectLocation_t initialPosition = {}) {
+			Database.insert({code, {objectMeta, initialPosition}});
 		}
-		
-		
+
+
 		inline static ObjectDbEntry_t const *get(int oid) {
 			return &Database.at(oid);
 		}
@@ -229,7 +255,7 @@ namespace Pix {
 	class WorldObjectBase {
 
 		static int instanceCounter;
-		
+
 	protected:
 
 		/** World Configuration */
@@ -238,7 +264,7 @@ namespace Pix {
 	public:
 
 		const unsigned CLASSID;
-		
+
 		/** Object ID */
 		const int ID;
 
@@ -248,8 +274,8 @@ namespace Pix {
 		inline WorldObjectBase(const WorldConfig_t &worldConfig, std::string objectClass, unsigned classId, int overrideId = -1) :
 				WORLD(worldConfig),
 				CLASSID(classId),
-				CLASS(objectClass),
-				ID(overrideId >= 0 ? overrideId : instanceCounter++) {}
+				ID(overrideId >= 0 ? overrideId : instanceCounter++),
+				CLASS(objectClass) {}
 
 		inline virtual ~WorldObjectBase() = default;
 
@@ -287,14 +313,13 @@ namespace Pix {
 	class WorldObject : public WorldObjectBase {
 
 
-		const ObjectMeta_t META;
 
 	protected:
 
 		float fRadiusAnimator = 0;
 
-		// copy initial configuration
-		ObjectProperties_t CONFIG = META.PROPERTIES;
+		// Object metadata
+		const ObjectProperties_t CONFIG;
 
 		// Object Location
 		ObjectLocation_t LOCATION;
@@ -303,10 +328,10 @@ namespace Pix {
 
 		static constexpr unsigned CLASSID_CODE = 1;
 
-		inline WorldObject(const WorldConfig_t &worldConfig, const ObjectMeta_t objectMeta, ObjectLocation_t location,
+		inline WorldObject(const WorldConfig_t &worldConfig, const ObjectProperties_t objectMeta, ObjectLocation_t location,
 						   unsigned int classid = CLASSID_CODE, int overrideId = -1) :
 				WorldObjectBase(worldConfig, objectMeta.CLASSNAME, classid, overrideId),
-				META(std::move(objectMeta)),
+				CONFIG(std::move(objectMeta)),
 				LOCATION(std::move(location)) {}
 
 		inline virtual glm::vec3 &pos() override { return LOCATION.position; }
