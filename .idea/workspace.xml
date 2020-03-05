@@ -3,37 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d329e8f4-fb6f-4ffd-8c24-471ed49602a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/XCBuildData/build.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/Ball.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/BallWorld.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/BallWorld.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/Camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/LineSegment.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/LineSegment.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/Splines.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/Splines.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/World.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/kart_peach/kart_peach-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/kart_peach/kart_peach-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/kart_peach/kart_peach-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/kart_peach/kart_peach-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/kart_peach/kart_peach-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/kart_peach/kart_peach.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu/assets/objects/kart_peach/kart_peach.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/PixFu-macOS-0.1-Release.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/releases/PixFu-macOS-0.1-Release.tgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/BallWorld.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/BallWorld.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/LineSegment.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/LineSegment.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Splines.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Splines.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/World.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,12 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="279">
-                <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+              <first_editor relative-caret-position="57">
+                <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -66,16 +36,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="149">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2550">
+            <state relative-caret-position="-2854">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
@@ -142,15 +112,15 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/modules/PixFu_Extensions" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/examples/run.cpp" />
         <option value="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/TemplateInfo.plist" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -373,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583346657365</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated readme">
+      <created>1583424519971</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583424519971</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -388,13 +365,14 @@
       <window_info id="Resources Explorer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Run" order="0" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Debug" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4951535" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.47253636" side_tool="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.52907914" visible="true" weight="0.46456692" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.52907914" weight="0.46456692" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Flutter Inspector" order="2" />
@@ -443,12 +421,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="weird commit" />
     <MESSAGE value="Update framework" />
     <MESSAGE value="added images to README" />
     <MESSAGE value="added missing files" />
     <MESSAGE value="improved docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved docs" />
+    <MESSAGE value="Updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/modules/PixFu/src/core/Surface.cpp">
@@ -494,18 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="279">
-            <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/worlds/ballworld/Ball.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6688">
@@ -522,15 +491,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="149">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2550">
+        <state relative-caret-position="-2854">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>

@@ -51,33 +51,31 @@ Your code will be very tight without any extraneous background libraries or serv
 How To Start
 =============
 
-This is a template Android Studio project that you can use to create your PixFu based applications.
+This is a XCode template that will allow you to quickly create new projects from the XCode wizard.
 
-It includes the PixFu/Android core as an AAR, and all build scripts and CMAKE configurations ready so you just can deploy one class, hit build and play the application in your phone.
-
-Please refer to the root project PixFu https://github.com/nebular/PixFu_Android for technical details.
 
 Pre-requisites
 --------------
 
-- Android Studio 3.5.2+ (lower may work)
-- (not sure if you also need to install the NDK, easy anyways:  [NDK] (https://developer.android.com/ndk/) bundle.
+- XCode, recent version (osx 10.14). lower may work.
 
 Getting Started
 ---------------
 1. Get the binary release of this project
+ https://github.com/nebular/PixFu_macOS/releases
  
-`git clone https://github.com/nebular/PixFu_Android_demos.git
+2. Unpack the file and execute the install script with su. Alternatively,
+ just copy the template to the XCode templates folder (that is just what the script does)
 `
-1. Open Xcode and press New Project, scroll to the bottom and you should see PixFu.
+3. Open Xcode and press New Project, scroll to the bottom and you should see PixFu.
 
 ![screenshot](doc/np1.png)
 
-1. You will get a new PixFu blank project with 3 demos. The PixFu engine is included as a Framework that contains all binary and headers.
+4. You will get a new PixFu blank project with 3 demos. The PixFu engine is included as a Framework that contains all binary and headers.
 
 ![screenshot](doc/np2.png)
 
-1. Just press PLAY and the first demo should run. You can launch the other two demos by editing the file run.cpp
+5. Just press PLAY and the first demo should run. You can launch the other two demos by editing the file run.cpp
 
 
 Examples
