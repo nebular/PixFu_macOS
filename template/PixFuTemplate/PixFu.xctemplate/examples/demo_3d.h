@@ -93,11 +93,9 @@ class Demo3dWorld:public Pix::World {
 					// object position and rotation.
 					
 					add(
-						Pix::ObjectMeta_t {
+						Pix::ObjectProperties_t {
 							"tree",							// object class, maps to /assets/objects/<name>/
-							{
-								(3.0f + random() % 50 )		// object radius
-							}
+							(3.0f + random() % 50 )		// object radius
 						},
 						Pix::ObjectLocation_t  {
 							{ x, 0, z },				// position in world coordinates

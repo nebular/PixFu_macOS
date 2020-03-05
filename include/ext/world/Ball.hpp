@@ -126,7 +126,7 @@ namespace Pix {
 
 		static void setHeightScale(float scale);
 
-		Ball(const WorldConfig_t &planetConfig, ObjectMeta_t meta, ObjectLocation_t location, int overrideId = -1);
+		Ball(const WorldConfig_t &planetConfig, ObjectProperties_t meta, ObjectLocation_t location, int overrideId = -1);
 
 		/**
 		 * ball normalized position is used by the camera
@@ -293,10 +293,10 @@ namespace Pix {
 		 * @param fTime Frame time
 		 */
 
-		virtual void process(World *world, float fTime = NOTIME) override;
+		virtual void process(World *world, float fTime) override;
 
 		// process Height effects (height calcs separated from 2D calcs)
-		Ball *processHeights(World *world, float fTime = NOTIME);
+		Ball *processHeights(World *world, float fTime);
 
 	};
 

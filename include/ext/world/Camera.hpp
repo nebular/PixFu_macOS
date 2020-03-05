@@ -349,7 +349,7 @@ namespace Pix {
 		mTargetPosition.x = tpos.x / 1000;
 		mTargetPosition.y = tpos.y / 1000;
 		mTargetPosition.z = tpos.z / 1000;
-		fTargetAngle = M_PI / 2 -target->rot().y; //M_PI/2.0f - target->rot().y;
+		fTargetAngle = (float) M_PI / 2.0F - target->rot().y; //M_PI/2.0f - target->rot().y;
 		fTargetAngle = -target->rot().y;
 
 		//		fTargetAngle = (float) -M_PI / 2.0f - target->rot().y;

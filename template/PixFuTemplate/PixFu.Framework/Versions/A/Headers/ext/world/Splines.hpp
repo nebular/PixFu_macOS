@@ -19,6 +19,7 @@
 #include "Utils.hpp"
 
 namespace Pix {
+
 	struct sPoint2D {
 		float x;
 		float y;
@@ -70,8 +71,7 @@ namespace Pix {
 		sPoint2D rawPoint;
 	} NearCheckpoints_t;
 
-
-	struct sSpline {
+	typedef struct sSpline {
 		std::vector<sPoint2D> points;
 		float fTotalSplineLength = 0.0f;
 		bool bIsLooped = true;
@@ -397,7 +397,7 @@ namespace Pix {
 
 			return true;
 		}
-	};
+	} Spline_t;
 }
 
 #pragma clang diagnostic pop
