@@ -19,8 +19,6 @@ class DemoSprites : public Pix::Fu {
 	
 	Pix::SpriteSheet *pSprites;
 	Pix::SpriteSheet *pItems;
-
-	float pop = 0;
 	int sprites[10]={0};
 	
 public:
@@ -52,23 +50,23 @@ public:
 	
 	bool onUserUpdate(float fElapsedTime) override {
 		
-		pop += fElapsedTime;
-		canvas()->clear(Pix::Pixel(0,0,255*sinf(pop),255));
-		canvas()->drawString(200,250 + 25 *sinf(pop),"Spritesheets", Pix::Pixel(0,255,0,255), 6);
+		float s = sinf(METRONOME), c = cosf(METRONOME);
 		
+		canvas()->clear(Pix::Pixel(0,0,255*s,255));
+		canvas()->drawString(200,250 + 25 *s,"Spritesheets", Pix::Pixel(0,255,0,255), 6);
 
 		for (int i = 0; i<4; i++) {
 			pSprites->update(
 							 // sprite Id
 							 i,
 							 // position
-							 glm::vec2(200.0+200.0*i, screenHeight() / 2 + 100*cosf(pop+M_PI*i/4)),
+							 glm::vec2(200.0+200.0*i, screenHeight() / 2 + 100*cosf(METRONOME+M_PI*i/4)),
 							 // sprite code in spritesheet (to change it for animation)
 							 0,
 							 // scale
-							 i==0||i==3?3*sinf(pop)+0.4*(i+1):2,
+							 i==0||i==3?3*s+0.4*(i+1):2,
 							 // rotation
-							 i==1?pop:i==3?cosf(pop):0
+							 i==1 ? METRONOME : i==3 ? c : 0
 							 );
 		}
 		return true;

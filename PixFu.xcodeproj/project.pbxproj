@@ -63,6 +63,8 @@
 		DB25144D240B470400967FCA /* SpriteSheets.cpp in Headers */ = {isa = PBXBuildFile; fileRef = DB251204240B465E00967FCA /* SpriteSheets.cpp */; };
 		DB25144F240B474900967FCA /* libcocoawindowing_s.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB250FEC240B465900967FCA /* libcocoawindowing_s.a */; };
 		DB251452240B4B6000967FCA /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB251450240B49FA00967FCA /* libpng16.a */; };
+		DB4822E124121A4B00F9A306 /* WeaponHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4822DF24121A4B00F9A306 /* WeaponHelper.cpp */; };
+		DB4822E224121A4B00F9A306 /* WeaponHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4822E024121A4B00F9A306 /* WeaponHelper.h */; };
 		DBCF5777240FD6C9008A6FFB /* BallWorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */; };
 		DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */; };
 		DBED9887240C7797003A7A39 /* PixFu.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED9886240C7797003A7A39 /* PixFu.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -636,6 +638,8 @@
 		DB251203240B465E00967FCA /* SpriteSheet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SpriteSheet.hpp; sourceTree = "<group>"; };
 		DB251204240B465E00967FCA /* SpriteSheets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteSheets.cpp; sourceTree = "<group>"; };
 		DB251450240B49FA00967FCA /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../../../../../../usr/local/Cellar/libpng/1.6.37/lib/libpng16.a; sourceTree = "<group>"; };
+		DB4822DF24121A4B00F9A306 /* WeaponHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WeaponHelper.cpp; sourceTree = "<group>"; };
+		DB4822E024121A4B00F9A306 /* WeaponHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponHelper.h; sourceTree = "<group>"; };
 		DBCF54AD240DE50C008A6FFB /* Bisasam_16x16_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16_stroke.png; sourceTree = "<group>"; };
 		DBCF54AE240DE50C008A6FFB /* Bisasam_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16.png; sourceTree = "<group>"; };
 		DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallWorldMap.cpp; sourceTree = "<group>"; };
@@ -1574,10 +1578,10 @@
 		DB2511D9240B465D00967FCA /* World */ = {
 			isa = PBXGroup;
 			children = (
-				DB2511DA240B465D00967FCA /* core */,
 				DB2511ED240B465E00967FCA /* Config.hpp */,
-				DB2511EE240B465E00967FCA /* worlds */,
+				DB2511DA240B465D00967FCA /* core */,
 				DB2511F9240B465E00967FCA /* geom */,
+				DB2511EE240B465E00967FCA /* worlds */,
 			);
 			path = World;
 			sourceTree = "<group>";
@@ -1650,6 +1654,8 @@
 			isa = PBXGroup;
 			children = (
 				DB2511FA240B465E00967FCA /* WalkableLine.hpp */,
+				DB4822DF24121A4B00F9A306 /* WeaponHelper.cpp */,
+				DB4822E024121A4B00F9A306 /* WeaponHelper.h */,
 				DB2511FB240B465E00967FCA /* LineSegment.hpp */,
 				DB2511FC240B465E00967FCA /* Splines.hpp */,
 			);
@@ -1735,6 +1741,7 @@
 				DB251442240B470300967FCA /* platform_apple.cpp in Headers */,
 				DB251443240B470300967FCA /* Font.cpp in Headers */,
 				DB251444240B470300967FCA /* Canvas2D.cpp in Headers */,
+				DB4822E224121A4B00F9A306 /* WeaponHelper.h in Headers */,
 				DB251445240B470300967FCA /* TerrainShader.cpp in Headers */,
 				DB251446240B470300967FCA /* Camera.cpp in Headers */,
 				DB251447240B470300967FCA /* ObjLoader.cpp in Headers */,
@@ -1881,6 +1888,7 @@
 				DB251417240B466A00967FCA /* Camera.cpp in Sources */,
 				DB251424240B466B00967FCA /* Terrain.cpp in Sources */,
 				DB25123C240B465F00967FCA /* Keyboard.cpp in Sources */,
+				DB4822E124121A4B00F9A306 /* WeaponHelper.cpp in Sources */,
 				DB251425240B466B00967FCA /* World.cpp in Sources */,
 				DB251237240B465F00967FCA /* Surface.cpp in Sources */,
 				DB251438240B466B00967FCA /* SpriteSheets.cpp in Sources */,
@@ -2045,7 +2053,7 @@
 					/usr/local/Cellar/libpng/1.6.37/lib,
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 0.25;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,
@@ -2097,7 +2105,7 @@
 					/usr/local/Cellar/libpng/1.6.37/lib,
 				);
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.2;
+				MARKETING_VERSION = 0.25;
 				OTHER_LDFLAGS = (
 					"-framework",
 					Cocoa,

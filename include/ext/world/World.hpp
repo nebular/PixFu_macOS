@@ -105,7 +105,6 @@ namespace Pix {
 	public:
 
 		const WorldConfig_t CONFIG;
-		static float METRONOME;
 
 		static constexpr Transformation_t TRANSFORM_NONE = {};
 		static constexpr Transformation_t TRANSFORM_FLIPX = {
