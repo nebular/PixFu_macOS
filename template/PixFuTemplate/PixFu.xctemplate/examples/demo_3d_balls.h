@@ -50,6 +50,7 @@ void initGameObjects() {
 			0.0,		// elasticity
 			0.0f,		// crash efficiency
 			Pix::ObjectAerodynamics_t {},
+			Pix::ObjectTerrainBehavior_t {},
 			Pix::ObjectAnimation_t {},			// intrinsic animation
 			true,		// static object
 			2.0			// draw 2 times bigger (tree is taller so for collision we use normal radius)
@@ -73,6 +74,7 @@ void initGameObjects() {
 			0.7,								// elasticity
 			1,									// crash eff
 			Pix::ObjectAerodynamics_t { 0.95, 1.0 },						// aerodynamics, low resistance to terrain and air
+			Pix::ObjectTerrainBehavior_t {},
 			Pix::ObjectAnimation_t { true, 0.1, 0.15, 0.2, 0.1 }		// intrinsic animaton: enable, x, y, z, scale
 		}
 	);

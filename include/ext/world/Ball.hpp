@@ -111,7 +111,7 @@ namespace Pix {
 		void commitSimulation();
 
 		// process Height effects (height calcs separated from 2D calcs)
-		void processGravity(World *world, float fTime);
+		void processGravity(float fTime);
 
 	public:
 
@@ -119,7 +119,7 @@ namespace Pix {
 
 		static void setHeightScale(float scale);
 
-		Ball(const WorldConfig_t &planetConfig, ObjectProperties_t meta, ObjectLocation_t location, int overrideId = -1);
+		Ball(const WorldConfig_t &planetConfig, ObjectProperties_t& meta, ObjectLocation_t location, int overrideId = -1);
 
 		/**
 		 * ball normalized position is used by the camera

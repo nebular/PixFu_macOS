@@ -72,7 +72,7 @@ namespace Pix {
 	typedef struct sCameraConfig {
 
 		/** Initial Position (normalized, non world !!) */
-		const glm::vec3 position = {0,0,0};
+		const glm::vec3 position = {0, 0, 0};
 		/** INitial Yaw in radians */
 		const float yaw = DEF_YAW;
 		/** INitial Pitch in radians */
@@ -152,8 +152,6 @@ namespace Pix {
 		float fPlayerDistanceFar = 0.3f; // 0.05;
 		/** Camera pitch for target mode */
 		float fPlayerPitch = -0.05f;
-
-		const float DEFAULT_DISTANCE_FAR = 0.3f;
 		float fTargetDistance = fPlayerDistanceFar;
 
 	public:
@@ -236,6 +234,7 @@ namespace Pix {
 		// getters & getters
 
 		glm::vec3 getPosition();
+
 		glm::vec3 getFrontVector(float size);
 
 		/**
@@ -319,6 +318,7 @@ namespace Pix {
 // main getters / setters
 
 	inline glm::vec3 Camera::getPosition() { return mPosition * 1000.0f; }
+
 	inline glm::vec3 Camera::getFrontVector(float size) { return mFrontVector * size; }
 
 	inline float Camera::getPitch() { return fPitch; }

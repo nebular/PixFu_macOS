@@ -134,6 +134,7 @@ namespace Pix {
 	typedef const struct sObjectAerodynamics {
 		const float terrain = 0.8;
 		const float air = 0.95;
+		const float air_vertical = 0.9;
 	} ObjectAerodynamics_t;
 
 	/**
@@ -335,9 +336,6 @@ namespace Pix {
 
 		float fRadiusAnimator = 0;
 
-		// Object metadata
-		const ObjectProperties_t CONFIG;
-
 		// Object Location
 		ObjectLocation_t LOCATION;
 
@@ -345,11 +343,15 @@ namespace Pix {
 
 		static constexpr unsigned CLASSID_CODE = 1;
 
+		// Object metadata
+		const ObjectProperties_t CONFIG;
+
 		inline WorldObject(const WorldConfig_t &worldConfig, const ObjectProperties_t objectMeta, ObjectLocation_t location,
 						   unsigned int classid = CLASSID_CODE, int overrideId = -1) :
 				WorldObjectBase(worldConfig, objectMeta.CLASSNAME, classid, overrideId),
-				CONFIG(std::move(objectMeta)),
-				LOCATION(std::move(location)) {}
+				LOCATION(std::move(location)),
+				CONFIG(std::move(objectMeta))
+				{}
 
 		inline virtual glm::vec3 &pos() override { return LOCATION.position; }
 

@@ -2,9 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d329e8f4-fb6f-4ffd-8c24-471ed49602a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/BallWorld.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/BallWorld.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/WorldMeta.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.dia" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.dia" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Ball.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Ball.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.dia" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.dia" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Camera.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Camera.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Canvas2D.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Canvas2D.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Drawable.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Drawable.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Font.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Font.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Fu.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Fu.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/FuOLC.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/FuOLC.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Keyboard.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Keyboard.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/LayerVao.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/LayerVao.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Mouse.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Mouse.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjLoader.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjLoader.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectCluster.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectCluster.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectShader.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectShader.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/OpenGlUtils.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/OpenGlUtils.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/SpriteSheet.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/SpriteSheet.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/SpriteSheets.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/SpriteSheets.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Surface.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Surface.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Terrain.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Terrain.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/TerrainShader.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/TerrainShader.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Texture2D.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Texture2D.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/World.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/World.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/platform_apple.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/platform_apple.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/XCBuildData/build.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/Ball.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ext/world/BallWorld.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/BallWorld.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/Camera.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/WorldMeta.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/PixFu/src/core/LayerVao.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu/src/core/LayerVao.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/PixFu-macOS-0.2-Debug.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/releases/PixFu-macOS-0.2-Debug.tgz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/BallWorld.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/BallWorld.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/WorldMeta.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/examples/demo_3d_balls.h" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.xctemplate/examples/demo_3d_balls.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,11 +85,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1664">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
+            <state relative-caret-position="1748">
+              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/Camera.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-275" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/PixFu/src/input/AxisController.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-72">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -46,10 +113,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/Camera.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+            <state relative-caret-position="196">
+              <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/PixFu/src/core/LayerVao.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -75,25 +147,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-540">
               <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/doc/np5.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/README">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/ObjLoader.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -169,7 +222,30 @@
               <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="PixFu" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="license" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="PixFu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="PixFu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="PixFu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
@@ -374,6 +450,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3016688" />
@@ -397,6 +474,16 @@
       <window_info anchor="right" id="Flutter Outline" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
     </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -530,15 +617,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/Camera.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        <state relative-caret-position="196">
+          <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1664">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        <state relative-caret-position="1748">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -22,7 +22,7 @@ namespace Pix {
 
 	class BallWorld : public World {
 
-		static std::string TAG;
+		inline const static std::string TAG = "BallWorld";
 
 	protected:
 
@@ -73,7 +73,7 @@ namespace Pix {
 
 	public:
 
-		BallWorld(std::string levelName, WorldConfig_t config);
+		BallWorld(const std::string& levelName, WorldConfig_t& config);
 
 		virtual void tick(Pix::Fu *engine, float fElapsedTime) override;
 
