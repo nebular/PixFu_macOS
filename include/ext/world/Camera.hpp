@@ -54,23 +54,54 @@ namespace Pix {
 
 	class WorldObject;
 
+	/** Default camera vectors */
+	static constexpr glm::vec3 DEF_UPVECTOR = glm::vec3(0.0f, 1.0f, 0.0f);
+	static constexpr glm::vec3 DEF_FRONTVECTOR = glm::vec3(0.0f, 0.0f, 1.0f);
+
+	/** Default camera values */
+	static constexpr float DEF_YAW = 0;
+	static constexpr float DEF_PITCH = 0; // M_PI;
+	static constexpr float DEF_MOUSE_SENS = 0.1f;
+	static constexpr float DEF_ZOOM = 45.0f;
+
+
+	/**
+	 * The camera configurator
+	 */
+
+	typedef struct sCameraConfig {
+
+		/** Initial Position (normalized, non world !!) */
+		const glm::vec3 position = {0,0,0};
+		/** INitial Yaw in radians */
+		const float yaw = DEF_YAW;
+		/** INitial Pitch in radians */
+		const float pitch = DEF_PITCH;
+		/** INitial roll in radians */
+		const float roll = 0.0F;
+		/** The camera UP vectpr */
+		const glm::vec3 upVector = DEF_UPVECTOR;
+
+		/** Enable smooth mode */
+		const bool smooth = true;
+		/** delay for position follow */
+		const float lerpPosition = 10;
+		/** delay for angle follow */
+		const float lerpAngle = 15;
+		/** delay for distant mode follow TODO */
+		const float lerpDistance = 10;
+
+	} CameraConfig_t;
+
 	class Camera {
 
-		/** Default camera vectors */
-		static constexpr glm::vec3 DEF_UPVECTOR = glm::vec3(0.0f, 1.0f, 0.0f);
-		static constexpr glm::vec3 DEF_FRONTVECTOR = glm::vec3(0.0f, 0.0f, 1.0f);
 
 		static constexpr float STEP = 0.0015f, VSTEP = 0.05;
 
 		/** Default camera values */
-		static constexpr float DEF_YAW = 0;
-		static constexpr float DEF_PITCH = 0; // M_PI;
 		static constexpr float DEF_HEIGHT = 0.2f;
-		static constexpr float DEF_MOUSE_SENS = 0.1f;
-		static constexpr float DEF_ZOOM = 45.0f;
 
-		/** The world up vector in use */
-		const glm::vec3 UPVECTOR;
+		const CameraConfig_t CONFIG;
 
 		// Camera Attributes
 
@@ -96,8 +127,6 @@ namespace Pix {
 
 		/** Smooth targeting mode */
 		bool bSmooth = true;
-		/** Smooth Mode constant */
-		const float SMOOTHLERP;
 
 		/** Enable target mode */
 		bool bTargetMode = false;
@@ -126,30 +155,15 @@ namespace Pix {
 
 		const float DEFAULT_DISTANCE_FAR = 0.3f;
 		float fTargetDistance = fPlayerDistanceFar;
-		const float DISTANCELERP;
 
 	public:
 
 		/**
 		 * Constructs the camera
-		 * @param initialPosition Initial position
-		 * @param initialYaw Initial Yaw
-		 * @param initialPitch Initial pitch
-		 * @param upVector Up Vector
-		 * @param smooth Smooth mode
-		 * @param smoothLerp Smooth mode constantt
-		 * @param distanceLerp Distance mode constant (not finished)
+		 * @param configuration The configuration struct
 		 */
 
-		Camera(
-				glm::vec3 initialPosition = glm::vec3(0.0f, DEF_HEIGHT, 0.0f),
-				float initialYaw = DEF_YAW,
-				float initialPitch = DEF_PITCH,
-				glm::vec3 upVector = DEF_UPVECTOR,
-				bool smooth = true,
-				float smoothLerp = 15,
-				float distanceLerp = 5
-		);
+		Camera(CameraConfig_t configuration = {});
 
 		/**
 		 * Update the camera

@@ -71,7 +71,7 @@ namespace Pix {
 		 * @return The added object
 		 */
 
-		virtual WorldObject *add(ObjectProperties_t object, ObjectLocation_t location, bool setHeight = true);
+		virtual WorldObject *add(ObjectProperties_t object, ObjectLocation_t location, bool setHeight);
 
 		/**
 		 * Creates an object from irs OID. Object must have been inserted in the ObjectDb
@@ -82,7 +82,7 @@ namespace Pix {
 		 * @return The object
 		 */
 
-		virtual WorldObject *add(int oid, ObjectLocation_t location, bool setHeight = true);
+		virtual WorldObject *add(int oid, ObjectLocation_t location, bool setHeight);
 		
 		/**
 		 * Creates an object from irs OID. Object must have been inserted in the ObjectDb
@@ -92,7 +92,7 @@ namespace Pix {
 		 * @return The object
 		 */
 
-		virtual WorldObject *add(int oid, bool setHeight = true);
+		virtual WorldObject *add(int oid, bool setHeight);
 		
 		template<typename Func>
 		void iterateObjects(Func callback) {
@@ -141,7 +141,7 @@ namespace Pix {
 				false, false, 0        // global xyz flip
 		};
 
-		World(WorldConfig_t config);
+		World(WorldConfig_t& config);
 
 		virtual ~World();
 

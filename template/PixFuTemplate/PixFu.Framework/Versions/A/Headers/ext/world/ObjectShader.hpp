@@ -26,7 +26,7 @@ namespace Pix {
 
 	public:
 
-		ObjectShader(std::string name);
+		ObjectShader(const std::string& name);
 
 		void bindAttributes();
 
