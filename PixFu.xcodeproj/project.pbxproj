@@ -112,7 +112,7 @@
 		DB250FCE240B465900967FCA /* OpenGlUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGlUtils.cpp; sourceTree = "<group>"; };
 		DB250FD0240B465900967FCA /* Surface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Surface.hpp; sourceTree = "<group>"; };
 		DB250FD1240B465900967FCA /* Texture2D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Texture2D.hpp; sourceTree = "<group>"; };
-		DB250FD2240B465900967FCA /* PixFuExtension.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PixFuExtension.hpp; sourceTree = "<group>"; };
+		DB250FD2240B465900967FCA /* FuExtension.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FuExtension.hpp; sourceTree = "<group>"; };
 		DB250FD3240B465900967FCA /* OpenGL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGL.h; sourceTree = "<group>"; };
 		DB250FD4240B465900967FCA /* Fu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Fu.hpp; sourceTree = "<group>"; };
 		DB250FD5240B465900967FCA /* OpenGlUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGlUtils.h; sourceTree = "<group>"; };
@@ -846,7 +846,7 @@
 				DB250FD9240B465900967FCA /* LayerVao.hpp */,
 				DB250FD3240B465900967FCA /* OpenGL.h */,
 				DB250FD5240B465900967FCA /* OpenGlUtils.h */,
-				DB250FD2240B465900967FCA /* PixFuExtension.hpp */,
+				DB250FD2240B465900967FCA /* FuExtension.hpp */,
 				DB250FD7240B465900967FCA /* Shader.hpp */,
 				DB250FD0240B465900967FCA /* Surface.hpp */,
 				DB250FD1240B465900967FCA /* Texture2D.hpp */,
