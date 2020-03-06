@@ -54,26 +54,41 @@ namespace Pix {
 
 	class WorldObject;
 
+	/** Default camera vectors */
+	static constexpr glm::vec3 DEF_UPVECTOR = glm::vec3(0.0f, 1.0f, 0.0f);
+	static constexpr glm::vec3 DEF_FRONTVECTOR = glm::vec3(0.0f, 0.0f, 1.0f);
+
+	/** Default camera values */
+	static constexpr float DEF_YAW = 0;
+	static constexpr float DEF_PITCH = 0; // M_PI;
+	static constexpr float DEF_MOUSE_SENS = 0.1f;
+	static constexpr float DEF_ZOOM = 45.0f;
+
+
+	/**
+	 * The camera configurator
+	 */
+
 	typedef struct sCameraConfig {
 
-		/** Default camera vectors */
-		static constexpr glm::vec3 DEF_UPVECTOR = glm::vec3(0.0f, 1.0f, 0.0f);
-		static constexpr glm::vec3 DEF_FRONTVECTOR = glm::vec3(0.0f, 0.0f, 1.0f);
-
-		/** Default camera values */
-		static constexpr float DEF_YAW = 0;
-		static constexpr float DEF_PITCH = 0; // M_PI;
-		static constexpr float DEF_MOUSE_SENS = 0.1f;
-		static constexpr float DEF_ZOOM = 45.0f;
-
+		/** Initial Position (normalized, non world !!) */
 		const glm::vec3 position = {0,0,0};
+		/** INitial Yaw in radians */
 		const float yaw = DEF_YAW;
+		/** INitial Pitch in radians */
 		const float pitch = DEF_PITCH;
-		const glm::vec3 upVector;
+		/** INitial roll in radians */
+		const float roll = 0.0F;
+		/** The camera UP vectpr */
+		const glm::vec3 upVector = DEF_UPVECTOR;
 
+		/** Enable smooth mode */
 		const bool smooth = true;
+		/** delay for position follow */
 		const float lerpPosition = 10;
+		/** delay for angle follow */
 		const float lerpAngle = 15;
+		/** delay for distant mode follow TODO */
 		const float lerpDistance = 10;
 
 	} CameraConfig_t;
@@ -145,13 +160,7 @@ namespace Pix {
 
 		/**
 		 * Constructs the camera
-		 * @param initialPosition Initial position
-		 * @param initialYaw Initial Yaw
-		 * @param initialPitch Initial pitch
-		 * @param upVector Up Vector
-		 * @param smooth Smooth mode
-		 * @param smoothLerp Smooth mode constantt
-		 * @param distanceLerp Distance mode constant (not finished)
+		 * @param configuration The configuration struct
 		 */
 
 		Camera(CameraConfig_t configuration = {});

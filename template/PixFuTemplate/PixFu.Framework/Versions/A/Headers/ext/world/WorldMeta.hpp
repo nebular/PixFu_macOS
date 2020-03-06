@@ -137,6 +137,17 @@ namespace Pix {
 	} ObjectAerodynamics_t;
 
 	/**
+	 * Packs behavior of object when crawling through terrain
+	 */
+	typedef struct sObjectTerrain {
+		const float SCRATCHING_NEW = 0.6;
+		const float CLIMB_LIMIT = 0.3;
+		const float FALL_LIMIT = 0.3;
+		const float RIDEHEIGHT_SEAMLESS = 5;	// ignore this height difference
+	} ObjectTerrainBehavior_t;
+
+
+	/**
 	 *
 	 * The static Object properties. This is used to insert an object into the world.
 	 * The class ObjectDB can store these structs ("all game objects") then you can also
@@ -163,6 +174,9 @@ namespace Pix {
 
 		/** total resistance to air and terrain (rough approximation) */
 		const ObjectAerodynamics_t aero = {};
+
+		/** Terrain friction etc */
+		const ObjectTerrainBehavior_t terrain = {};
 
 		/** Intrinsic Animation */
 		const ObjectAnimation_t animation = {};

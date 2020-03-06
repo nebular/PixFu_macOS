@@ -2,42 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d329e8f4-fb6f-4ffd-8c24-471ed49602a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/xcuserdata/rodo.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/xcuserdata/rodo.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/core/Fu.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/core/Fu.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Ball.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/ObjectShader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/ObjectShader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/World.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/WorldMeta.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/Headers/ext/world/WorldMeta.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Ball.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Ball.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallWorld.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Camera.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Camera.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectCluster.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectCluster.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectShader.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectShader.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Terrain.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Terrain.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/TerrainShader.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/TerrainShader.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/World.o" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/World.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/XCBuildData/build.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/Camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/ObjectShader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/ObjectShader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/include/ext/world/World.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/Camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/Camera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions/World/core/headers/Camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/PixFu-macOS-0.2-Debug.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/releases/PixFu-macOS-0.2-Debug.tgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/releases/PixFu-macOS-0.2-Release.tgz" beforeDir="false" afterPath="$PROJECT_DIR$/releases/PixFu-macOS-0.2-Release.tgz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/Camera.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjectShader.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/ObjectShader.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/World.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/Headers/ext/world/World.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeDirectory" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeRequirements-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

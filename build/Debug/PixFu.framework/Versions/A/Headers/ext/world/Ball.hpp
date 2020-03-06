@@ -14,11 +14,6 @@
 
 // Flag No Time Info
 #define NOTIME -1
-// car decceleration constant TODO move to sFeatures
-#define TERRAINFRICTION 0.005
-// height irregularities gradient we can ignore and drive through unaffected
-#define RIDEHEIGHT_SEAMLESS 5
-// 0.1
 
 #define FAKE_BALL_ID 9999
 
@@ -75,9 +70,6 @@ namespace Pix {
 		// Circuit has the tight collision detection loops
 		// so it is cool to have private access to vars, mostly to position.
 
-		static constexpr float FEATURES_SCRATCHING_NEW = 0.6;
-		static constexpr float FEATURES_CLIMB_LIMIT = 0.3;        // TODO
-		static constexpr float FEATURES_FALL_LIMIT = 0.3;         // TODO move to features
 		static constexpr float ACCELERATION_EARTH = -9.8f * 100;  // i found a 9.8 - ish value that makes sense so let´s keep it like this :)
 
 		// Threshold indicating stability of object
