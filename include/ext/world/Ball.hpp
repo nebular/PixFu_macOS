@@ -331,7 +331,8 @@ namespace Pix {
 
 	inline float Ball::angle() { return mRotation.y; }                              // ball angle (heading)
 	inline float Ball::speed() {
-		return glm::fastSqrt(mSpeed.x * mSpeed.x + mSpeed.z * mSpeed.z);
+//		return glm::fastSqrt(mSpeed.x * mSpeed.x + mSpeed.z * mSpeed.z);
+		return sqrt(mSpeed.x * mSpeed.x + mSpeed.z * mSpeed.z);
 	}
 
 	inline glm::vec3 Ball::velocity() { return mSpeed; }
@@ -353,6 +354,7 @@ namespace Pix {
 
 	inline float Ball::distance(Ball *target) {
 		return sqrtf(
+//		return glm::fastSqrt(
 				(mPosition.x - target->mPosition.x) * (mPosition.x - target->mPosition.x)
 				+ (mPosition.z - target->mPosition.z) * (mPosition.z - target->mPosition.z));
 	}

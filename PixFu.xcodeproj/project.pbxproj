@@ -73,6 +73,8 @@
 		DB48234424146D8600F9A306 /* opengl in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB48234124146D7500F9A306 /* opengl */; };
 		DB48235024152EED00F9A306 /* VirtualKeys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB48234F24152EED00F9A306 /* VirtualKeys.cpp */; };
 		DB48235224152EF800F9A306 /* VirtualKeys.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB48235124152EF800F9A306 /* VirtualKeys.hpp */; };
+		DB482354241530E800F9A306 /* WorldObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB482353241530E800F9A306 /* WorldObject.cpp */; };
+		DB482356241530FE00F9A306 /* WorldObject.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB482355241530FE00F9A306 /* WorldObject.hpp */; };
 		DBCF5777240FD6C9008A6FFB /* BallWorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */; };
 		DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */; };
 		DBED9887240C7797003A7A39 /* PixFu.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED9886240C7797003A7A39 /* PixFu.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -670,6 +672,8 @@
 		DB48234124146D7500F9A306 /* opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opengl; path = modules/PixFu/assets/opengl; sourceTree = "<group>"; };
 		DB48234F24152EED00F9A306 /* VirtualKeys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualKeys.cpp; sourceTree = "<group>"; };
 		DB48235124152EF800F9A306 /* VirtualKeys.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VirtualKeys.hpp; sourceTree = "<group>"; };
+		DB482353241530E800F9A306 /* WorldObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorldObject.cpp; sourceTree = "<group>"; };
+		DB482355241530FE00F9A306 /* WorldObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WorldObject.hpp; sourceTree = "<group>"; };
 		DBCF54AD240DE50C008A6FFB /* Bisasam_16x16_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16_stroke.png; sourceTree = "<group>"; };
 		DBCF54AE240DE50C008A6FFB /* Bisasam_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16.png; sourceTree = "<group>"; };
 		DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallWorldMap.cpp; sourceTree = "<group>"; };
@@ -1630,6 +1634,7 @@
 				DB2511EA240B465E00967FCA /* Terrain.cpp */,
 				DB2511DB240B465D00967FCA /* TerrainShader.cpp */,
 				DB2511EB240B465E00967FCA /* World.cpp */,
+				DB482353241530E800F9A306 /* WorldObject.cpp */,
 				DB2511DF240B465E00967FCA /* headers */,
 			);
 			path = core;
@@ -1646,6 +1651,7 @@
 				DB2511E2240B465E00967FCA /* ObjectShader.hpp */,
 				DB2511E8240B465E00967FCA /* ObjLoader.hpp */,
 				DB2511E0240B465E00967FCA /* Terrain.hpp */,
+				DB482355241530FE00F9A306 /* WorldObject.hpp */,
 				DB2511E7240B465E00967FCA /* TerrainShader.hpp */,
 				DB2511E1240B465E00967FCA /* World.hpp */,
 				DB2511E3240B465E00967FCA /* WorldMeta.hpp */,
@@ -1769,6 +1775,7 @@
 				DBED98AA240C7AEE003A7A39 /* PixFuSprites.hpp in Headers */,
 				DBED98AB240C7AEE003A7A39 /* PixFuWorld.hpp in Headers */,
 				DB13F2AE240C50F1008766EC /* arch in Headers */,
+				DB482356241530FE00F9A306 /* WorldObject.hpp in Headers */,
 				DB250F93240B44C700967FCA /* core in Headers */,
 				DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */,
 				DB48235224152EF800F9A306 /* VirtualKeys.hpp in Headers */,
@@ -1920,6 +1927,7 @@
 			files = (
 				DB251295240B466100967FCA /* Font.cpp in Sources */,
 				DB251228240B465F00967FCA /* LayerVao.cpp in Sources */,
+				DB482354241530E800F9A306 /* WorldObject.cpp in Sources */,
 				DB251416240B466A00967FCA /* TerrainShader.cpp in Sources */,
 				DB25123F240B465F00967FCA /* FuOLC.cpp in Sources */,
 				DB251429240B466B00967FCA /* BallWorld.cpp in Sources */,

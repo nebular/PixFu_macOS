@@ -170,6 +170,7 @@ dependencies: \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Drawable.hpp \
   modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
   modules/PixFu_Extensions/World/core/headers/StaticObject.hpp \
+  modules/PixFu_Extensions/World/core/headers/WorldObject.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/matrix_inverse.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../detail/setup.hpp \
   modules/PixFu/src/thirdparty/glm/gtc/../mat2x2.hpp \

@@ -21,6 +21,7 @@
 
 #include "Keyboard.hpp"
 #include "WorldMeta.hpp"
+#include "WorldObject.hpp"
 
 #include <vector>
 #include <cmath>

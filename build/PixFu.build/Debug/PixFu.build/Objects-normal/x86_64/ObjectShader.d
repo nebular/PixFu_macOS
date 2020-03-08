@@ -169,6 +169,7 @@ dependencies: \
   modules/PixFu_Extensions/World/core/headers/StaticObject.hpp \
   modules/PixFu/src/thirdparty/glm/mat4x4.hpp \
   modules/PixFu/src/thirdparty/glm/vec4.hpp \
+  modules/PixFu_Extensions/World/core/headers/WorldObject.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu/src/core/headers/Shader.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/core/headers/Frustum.hpp \
   modules/PixFu/src/thirdparty/glm/geometric.hpp \
