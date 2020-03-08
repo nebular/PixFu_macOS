@@ -11,6 +11,7 @@
 #include "Camera.hpp"
 #include "Shader.hpp"
 #include "glm/mat4x4.hpp"
+#include "glm/vec4.hpp"
 
 namespace Pix {
 
@@ -39,6 +40,8 @@ namespace Pix {
 		void loadViewMatrix(Camera *camera);
 
 		void loadProjectionMatrix(glm::mat4 &projection);
+
+		void setTint(glm::vec4 tint);
 
 		Frustum *frustum() { return mFrustum; }
 	};

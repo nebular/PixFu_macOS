@@ -12,4 +12,5 @@
 #include "ext/world/BallWorld.hpp"
 #include "ext/world/BallWorldMap.hpp"
 #include "ext/world/BallPlayer.hpp"
+#include "ext/world/MousePicker.hpp"
 #include "ext/world/BallPlayerFeatures.hpp"

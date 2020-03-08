@@ -191,5 +191,7 @@ dependencies: \
   modules/PixFu/src/thirdparty/glm/gtx/../exponential.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/../geometric.hpp \
   modules/PixFu/src/thirdparty/glm/gtx/fast_square_root.inl \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallObject.hpp \
+  /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/core/headers/WorldMeta.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallPlayer.hpp \
   /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/modules/PixFu_Extensions/World/worlds/ballworld/headers/BallPlayerFeatures.hpp

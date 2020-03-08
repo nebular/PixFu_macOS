@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d329e8f4-fb6f-4ffd-8c24-471ed49602a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/PixFu.xcodeproj/project.xcworkspace/xcuserdata/rodo.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/build/Debug/PixFu.framework/Versions/A/PixFu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.dia" beforeDir="false" afterPath="$PROJECT_DIR$/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.dia" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/PixFu_Extensions" beforeDir="false" afterPath="$PROJECT_DIR$/modules/PixFu_Extensions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" beforeDir="false" afterPath="$PROJECT_DIR$/template/PixFuTemplate/PixFu.Framework/Versions/A/PixFu" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+            <state relative-caret-position="1691">
+              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -235,6 +232,14 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="PixFu_Extensions" type="462c0819:PsiDirectoryNode" />
               <item name="World" type="462c0819:PsiDirectoryNode" />
+              <item name="geom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PixFu_macOS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PixFu_macOS" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="PixFu_Extensions" type="462c0819:PsiDirectoryNode" />
+              <item name="World" type="462c0819:PsiDirectoryNode" />
               <item name="worlds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,14 +402,22 @@
       <option name="project" value="LOCAL" />
       <updated>1583451711172</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge branch 'master' of https://github.com/nebular/PixFu&#10;&#10;# Conflicts:&#10;#&#9;src/core/Surface.cpp">
+      <created>1583468612463</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583468612463</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3016688" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3016688" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -417,7 +430,7 @@
       <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4951535" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.47253636" side_tool="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Flutter Performance" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="6" sideWeight="0.52907914" visible="true" weight="0.46456692" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.52907914" visible="true" weight="0.46456692" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32939634" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
@@ -487,7 +500,8 @@
     <MESSAGE value="Updated readme" />
     <MESSAGE value="Updated readme II" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/nebular/PixFu&#10;&#10;# Conflicts:&#10;#&#9;src/core/Surface.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/nebular/PixFu&#10;&#10;# Conflicts:&#10;#&#9;src/core/Surface.cpp" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/modules/PixFu/src/core/Surface.cpp">
@@ -575,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/PixFu_Extensions/World/core/World.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+        <state relative-caret-position="1691">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
         </state>
       </provider>
     </entry>

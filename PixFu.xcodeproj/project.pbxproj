@@ -65,12 +65,32 @@
 		DB251452240B4B6000967FCA /* libpng16.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB251450240B49FA00967FCA /* libpng16.a */; };
 		DB4822E124121A4B00F9A306 /* WeaponHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4822DF24121A4B00F9A306 /* WeaponHelper.cpp */; };
 		DB4822E224121A4B00F9A306 /* WeaponHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4822E024121A4B00F9A306 /* WeaponHelper.h */; };
+		DB4822E5241274B200F9A306 /* BallObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4822E3241274B200F9A306 /* BallObject.cpp */; };
+		DB4822E6241274B200F9A306 /* BallObject.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB4822E4241274B200F9A306 /* BallObject.hpp */; };
+		DB4822EB241419C700F9A306 /* MousePicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4822E9241419C700F9A306 /* MousePicker.cpp */; };
+		DB4822EC241419C700F9A306 /* MousePicker.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB4822EA241419C700F9A306 /* MousePicker.hpp */; };
+		DB48234324146D8100F9A306 /* fonts in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB48234024146D7500F9A306 /* fonts */; };
+		DB48234424146D8600F9A306 /* opengl in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB48234124146D7500F9A306 /* opengl */; };
 		DBCF5777240FD6C9008A6FFB /* BallWorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */; };
 		DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */; };
 		DBED9887240C7797003A7A39 /* PixFu.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED9886240C7797003A7A39 /* PixFu.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBED98AA240C7AEE003A7A39 /* PixFuSprites.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED98A8240C7AED003A7A39 /* PixFuSprites.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBED98AB240C7AEE003A7A39 /* PixFuWorld.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED98A9240C7AED003A7A39 /* PixFuWorld.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB48234224146D7A00F9A306 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				DB48234324146D8100F9A306 /* fonts in CopyFiles */,
+				DB48234424146D8600F9A306 /* opengl in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DB13F28E240C5079008766EC /* arch */ = {isa = PBXFileReference; lastKnownFileType = folder; path = arch; sourceTree = "<group>"; };
@@ -640,6 +660,12 @@
 		DB251450240B49FA00967FCA /* libpng16.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpng16.a; path = ../../../../../../usr/local/Cellar/libpng/1.6.37/lib/libpng16.a; sourceTree = "<group>"; };
 		DB4822DF24121A4B00F9A306 /* WeaponHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WeaponHelper.cpp; sourceTree = "<group>"; };
 		DB4822E024121A4B00F9A306 /* WeaponHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponHelper.h; sourceTree = "<group>"; };
+		DB4822E3241274B200F9A306 /* BallObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BallObject.cpp; sourceTree = "<group>"; };
+		DB4822E4241274B200F9A306 /* BallObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BallObject.hpp; sourceTree = "<group>"; };
+		DB4822E9241419C700F9A306 /* MousePicker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MousePicker.cpp; sourceTree = "<group>"; };
+		DB4822EA241419C700F9A306 /* MousePicker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MousePicker.hpp; sourceTree = "<group>"; };
+		DB48234024146D7500F9A306 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = modules/PixFu/assets/fonts; sourceTree = "<group>"; };
+		DB48234124146D7500F9A306 /* opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opengl; path = modules/PixFu/assets/opengl; sourceTree = "<group>"; };
 		DBCF54AD240DE50C008A6FFB /* Bisasam_16x16_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16_stroke.png; sourceTree = "<group>"; };
 		DBCF54AE240DE50C008A6FFB /* Bisasam_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16.png; sourceTree = "<group>"; };
 		DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallWorldMap.cpp; sourceTree = "<group>"; };
@@ -671,6 +697,7 @@
 		DB250F6F240B422100967FCA = {
 			isa = PBXGroup;
 			children = (
+				DB48233F24146D6300F9A306 /* assetstocopy */,
 				DB250F86240B443400967FCA /* include */,
 				DB250F7B240B422100967FCA /* PixFu */,
 				DB250F7A240B422100967FCA /* Products */,
@@ -1590,6 +1617,7 @@
 			isa = PBXGroup;
 			children = (
 				DB2511DC240B465D00967FCA /* Camera.cpp */,
+				DB4822E9241419C700F9A306 /* MousePicker.cpp */,
 				DB2511DE240B465E00967FCA /* ObjectCluster.cpp */,
 				DB2511EC240B465E00967FCA /* ObjectShader.cpp */,
 				DB2511DD240B465E00967FCA /* ObjLoader.cpp */,
@@ -1606,6 +1634,7 @@
 			children = (
 				DB2511E9240B465E00967FCA /* Camera.hpp */,
 				DB2511E4240B465E00967FCA /* Frustum.hpp */,
+				DB4822EA241419C700F9A306 /* MousePicker.hpp */,
 				DB2511E6240B465E00967FCA /* Obj_Loader.hpp */,
 				DB2511E5240B465E00967FCA /* ObjectCluster.hpp */,
 				DB2511E2240B465E00967FCA /* ObjectShader.hpp */,
@@ -1632,6 +1661,7 @@
 				DB2511F8240B465E00967FCA /* Ball.cpp */,
 				DB2511F1240B465E00967FCA /* BallWorld.cpp */,
 				DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */,
+				DB4822E3241274B200F9A306 /* BallObject.cpp */,
 				DB2511F0240B465E00967FCA /* BallPlayer.cpp */,
 				DB2511F2240B465E00967FCA /* headers */,
 			);
@@ -1644,6 +1674,7 @@
 				DB2511F3240B465E00967FCA /* BallPlayerFeatures.hpp */,
 				DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */,
 				DB2511F4240B465E00967FCA /* Ball.hpp */,
+				DB4822E4241274B200F9A306 /* BallObject.hpp */,
 				DB2511F5240B465E00967FCA /* BallWorld.hpp */,
 				DB2511F7240B465E00967FCA /* BallPlayer.hpp */,
 			);
@@ -1689,6 +1720,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB48233F24146D6300F9A306 /* assetstocopy */ = {
+			isa = PBXGroup;
+			children = (
+				DB48234024146D7500F9A306 /* fonts */,
+				DB48234124146D7500F9A306 /* opengl */,
+			);
+			name = assetstocopy;
+			sourceTree = "<group>";
+		};
 		DBED9825240C61AF003A7A39 /* scripts */ = {
 			isa = PBXGroup;
 			children = (
@@ -1717,6 +1757,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4822EC241419C700F9A306 /* MousePicker.hpp in Headers */,
 				DB250F7E240B422100967FCA /* PixFu.h in Headers */,
 				DBED9887240C7797003A7A39 /* PixFu.hpp in Headers */,
 				DBED98AA240C7AEE003A7A39 /* PixFuSprites.hpp in Headers */,
@@ -1735,6 +1776,7 @@
 				DB25143C240B470300967FCA /* Fu.cpp in Headers */,
 				DB25143D240B470300967FCA /* Texture2D.cpp in Headers */,
 				DB25143E240B470300967FCA /* Surface.cpp in Headers */,
+				DB4822E6241274B200F9A306 /* BallObject.hpp in Headers */,
 				DB25143F240B470300967FCA /* Mouse.cpp in Headers */,
 				DB251440240B470300967FCA /* Keyboard.cpp in Headers */,
 				DB251441240B470300967FCA /* AxisController.cpp in Headers */,
@@ -1767,6 +1809,7 @@
 				DBED9824240C6168003A7A39 /* ShellScript */,
 				DBED9829240C64AA003A7A39 /* ShellScript */,
 				DBED98CA240C8A68003A7A39 /* ShellScript */,
+				DB48234224146D7A00F9A306 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1877,6 +1920,7 @@
 				DB25123D240B465F00967FCA /* AxisController.cpp in Sources */,
 				DB251229240B465F00967FCA /* Drawable.cpp in Sources */,
 				DB251418240B466A00967FCA /* ObjLoader.cpp in Sources */,
+				DB4822E5241274B200F9A306 /* BallObject.cpp in Sources */,
 				DB251235240B465F00967FCA /* Fu.cpp in Sources */,
 				DB25122A240B465F00967FCA /* OpenGlUtils.cpp in Sources */,
 				DB251236240B465F00967FCA /* Texture2D.cpp in Sources */,
@@ -1886,6 +1930,7 @@
 				DB251238240B465F00967FCA /* Mouse.cpp in Sources */,
 				DB251426240B466B00967FCA /* ObjectShader.cpp in Sources */,
 				DB251417240B466A00967FCA /* Camera.cpp in Sources */,
+				DB4822EB241419C700F9A306 /* MousePicker.cpp in Sources */,
 				DB251424240B466B00967FCA /* Terrain.cpp in Sources */,
 				DB25123C240B465F00967FCA /* Keyboard.cpp in Sources */,
 				DB4822E124121A4B00F9A306 /* WeaponHelper.cpp in Sources */,

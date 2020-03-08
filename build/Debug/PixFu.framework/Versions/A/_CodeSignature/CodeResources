@@ -8,6 +8,114 @@
 		<data>
 		nsaVOJPJwOSEEnU/4gGHFWvL8q0=
 		</data>
+		<key>Resources/fonts/1943.png</key>
+		<data>
+		QNNICicmVQIAaIj/aNpKFA9CKtw=
+		</data>
+		<key>Resources/fonts/Afterburner (Sega).png</key>
+		<data>
+		FMH9yjBAV+j3drcNAeeGMuaRYgU=
+		</data>
+		<key>Resources/fonts/Bisasam_16x16.png</key>
+		<data>
+		kehAe2HChkDV1oH/PsWpegNZ7mI=
+		</data>
+		<key>Resources/fonts/Bisasam_16x16_stroke.png</key>
+		<data>
+		G42LhYkx0/hy/cR/zCDuq6we1Zg=
+		</data>
+		<key>Resources/fonts/Bubble Memories (Taito).png</key>
+		<data>
+		A7S8JY6AMyA2foGOvejggm+fX6U=
+		</data>
+		<key>Resources/fonts/Dangerous Seed (Namco).png</key>
+		<data>
+		XfGTMW1AJTn/5x9F08tQm0Ktvt0=
+		</data>
+		<key>Resources/fonts/Guwange (Cave).png</key>
+		<data>
+		MYeGFryGApTugXw3wDHCcNPXtFE=
+		</data>
+		<key>Resources/fonts/Raiden Fighters (Seibu).png</key>
+		<data>
+		7KidiwDcipakYWsexzSM6p5NDPo=
+		</data>
+		<key>Resources/fonts/Samurai Shodown 3 (SNK).png</key>
+		<data>
+		7sowPbHEQGU33V7aVeAWO3xKvck=
+		</data>
+		<key>Resources/fonts/default.png</key>
+		<data>
+		al2G0uFS1m/rW7yNfADG6YcE5q0=
+		</data>
+		<key>Resources/fonts/steel-color.png</key>
+		<data>
+		+Kajq6WniXzKlmGe/saRLblKEUA=
+		</data>
+		<key>Resources/opengl/v300es/default.fragment.glsl</key>
+		<data>
+		RaHxDnHh74OXdSfcxwiPneAEb2I=
+		</data>
+		<key>Resources/opengl/v300es/default.vertex.glsl</key>
+		<data>
+		R19LN4kfe3L0ydYX+grz66MgShM=
+		</data>
+		<key>Resources/opengl/v300es/sprites.fragment.glsl</key>
+		<data>
+		LStMREKfTSy15Xkat2WwQRDAric=
+		</data>
+		<key>Resources/opengl/v300es/sprites.vertex.glsl</key>
+		<data>
+		bx1ADb3V/EBZ1/I6BP109j9yWnA=
+		</data>
+		<key>Resources/opengl/v300es/world.fragment.glsl</key>
+		<data>
+		Gsag2mzOIqDINeYCRZSuk38IZwY=
+		</data>
+		<key>Resources/opengl/v300es/world.vertex.glsl</key>
+		<data>
+		rwJkI3OFLUfzgCI0oleXi3Ory3g=
+		</data>
+		<key>Resources/opengl/v300es/world_objects.fragment.glsl</key>
+		<data>
+		Fjwv23syn4S3DYlcTpaykHpRG+s=
+		</data>
+		<key>Resources/opengl/v300es/world_objects.vertex.glsl</key>
+		<data>
+		bfOU9npzP5gl6Du0RHebZDHJP8w=
+		</data>
+		<key>Resources/opengl/v330core/default.fragment.glsl</key>
+		<data>
+		7G6EFMA08TzkAIz4SYnfTizgN2U=
+		</data>
+		<key>Resources/opengl/v330core/default.vertex.glsl</key>
+		<data>
+		MO7uDzdnEVsIW3IxeYIKKczm9Bg=
+		</data>
+		<key>Resources/opengl/v330core/sprites.fragment.glsl</key>
+		<data>
+		tJN+cCweIGyrhe93CxgpXljbhEc=
+		</data>
+		<key>Resources/opengl/v330core/sprites.vertex.glsl</key>
+		<data>
+		gp+tmjbnjmJujpVeYfGlDdIsA7o=
+		</data>
+		<key>Resources/opengl/v330core/world.fragment.glsl</key>
+		<data>
+		Z+VwBmpE1HkAEYnucyWGBP8Sm+0=
+		</data>
+		<key>Resources/opengl/v330core/world.vertex.glsl</key>
+		<data>
+		e9zZ8dNt9/VJv171ug8Fes29jBU=
+		</data>
+		<key>Resources/opengl/v330core/world_objects.fragment.glsl</key>
+		<data>
+		mgkIT4jUt3Cqb/3B7IC0E/1uGUc=
+		</data>
+		<key>Resources/opengl/v330core/world_objects.vertex.glsl</key>
+		<data>
+		0RjQvkTzGnrPS0/VYl4gPfVKkoE=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -48,11 +156,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CiwzYJOu19Ip8YbiPzuvczXl+Ik=
+			4eZrINO9KrKKxpOWZ2ZePV0bc70=
 			</data>
 			<key>hash2</key>
 			<data>
-			oNl47WeYMk+gNA/9WcLhvcW7t95daMTgTQhVOzWeKuQ=
+			p8QB4Pvtf1Kg5N5g0dJHInDPqB+AOhwwtQOuwU2SD6c=
 			</data>
 		</dict>
 		<key>Headers/arch/apple/cocoawindowing.h</key>
@@ -92,11 +200,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/lcQyVF6oQuKXxO0ZVKqtK0sJas=
+			Xeq5vJxwmgXKeU3QLSaIflUCFJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			NhL0ztzybfTbAB4Rk5ZW+xZKYpX0zRN8yJ54fP5RUJA=
+			DQ7yqQchjnQLCkKpbQwnLSHNeEs3Pjc6Rp0SLHnwJy8=
 			</data>
 		</dict>
 		<key>Headers/core/FuExtension.hpp</key>
@@ -220,6 +328,17 @@
 			ujcLa0gnGzO+Ip2XWi46tsukhwK2n/DEmLjIeJ5ucFA=
 			</data>
 		</dict>
+		<key>Headers/ext/world/BallObject.hpp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			APJDNaR7JyGlx/tlOb7VCQrXRys=
+			</data>
+			<key>hash2</key>
+			<data>
+			twnRjDvpYm42mkm5Wo7Mz++1G/3pnHlFGYFlQ2gRupU=
+			</data>
+		</dict>
 		<key>Headers/ext/world/BallPlayer.hpp</key>
 		<dict>
 			<key>hash</key>
@@ -246,11 +365,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NfhRvogqUfvagMAbSV5gjL5uymE=
+			nck5BmnHYWHi0n+mjAw9Uxjwxd0=
 			</data>
 			<key>hash2</key>
 			<data>
-			QRNfmOinUWueNqUCSAyJwF3tAEPLWcdwHQaPZOvmgSg=
+			W5tP0tyihKxCUOMaDuVcRDycfNej91+PTmIXRZSgLZY=
 			</data>
 		</dict>
 		<key>Headers/ext/world/BallWorldMap.hpp</key>
@@ -268,11 +387,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iKXn33Pq7OVNwfX5U2Dn654faxQ=
+			d+YMQERUt+PChGvhV/Br80W5664=
 			</data>
 			<key>hash2</key>
 			<data>
-			0fiMCs5GVCa030io5n3TYon04+OIStlMa+5Uh39Yd+M=
+			yPVxfBG3dTm5fShJKE1valJvjBdvs9RBOKYAW0FxMXc=
 			</data>
 		</dict>
 		<key>Headers/ext/world/Config.hpp</key>
@@ -301,11 +420,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LmUgtBk+TDVdWDFw7ZVYEpkeJ6Q=
+			PEz+zDPBZ0VdNekPWz0cp/0MOcU=
 			</data>
 			<key>hash2</key>
 			<data>
-			nu9jgnMLUM8k/+luRyvRpwRwnwLJ1fpKndFHLM9KPgQ=
+			0TiNYZMi0g6j7M+ofkvj/7D+Zl8rqjzL3+STnwTT91I=
+			</data>
+		</dict>
+		<key>Headers/ext/world/MousePicker.hpp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lV76g+gmfa4Xh+F0o4dfzCgaIF4=
+			</data>
+			<key>hash2</key>
+			<data>
+			0nUC8Hj2I9YFIeIdpIrZFyJ6BG3+vwrqZSO4hcfatJY=
 			</data>
 		</dict>
 		<key>Headers/ext/world/ObjLoader.hpp</key>
@@ -345,22 +475,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r4xcHyO5Fcq8mDZyKzRKWQS/NBA=
+			wmh4wFcAejjGrANddvntFqKFvO8=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Ludz7utyfNEKSP32Y8NFz3YNRfmrctw36SU4t5N6WA=
+			5vNO4221mGvR2D0wojnHscRdqdmew9MfeaWOTXndw8w=
 			</data>
 		</dict>
 		<key>Headers/ext/world/Splines.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UsON94WH6dbORtLkPA1XGufmMMM=
+			SGFF0v+njcVqvFFrKKUpMrSiX5s=
 			</data>
 			<key>hash2</key>
 			<data>
-			+RPb9ebtU1Eq7VTMc59bFr5hoFcTrIQqssjqh1v9USo=
+			DNftHJrQn+2uPGNCAcF8nRok7oXTOVxq8JtdLNu04MQ=
 			</data>
 		</dict>
 		<key>Headers/ext/world/StaticObject.hpp</key>
@@ -407,26 +537,48 @@
 			GoykBHC0KaRypD5FHySbM+E0ijEpzKxOpq4Y2OGjSJk=
 			</data>
 		</dict>
+		<key>Headers/ext/world/WeaponHelper.cpp</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pCg3at17oO0eYY8a37d+308bzms=
+			</data>
+			<key>hash2</key>
+			<data>
+			EZJ2uxnkkXERYuDTNjndEWtzhopQxGO0iHsGfLgh2Bo=
+			</data>
+		</dict>
+		<key>Headers/ext/world/WeaponHelper.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Zr3espZkwCxvnzeU1YTOrkgWkPw=
+			</data>
+			<key>hash2</key>
+			<data>
+			UWk0jTBHLh2ExcPeK6pQvgTLiumD1zxJAypA4BAijK8=
+			</data>
+		</dict>
 		<key>Headers/ext/world/World.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ec5jVxPJh8wStUDF1ARmoI1gTwo=
+			kwjgogSUvBlaKFKMCGYc01YSE2Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			2V8SZKKrHHQNRZKpw/9+YdVsemh54Zsy27c61TUTfEU=
+			pvVGXpWTeGe1IDyEY4GRJ1mWfGeZD5alqrY27DVSYCA=
 			</data>
 		</dict>
 		<key>Headers/ext/world/WorldMeta.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ehm54PkGw7FkJVgp6ocXZXCBMIo=
+			YagPkd0BpM/UehB81N5JBRNXhRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4HTT0ZTjrOWD2wdWmnRwizXOwuBaVd1jkrI55mPfSFQ=
+			gqRf5WWFD64NmqK6mDEhksOYO2hznYdWCPIIa7S3E6Q=
 			</data>
 		</dict>
 		<key>Headers/glm/CMakeLists.txt</key>
@@ -4613,33 +4765,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8FXirKU3vCrYK65cxct1bvV13zI=
+			4ngXQUSDubWW5g/5BnlCR0G5CGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			7+FeEt/Vx+sCxect4McOvk9uyKk2aSCezcaiX4eA1Bk=
+			ilm5D9EFm6hj9UAXcekiiev7NCWSspT60SLfy3YbN4Y=
 			</data>
 		</dict>
 		<key>Headers/input/Keyboard.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J/hfGe6mbWoc/hZvm6I/dwbiAo4=
+			WVuCu4cvARfrzIeqvLOcv7o99J0=
 			</data>
 			<key>hash2</key>
 			<data>
-			IYCHXh95tJtxP25OWZ6GO1T2h3B8q1LQ9GOrGG0J4Io=
+			oKbUJr1VQboZfFhqO0hiiYy6+/7WsNTPluIjkBXCRh0=
 			</data>
 		</dict>
 		<key>Headers/input/Mouse.hpp</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			foxlbKEVuMKIAALzSs2lTqXDLJc=
+			YG6uHwuT+JYDsG2ujugSn8Dr+Sg=
 			</data>
 			<key>hash2</key>
 			<data>
-			if7W426UO4iumLYbI9mdiFFJ9ndjT1nA6Mnu3OfWEc8=
+			L1G3Jf/Q169wiBvbddPlg9R4L0v+El5PMq3aCoz4ajM=
 			</data>
 		</dict>
 		<key>Headers/items/Canvas2D.hpp</key>
@@ -4684,6 +4836,303 @@
 			<key>hash2</key>
 			<data>
 			ZjOhDtlrpBWRDVCpDoOL8bZLRcmW5KWCN4OaDoURohc=
+			</data>
+		</dict>
+		<key>Resources/fonts/1943.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QNNICicmVQIAaIj/aNpKFA9CKtw=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZmU10QLU2rR/kt9IyU9f+SFsaK9ykcQAnrcNF03B7qw=
+			</data>
+		</dict>
+		<key>Resources/fonts/Afterburner (Sega).png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FMH9yjBAV+j3drcNAeeGMuaRYgU=
+			</data>
+			<key>hash2</key>
+			<data>
+			9NvnOQuuREyPUxdMYVT/9H8VcoJ3AcsUxRtc6NHeos0=
+			</data>
+		</dict>
+		<key>Resources/fonts/Bisasam_16x16.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kehAe2HChkDV1oH/PsWpegNZ7mI=
+			</data>
+			<key>hash2</key>
+			<data>
+			w/pCPp/362pJx1On9ZWHKPIHSUg8AAaTfM3wnIIQdc4=
+			</data>
+		</dict>
+		<key>Resources/fonts/Bisasam_16x16_stroke.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			G42LhYkx0/hy/cR/zCDuq6we1Zg=
+			</data>
+			<key>hash2</key>
+			<data>
+			iBAb9GJ6ccVyvYU/hzN6cSd0chrNyC/fBtlvSZwbnZU=
+			</data>
+		</dict>
+		<key>Resources/fonts/Bubble Memories (Taito).png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			A7S8JY6AMyA2foGOvejggm+fX6U=
+			</data>
+			<key>hash2</key>
+			<data>
+			s/18Q1YtQs8XjCqb8Mkm3bNKSM69OGowXULBa4XDAFI=
+			</data>
+		</dict>
+		<key>Resources/fonts/Dangerous Seed (Namco).png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XfGTMW1AJTn/5x9F08tQm0Ktvt0=
+			</data>
+			<key>hash2</key>
+			<data>
+			LnRvA61CiPgGZuvCUMs0FRAG/Od5ir3jXO+Fjb+0woA=
+			</data>
+		</dict>
+		<key>Resources/fonts/Guwange (Cave).png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MYeGFryGApTugXw3wDHCcNPXtFE=
+			</data>
+			<key>hash2</key>
+			<data>
+			+BHlSN0StkSXOPLGDlgVh96ZVdeVlZWOri+R0RL8Tgo=
+			</data>
+		</dict>
+		<key>Resources/fonts/Raiden Fighters (Seibu).png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7KidiwDcipakYWsexzSM6p5NDPo=
+			</data>
+			<key>hash2</key>
+			<data>
+			rFFlCqj+E/bHFt+Jfut5lV/P1A5NA6wZcAsHle2o/LE=
+			</data>
+		</dict>
+		<key>Resources/fonts/Samurai Shodown 3 (SNK).png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7sowPbHEQGU33V7aVeAWO3xKvck=
+			</data>
+			<key>hash2</key>
+			<data>
+			1//tveLLCoqpB2F6+F85+7QvH90NgFmHOtgbrH83RZs=
+			</data>
+		</dict>
+		<key>Resources/fonts/default.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			al2G0uFS1m/rW7yNfADG6YcE5q0=
+			</data>
+			<key>hash2</key>
+			<data>
+			GticpwSvkgTOM6k3s3THfZhbExjErnWn8GWVMzYYgJo=
+			</data>
+		</dict>
+		<key>Resources/fonts/steel-color.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+Kajq6WniXzKlmGe/saRLblKEUA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ojHRRRlycW2g+yqbDJeTb1LP7Vlmm4engT3haUgmIYQ=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/default.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RaHxDnHh74OXdSfcxwiPneAEb2I=
+			</data>
+			<key>hash2</key>
+			<data>
+			n8A6dzbYuqQ4qoy1667VBKoH4c7cqSr1c+UvQnzQevY=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/default.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R19LN4kfe3L0ydYX+grz66MgShM=
+			</data>
+			<key>hash2</key>
+			<data>
+			VVnhsODyU4l1cmO+QgqUy6eVZ3r1UaRFMMY6zW8jHN4=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/sprites.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LStMREKfTSy15Xkat2WwQRDAric=
+			</data>
+			<key>hash2</key>
+			<data>
+			N7aHSH4C78tatQDr7OdDOJvsFH4z6pT7bfgSWBPm2Rc=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/sprites.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bx1ADb3V/EBZ1/I6BP109j9yWnA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Fz5OnAEe0RU4XOInCzhqRmvzEqma4N1ZqVRd5x7HwzQ=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/world.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Gsag2mzOIqDINeYCRZSuk38IZwY=
+			</data>
+			<key>hash2</key>
+			<data>
+			rK/bV3ZJkd4SA3YvNGnV5kmhU//wBeWdISfOfbfFCDI=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/world.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rwJkI3OFLUfzgCI0oleXi3Ory3g=
+			</data>
+			<key>hash2</key>
+			<data>
+			oslsB0NtBxv8N4v+DKRqOTck4QataP1EPU6S6EHPVbA=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/world_objects.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fjwv23syn4S3DYlcTpaykHpRG+s=
+			</data>
+			<key>hash2</key>
+			<data>
+			F+pEVEA4KnxgntRCXhkRnJSUhaPMxbKSIB2UnYxS304=
+			</data>
+		</dict>
+		<key>Resources/opengl/v300es/world_objects.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bfOU9npzP5gl6Du0RHebZDHJP8w=
+			</data>
+			<key>hash2</key>
+			<data>
+			kXhTJxpa/ZC8jjiYaxgeVUi4YMDV2ah+JqSgt109B/E=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/default.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7G6EFMA08TzkAIz4SYnfTizgN2U=
+			</data>
+			<key>hash2</key>
+			<data>
+			VOJBzc6KulgESFNdKeZ19l5JxsfCgtWDI4nK+sKx4vk=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/default.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MO7uDzdnEVsIW3IxeYIKKczm9Bg=
+			</data>
+			<key>hash2</key>
+			<data>
+			qxwUFwVARRW5WFIy7iG129/To9j3OZhO+bHxAYYZLPY=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/sprites.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tJN+cCweIGyrhe93CxgpXljbhEc=
+			</data>
+			<key>hash2</key>
+			<data>
+			WwIvcQwk86OjA0Y7UB4/AfgHrgam8G8EcNrme4N6vJ8=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/sprites.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gp+tmjbnjmJujpVeYfGlDdIsA7o=
+			</data>
+			<key>hash2</key>
+			<data>
+			27a2EbACHLuNiZFN+Sl55RZjRpgiQxCejYFPniHFkY0=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/world.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z+VwBmpE1HkAEYnucyWGBP8Sm+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			yQSKSjdR9mIWued3uLCjXqUlFPR4BpLxGea7hz1QllI=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/world.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e9zZ8dNt9/VJv171ug8Fes29jBU=
+			</data>
+			<key>hash2</key>
+			<data>
+			FutAvleDCgbxOtBhJkpcovjgKuSU8iRnPR8SExRXk1Y=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/world_objects.fragment.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mgkIT4jUt3Cqb/3B7IC0E/1uGUc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Awlp0m3IT7+gahUC8pUHrvFpW3gsch1/qLxRnOV6jgA=
+			</data>
+		</dict>
+		<key>Resources/opengl/v330core/world_objects.vertex.glsl</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0RjQvkTzGnrPS0/VYl4gPfVKkoE=
+			</data>
+			<key>hash2</key>
+			<data>
+			tJeTx8Qx/RO2Q0/0pyCKnGFGpOOxnpM6Yvc5lRhiNpU=
 			</data>
 		</dict>
 	</dict>

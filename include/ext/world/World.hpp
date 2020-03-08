@@ -34,7 +34,6 @@ namespace Pix {
 		TerrainShader *pShader;
 		ObjectShader *pShaderObjects;
 
-		glm::mat4 projectionMatrix;
 
 		Light *pLight;
 		Camera *pCamera;
@@ -42,6 +41,8 @@ namespace Pix {
 		std::map<std::string, ObjectCluster *> mClusters;
 
 	protected:
+
+		glm::mat4 projectionMatrix;
 
 		std::vector<ObjectCluster *> vObjects;
 		std::vector<Terrain *> vTerrains;
@@ -100,6 +101,7 @@ namespace Pix {
 				std::for_each(cluster->vInstances.begin(), cluster->vInstances.end(), callback);
 			}
 		}
+		
 
 
 	public:
@@ -159,6 +161,16 @@ namespace Pix {
 
 		float getHeight(glm::vec3 &posWorld);
 
+		
+		void select(glm::vec3& rayDirection);
+		/**
+		 * Whether there is a terrain at that world coords.
+		 * @param posWorld Position to check
+		 * @return whether
+		 */
+
+		bool hasTerrain(glm::vec3& posWorld);
+
 		/**
 		 * Gets the 3D canvas. A
 		 * @param posWorld Any world position. As we can have several terrains, we need to supply this world coordinates
@@ -166,7 +178,7 @@ namespace Pix {
 		 * @return The 3D canvas
 		 */
 
-		Canvas2D *canvas(glm::vec3 &posWorld);
+		Canvas2D *canvas(glm::vec3& posWorld);
 
 		/**
 		 * Convenience function to return the 3D canvas of the first terrain.
@@ -189,6 +201,18 @@ namespace Pix {
 		}
 
 		return 0;
+	}
+
+	inline bool World::hasTerrain(glm::vec3 &posWorld) {
+
+		if (vTerrains.size()==1)
+			return vTerrains[0]->contains(posWorld);
+
+		for (Terrain *terrain:vTerrains)
+			if (terrain->contains(posWorld))
+				return true;
+
+		return false;
 	}
 
 	inline Canvas2D *World::canvas(glm::vec3 &posWorld) {

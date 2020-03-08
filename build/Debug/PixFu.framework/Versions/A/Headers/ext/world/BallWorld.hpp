@@ -78,7 +78,11 @@ namespace Pix {
 		virtual void tick(Pix::Fu *engine, float fElapsedTime) override;
 
 		void load(const std::string& levelName);
+		
+		BallWorldMap_t *map();
 	};
+
+	inline BallWorldMap_t *BallWorld::map() { return pMap; }
 
 	inline WorldObject *BallWorld::add(int oid, ObjectLocation_t location, bool setHeight) {
 		return World::add(oid, location, setHeight);

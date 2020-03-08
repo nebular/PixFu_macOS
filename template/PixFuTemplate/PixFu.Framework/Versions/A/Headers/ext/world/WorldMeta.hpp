@@ -16,6 +16,7 @@
 #include "Font.hpp"
 #include "glm/mat4x4.hpp"
 #include "glm/vec3.hpp"
+#include "glm/vec4.hpp"
 
 namespace Pix {
 
@@ -147,6 +148,14 @@ namespace Pix {
 		const float RIDEHEIGHT_SEAMLESS = 5;	// ignore this height difference
 	} ObjectTerrainBehavior_t;
 
+	static constexpr int NO_SPLINE = -1;
+	static constexpr int INFINITE = -1;
+
+	typedef const struct sObjectTrajectory {
+		int splineId = NO_SPLINE;
+		int iterations = INFINITE;
+		float lerp = 0.7F;
+	} ObjectTrajectory_t;
 
 	/**
 	 *
@@ -181,6 +190,9 @@ namespace Pix {
 
 		/** Intrinsic Animation */
 		const ObjectAnimation_t animation = {};
+
+		/** Intrinsit trajectory */
+		const ObjectTrajectory_t trajectory = {};
 
 		/** Whether object is static */
 		const bool ISSTATIC = false;
@@ -332,15 +344,24 @@ namespace Pix {
 	class WorldObject : public WorldObjectBase {
 
 
+		/** Whether the object is selected (settable flag) */
+		bool bSelected = false;
+
+		/** Object Tint */
+		glm::vec4 mTintCode = TINT_NONE;
+
 	protected:
 
 		float fRadiusAnimator = 0;
 
 		// Object Location
 		ObjectLocation_t LOCATION;
+		
 
 	public:
 
+		inline static constexpr glm::vec4 TINT_NONE = { 0,0,0,0};
+		inline static constexpr glm::vec4 TINT_SELECT = { 2,0,0,1};
 		static constexpr unsigned CLASSID_CODE = 1;
 
 		// Object metadata
@@ -361,7 +382,57 @@ namespace Pix {
 
 		inline virtual float drawRadius() override { return CONFIG.radius * CONFIG.drawRadiusMultiplier / 1000.0F; }
 
+		inline virtual glm::vec4 &tintCode() { return mTintCode; }
+
+		inline bool isSelected() { return bSelected; };
+
+		/**
+		 * Selects this object
+		 */
+		inline void setSelected(bool selected=true) { bSelected = selected; };
+
+		/**
+		 * Tints this object
+		 */
+		inline void setTint(glm::vec4 tintCode) { mTintCode = tintCode; };
+
 		/** process animations */
 		virtual void process(World *world, float fElapsedTime);
+
+		
+		
+		// Segment (A, B)
+		// Point P
+		// return : Point Q, the cloesest point on [AB] from P
+		glm::vec3 ClosestPoint(glm::vec3 A, glm::vec3 B, glm::vec3 P) {
+			glm::vec3 AB    = B - A;
+			float ab2       = glm::dot(AB,AB);
+			glm::vec3 AP       = P - A;
+			float ap_dot_ab = glm::dot(AP,AB);
+			float t         = ap_dot_ab / ab2;
+			// the projection parameter on the line
+			// clamp parameter to segment extremities
+			if (t < 0.0f) t = 0.0f;
+			else if (t > 1.0f) t = 1.0f;
+			// calculate the closest point
+			glm::vec3 Q = A + AB * t;
+			return Q;
+		}
+
+		bool PointInSphere(glm::vec3 P, float r, glm::vec3 Q) {
+			glm::vec3 PQ = Q - P;
+			float pq2 = glm::dot(PQ,PQ);
+			float r2  = r * r;
+			if(pq2 > r2) return false;
+			else return true;
+		}
+
+		
+		// https://gamedev.stackexchange.com/questions/21552/picking-objects-with-mouse-ray
+		inline bool checkRayCollision(glm::vec3& origin, glm::vec3& direction) {
+			glm::vec3 center = pos() / 1000.0f;//  * 1000.0F;
+			glm::vec3 closest = ClosestPoint(origin / 1000.0f, direction, center);
+			return PointInSphere(center, radius(), closest);
+		}
 	};
 }

@@ -7,6 +7,7 @@
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/AxisController.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Drawable.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjLoader.o
+/Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/BallObject.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Fu.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/OpenGlUtils.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Texture2D.o
@@ -16,8 +17,10 @@
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Mouse.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/ObjectShader.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Camera.o
+/Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/MousePicker.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Terrain.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Keyboard.o
+/Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/WeaponHelper.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/World.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/Surface.o
 /Volumes/git.root/gaming/pixFu/Platforms/macOS/PixFu_macOS/build/PixFu.build/Debug/PixFu.build/Objects-normal/x86_64/SpriteSheets.o

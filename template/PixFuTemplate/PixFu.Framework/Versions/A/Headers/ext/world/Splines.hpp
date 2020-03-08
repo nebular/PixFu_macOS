@@ -137,6 +137,18 @@ namespace Pix {
 //			if (Pix::DBG) Pix::LogV(TAG, Pix::SF("player near cp %d", index));
 		}
 
+		float findClosestPoint(float x, float z) {
+			float min = 0;
+			int i = 0;
+			float n = -1;
+			for (sPoint2D point:points) {
+				float sqdist = (x-point.x)*(x-point.x) + (z-point.y) * (z-point.y);
+				if (min == 0 || min>sqdist) { n = i; min = sqdist; }
+				i++;
+			}
+			return n;
+		}
+
 		sPoint2D GetSplinePoint(float t) {
 			int p0, p1, p2, p3;
 			if (!bIsLooped) {
