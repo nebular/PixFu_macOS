@@ -67,10 +67,12 @@
 		DB4822E224121A4B00F9A306 /* WeaponHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4822E024121A4B00F9A306 /* WeaponHelper.h */; };
 		DB4822E5241274B200F9A306 /* BallObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4822E3241274B200F9A306 /* BallObject.cpp */; };
 		DB4822E6241274B200F9A306 /* BallObject.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB4822E4241274B200F9A306 /* BallObject.hpp */; };
-		DB4822EB241419C700F9A306 /* MousePicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4822E9241419C700F9A306 /* MousePicker.cpp */; };
-		DB4822EC241419C700F9A306 /* MousePicker.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB4822EA241419C700F9A306 /* MousePicker.hpp */; };
+		DB4822EB241419C700F9A306 /* CameraPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB4822E9241419C700F9A306 /* CameraPicker.cpp */; };
+		DB4822EC241419C700F9A306 /* CameraPicker.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB4822EA241419C700F9A306 /* CameraPicker.hpp */; };
 		DB48234324146D8100F9A306 /* fonts in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB48234024146D7500F9A306 /* fonts */; };
 		DB48234424146D8600F9A306 /* opengl in CopyFiles */ = {isa = PBXBuildFile; fileRef = DB48234124146D7500F9A306 /* opengl */; };
+		DB48235024152EED00F9A306 /* VirtualKeys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB48234F24152EED00F9A306 /* VirtualKeys.cpp */; };
+		DB48235224152EF800F9A306 /* VirtualKeys.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DB48235124152EF800F9A306 /* VirtualKeys.hpp */; };
 		DBCF5777240FD6C9008A6FFB /* BallWorldMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */; };
 		DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBCF57B6240FDE6D008A6FFB /* BallWorldMap.hpp */; };
 		DBED9887240C7797003A7A39 /* PixFu.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DBED9886240C7797003A7A39 /* PixFu.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -662,10 +664,12 @@
 		DB4822E024121A4B00F9A306 /* WeaponHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponHelper.h; sourceTree = "<group>"; };
 		DB4822E3241274B200F9A306 /* BallObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BallObject.cpp; sourceTree = "<group>"; };
 		DB4822E4241274B200F9A306 /* BallObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BallObject.hpp; sourceTree = "<group>"; };
-		DB4822E9241419C700F9A306 /* MousePicker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MousePicker.cpp; sourceTree = "<group>"; };
-		DB4822EA241419C700F9A306 /* MousePicker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MousePicker.hpp; sourceTree = "<group>"; };
+		DB4822E9241419C700F9A306 /* CameraPicker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CameraPicker.cpp; sourceTree = "<group>"; };
+		DB4822EA241419C700F9A306 /* CameraPicker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CameraPicker.hpp; sourceTree = "<group>"; };
 		DB48234024146D7500F9A306 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = modules/PixFu/assets/fonts; sourceTree = "<group>"; };
 		DB48234124146D7500F9A306 /* opengl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opengl; path = modules/PixFu/assets/opengl; sourceTree = "<group>"; };
+		DB48234F24152EED00F9A306 /* VirtualKeys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualKeys.cpp; sourceTree = "<group>"; };
+		DB48235124152EF800F9A306 /* VirtualKeys.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VirtualKeys.hpp; sourceTree = "<group>"; };
 		DBCF54AD240DE50C008A6FFB /* Bisasam_16x16_stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16_stroke.png; sourceTree = "<group>"; };
 		DBCF54AE240DE50C008A6FFB /* Bisasam_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bisasam_16x16.png; sourceTree = "<group>"; };
 		DBCF5776240FD6C9008A6FFB /* BallWorldMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallWorldMap.cpp; sourceTree = "<group>"; };
@@ -889,10 +893,11 @@
 		DB250FDD240B465900967FCA /* input */ = {
 			isa = PBXGroup;
 			children = (
-				DB250FDE240B465900967FCA /* Mouse.cpp */,
-				DB250FDF240B465900967FCA /* headers */,
-				DB250FE3240B465900967FCA /* Keyboard.cpp */,
 				DB250FE4240B465900967FCA /* AxisController.cpp */,
+				DB250FE3240B465900967FCA /* Keyboard.cpp */,
+				DB250FDE240B465900967FCA /* Mouse.cpp */,
+				DB48234F24152EED00F9A306 /* VirtualKeys.cpp */,
+				DB250FDF240B465900967FCA /* headers */,
 			);
 			path = input;
 			sourceTree = "<group>";
@@ -900,9 +905,10 @@
 		DB250FDF240B465900967FCA /* headers */ = {
 			isa = PBXGroup;
 			children = (
-				DB250FE0240B465900967FCA /* Keyboard.hpp */,
 				DB250FE1240B465900967FCA /* AxisController.hpp */,
+				DB250FE0240B465900967FCA /* Keyboard.hpp */,
 				DB250FE2240B465900967FCA /* Mouse.hpp */,
+				DB48235124152EF800F9A306 /* VirtualKeys.hpp */,
 			);
 			path = headers;
 			sourceTree = "<group>";
@@ -1617,7 +1623,7 @@
 			isa = PBXGroup;
 			children = (
 				DB2511DC240B465D00967FCA /* Camera.cpp */,
-				DB4822E9241419C700F9A306 /* MousePicker.cpp */,
+				DB4822E9241419C700F9A306 /* CameraPicker.cpp */,
 				DB2511DE240B465E00967FCA /* ObjectCluster.cpp */,
 				DB2511EC240B465E00967FCA /* ObjectShader.cpp */,
 				DB2511DD240B465E00967FCA /* ObjLoader.cpp */,
@@ -1634,7 +1640,7 @@
 			children = (
 				DB2511E9240B465E00967FCA /* Camera.hpp */,
 				DB2511E4240B465E00967FCA /* Frustum.hpp */,
-				DB4822EA241419C700F9A306 /* MousePicker.hpp */,
+				DB4822EA241419C700F9A306 /* CameraPicker.hpp */,
 				DB2511E6240B465E00967FCA /* Obj_Loader.hpp */,
 				DB2511E5240B465E00967FCA /* ObjectCluster.hpp */,
 				DB2511E2240B465E00967FCA /* ObjectShader.hpp */,
@@ -1757,7 +1763,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4822EC241419C700F9A306 /* MousePicker.hpp in Headers */,
+				DB4822EC241419C700F9A306 /* CameraPicker.hpp in Headers */,
 				DB250F7E240B422100967FCA /* PixFu.h in Headers */,
 				DBED9887240C7797003A7A39 /* PixFu.hpp in Headers */,
 				DBED98AA240C7AEE003A7A39 /* PixFuSprites.hpp in Headers */,
@@ -1765,6 +1771,7 @@
 				DB13F2AE240C50F1008766EC /* arch in Headers */,
 				DB250F93240B44C700967FCA /* core in Headers */,
 				DBCF57B7240FDE6D008A6FFB /* BallWorldMap.hpp in Headers */,
+				DB48235224152EF800F9A306 /* VirtualKeys.hpp in Headers */,
 				DB250F94240B44C700967FCA /* ext in Headers */,
 				DB250F95240B44C700967FCA /* glm in Headers */,
 				DB250F96240B44C700967FCA /* input in Headers */,
@@ -1930,12 +1937,13 @@
 				DB251238240B465F00967FCA /* Mouse.cpp in Sources */,
 				DB251426240B466B00967FCA /* ObjectShader.cpp in Sources */,
 				DB251417240B466A00967FCA /* Camera.cpp in Sources */,
-				DB4822EB241419C700F9A306 /* MousePicker.cpp in Sources */,
+				DB4822EB241419C700F9A306 /* CameraPicker.cpp in Sources */,
 				DB251424240B466B00967FCA /* Terrain.cpp in Sources */,
 				DB25123C240B465F00967FCA /* Keyboard.cpp in Sources */,
 				DB4822E124121A4B00F9A306 /* WeaponHelper.cpp in Sources */,
 				DB251425240B466B00967FCA /* World.cpp in Sources */,
 				DB251237240B465F00967FCA /* Surface.cpp in Sources */,
+				DB48235024152EED00F9A306 /* VirtualKeys.cpp in Sources */,
 				DB251438240B466B00967FCA /* SpriteSheets.cpp in Sources */,
 				DB251419240B466A00967FCA /* ObjectCluster.cpp in Sources */,
 				DBCF5777240FD6C9008A6FFB /* BallWorldMap.cpp in Sources */,
